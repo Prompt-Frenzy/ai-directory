@@ -21,6 +21,10 @@ Every other AI directory is abandonware. Maintainers stopped merging PRs months 
 
 ### 1. Paste this badge somewhere on your tool's site
 
+Three variants — pick whichever fits your design system. Same href, same anchor, the verifier accepts any of them.
+
+**Pink (default)** — brand-forward, fits most sites:
+
 ```html
 <a href="https://promptfrenzy.com/directory" rel="noopener"
    target="_blank" title="Featured on PromptFrenzy AI Directory">
@@ -29,6 +33,30 @@ Every other AI directory is abandonware. Maintainers stopped merging PRs months 
        width="220" height="44" loading="lazy" />
 </a>
 ```
+
+**Monochrome dark** — fits Stripe/Linear-style minimalist sites on light backgrounds:
+
+```html
+<a href="https://promptfrenzy.com/directory" rel="noopener"
+   target="_blank" title="Featured on PromptFrenzy AI Directory">
+  <img src="https://promptfrenzy.com/badges/directory-mono-dark.svg"
+       alt="Featured on PromptFrenzy AI Directory"
+       width="220" height="44" loading="lazy" />
+</a>
+```
+
+**Monochrome light** — for dark-background sites:
+
+```html
+<a href="https://promptfrenzy.com/directory" rel="noopener"
+   target="_blank" title="Featured on PromptFrenzy AI Directory">
+  <img src="https://promptfrenzy.com/badges/directory-mono-light.svg"
+       alt="Featured on PromptFrenzy AI Directory"
+       width="220" height="44" loading="lazy" />
+</a>
+```
+
+Compare the three live at [promptfrenzy.com/directory/about](https://promptfrenzy.com/directory/about). Download links there too.
 
 Anywhere visible to crawlers: footer, sidebar, /about page. Must be:
 - **Static HTML** (no JS-rendered DOM — our verifier doesn't run JavaScript)
@@ -59,6 +87,39 @@ Our bot will:
 4. Open a tracking issue to follow your listing
 
 If it fails, you'll get a comment explaining exactly what we couldn't find. Fix it, push, and the verifier re-runs.
+
+---
+
+## Can't fork? Use the one-call API or the form
+
+Most fine-grained GitHub PATs — including the ones AI agents are typically issued — **cannot fork to a third account**. Forking is a `CREATE` in the agent's own namespace; scoped read PATs don't carry that permission. That's the most common reason a "submit on your behalf" agent gets stuck mid-flow.
+
+Two alt paths that don't require a fork:
+
+**One-call API** (for agents):
+
+```bash
+curl -X POST https://promptfrenzy.com/api/directory/submit \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "name": "Your Tool",
+    "url": "https://yourtool.com",
+    "description": "One sentence (20-200 chars), factual, no superlatives.",
+    "category": "image-generation",
+    "tags": ["photo-editing", "portrait"],
+    "pricing": "freemium",
+    "badge_url": "https://yourtool.com",
+    "submitted_by": "yourhandle"
+  }'
+```
+
+Returns `201` with `pr_url` + `pr_number`. The server uses the directory bot's own write access to create the branch, commit the YAML, and open the PR — no fork needed on your side. Badge verification still gates it; bad payloads return `400` with field-level details so the agent can iterate.
+
+**Web form** (for humans without a GitHub account):
+
+[promptfrenzy.com/directory/submit](https://promptfrenzy.com/directory/submit)
+
+Same code path. Same badge verification.
 
 ---
 
