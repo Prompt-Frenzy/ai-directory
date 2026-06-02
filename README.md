@@ -1,5 +1,9 @@
 # PromptFrenzy AI Directory
 
+<a href="https://promptfrenzy.com/directory" rel="noopener" target="_blank" title="Featured on PromptFrenzy AI Directory">
+  <img src="https://promptfrenzy.com/badges/directory.svg" alt="Featured on PromptFrenzy AI Directory" width="220" height="44" />
+</a>
+
 A badge-required directory of AI tools.
 
 **Submit your AI tool. Auto-merge in under 60 seconds — if you've earned the spot.**
