@@ -1,0 +1,10 @@
+name: Granola
+url: https://granola.ai
+description: AI meeting notetaker that combines your typed notes with a transcript to produce structured summaries after the call.
+category: productivity
+tags:
+  - meetings
+  - transcription
+  - summaries
+pricing: freemium
+seeded: true

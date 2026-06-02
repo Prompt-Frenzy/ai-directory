@@ -1,0 +1,10 @@
+name: Udio
+url: https://udio.com
+description: "Text-to-music platform from former Google DeepMind researchers, focused on high-fidelity vocal and instrumental tracks."
+category: audio-generation
+tags:
+  - music
+  - vocals
+  - high-fidelity
+pricing: freemium
+seeded: true

@@ -1,0 +1,10 @@
+name: Julius
+url: https://julius.ai
+description: "Data analysis chat interface that reads spreadsheets and databases, writes queries, and produces charts and statistical summaries."
+category: data-analysis
+tags:
+  - spreadsheets
+  - charts
+  - statistics
+pricing: freemium
+seeded: true

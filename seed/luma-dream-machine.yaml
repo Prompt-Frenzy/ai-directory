@@ -1,0 +1,10 @@
+name: Luma Dream Machine
+url: https://lumalabs.ai/dream-machine
+description: "Video generation model from Luma AI with cinematic motion, keyframe control, and image-to-video workflows."
+category: video-generation
+tags:
+  - cinematic
+  - keyframes
+  - image-to-video
+pricing: freemium
+seeded: true

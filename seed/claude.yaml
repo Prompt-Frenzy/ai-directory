@@ -1,0 +1,10 @@
+name: Claude
+url: https://claude.ai
+description: "Anthropic's conversational AI assistant with long-context reasoning, file uploads, and a focus on helpful, harmless behavior."
+category: text-generation
+tags:
+  - anthropic
+  - long-context
+  - reasoning
+pricing: freemium
+seeded: true

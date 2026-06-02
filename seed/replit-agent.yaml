@@ -1,0 +1,10 @@
+name: Replit Agent
+url: https://replit.com/agent
+description: "Agent inside Replit that builds full applications from a prompt, configures the environment, and deploys to Replit's runtime."
+category: agents
+tags:
+  - replit
+  - deployment
+  - autonomous-coding
+pricing: subscription
+seeded: true

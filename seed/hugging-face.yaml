@@ -1,0 +1,11 @@
+name: Hugging Face
+url: https://huggingface.co
+description: "Open-source ML platform hosting models, datasets, and Spaces apps for every modality across the community."
+category: other
+tags:
+  - open-source
+  - models
+  - datasets
+  - community
+pricing: freemium
+seeded: true

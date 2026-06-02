@@ -1,0 +1,10 @@
+name: PromptPerfect
+url: https://promptperfect.jina.ai
+description: "Jina AI's prompt optimization tool that rewrites prompts to improve output quality for major language and image models."
+category: prompt-tools
+tags:
+  - optimization
+  - jina
+  - rewriting
+pricing: freemium
+seeded: true

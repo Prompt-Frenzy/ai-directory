@@ -1,0 +1,10 @@
+name: Gemini
+url: https://gemini.google.com
+description: "Google's conversational AI assistant powered by the Gemini family of models, with deep integration into Google Workspace."
+category: text-generation
+tags:
+  - google
+  - workspace
+  - multimodal
+pricing: freemium
+seeded: true

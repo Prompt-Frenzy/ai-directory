@@ -1,0 +1,10 @@
+name: Recraft
+url: https://recraft.ai
+description: "Image generator with editable vector output, brand-style controls, and consistent character generation."
+category: image-generation
+tags:
+  - vector
+  - brand-style
+  - character-consistency
+pricing: freemium
+seeded: true

@@ -1,0 +1,10 @@
+name: Kling
+url: https://klingai.com
+description: "Video generation model from Kuaishou with strong physical realism, camera control, and long-duration clips."
+category: video-generation
+tags:
+  - realism
+  - camera-control
+  - long-form
+pricing: freemium
+seeded: true

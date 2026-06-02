@@ -1,0 +1,10 @@
+name: PromptHero
+url: https://prompthero.com
+description: "Searchable database of community-submitted prompts and example outputs for Midjourney, Stable Diffusion, and ChatGPT."
+category: prompt-tools
+tags:
+  - search
+  - midjourney
+  - stable-diffusion
+pricing: freemium
+seeded: true

@@ -1,0 +1,10 @@
+name: Hailuo AI
+url: https://hailuoai.video
+description: "MiniMax's text-to-video and image-to-video generator, known for fluid character motion and lip-sync features."
+category: video-generation
+tags:
+  - minimax
+  - character-motion
+  - lip-sync
+pricing: freemium
+seeded: true

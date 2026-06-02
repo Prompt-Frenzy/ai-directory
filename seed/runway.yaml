@@ -1,0 +1,10 @@
+name: Runway
+url: https://runwayml.com
+description: "AI video generation and editing platform with Gen-3, motion brush, and post-production tools used by film and ad teams."
+category: video-generation
+tags:
+  - gen-3
+  - motion-brush
+  - post-production
+pricing: subscription
+seeded: true

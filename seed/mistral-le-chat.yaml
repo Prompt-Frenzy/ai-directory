@@ -1,0 +1,10 @@
+name: Mistral Le Chat
+url: https://chat.mistral.ai
+description: "Mistral's web chat interface for the Mistral and Codestral models, with image generation and web browsing built in."
+category: text-generation
+tags:
+  - mistral
+  - european
+  - web-browsing
+pricing: freemium
+seeded: true

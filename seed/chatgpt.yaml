@@ -1,0 +1,11 @@
+name: ChatGPT
+url: https://chatgpt.com
+description: "OpenAI's conversational interface for the GPT family of models, with web search, code interpreter, and image generation built in."
+category: text-generation
+tags:
+  - openai
+  - gpt
+  - chat
+  - multimodal
+pricing: freemium
+seeded: true

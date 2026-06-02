@@ -1,0 +1,10 @@
+name: Google Veo
+url: https://deepmind.google/technologies/veo
+description: "Google DeepMind's video generation model, accessible via Vertex AI and integrated into the Gemini app."
+category: video-generation
+tags:
+  - google
+  - vertex-ai
+  - gemini
+pricing: subscription
+seeded: true

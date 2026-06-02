@@ -1,0 +1,10 @@
+name: Replika
+url: https://replika.com
+description: "Conversational AI companion focused on emotional support, personal growth, and ongoing relationship-style interactions."
+category: chatbots
+tags:
+  - companion
+  - emotional-support
+  - journaling
+pricing: freemium
+seeded: true

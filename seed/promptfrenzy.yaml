@@ -1,0 +1,11 @@
+name: PromptFrenzy
+url: https://promptfrenzy.com
+description: "Free AI prompt library and generator covering ChatGPT, Midjourney, Nano Banana, and other models with one-click image gen."
+category: prompt-tools
+tags:
+  - library
+  - generator
+  - free
+  - multi-model
+pricing: freemium
+seeded: true

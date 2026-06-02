@@ -1,0 +1,10 @@
+name: Character.AI
+url: https://character.ai
+description: "Platform for chatting with user-created character AI personas spanning fiction, history, learning, and roleplay."
+category: chatbots
+tags:
+  - characters
+  - roleplay
+  - community
+pricing: freemium
+seeded: true

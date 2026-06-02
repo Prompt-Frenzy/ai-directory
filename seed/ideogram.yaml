@@ -1,0 +1,10 @@
+name: Ideogram
+url: https://ideogram.ai
+description: "Image generator with strong text rendering inside images, useful for posters, logos, and typography-driven designs."
+category: image-generation
+tags:
+  - text-rendering
+  - posters
+  - typography
+pricing: freemium
+seeded: true

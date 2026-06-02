@@ -1,0 +1,10 @@
+name: Suno
+url: https://suno.com
+description: "Text-to-music generator producing full songs with vocals, instrumentation, and lyrics from a single prompt."
+category: audio-generation
+tags:
+  - music
+  - vocals
+  - lyrics
+pricing: freemium
+seeded: true

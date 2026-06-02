@@ -1,0 +1,10 @@
+name: FlowGPT
+url: https://flowgpt.com
+description: "Community marketplace of ChatGPT and Claude prompts organized into categories like productivity, marketing, and roleplay."
+category: prompt-tools
+tags:
+  - community
+  - marketplace
+  - gpt
+pricing: freemium
+seeded: true

@@ -1,0 +1,10 @@
+name: OpenAI Operator
+url: https://operator.chatgpt.com
+description: "OpenAI's browser-using agent that performs multi-step tasks on websites on behalf of the user."
+category: agents
+tags:
+  - openai
+  - browser-automation
+  - research-preview
+pricing: subscription
+seeded: true

@@ -1,0 +1,10 @@
+name: Pi
+url: https://pi.ai
+description: "Inflection AI's emotionally-intelligent conversational assistant, designed for natural back-and-forth dialogue and reflection."
+category: chatbots
+tags:
+  - inflection
+  - conversational
+  - reflection
+pricing: free
+seeded: true
