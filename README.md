@@ -22,7 +22,7 @@ Every other AI directory is abandonware. Maintainers stopped merging PRs months 
    target="_blank" title="Featured on PromptFrenzy AI Directory">
   <img src="https://promptfrenzy.com/badges/directory.svg"
        alt="Featured on PromptFrenzy AI Directory"
-       width="180" height="40" loading="lazy" />
+       width="220" height="44" loading="lazy" />
 </a>
 ```
 
