@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PromptFrenzy Directory Tool Entry",
+  "description": "Schema for a single AI tool entry under tools/ or seed/",
+  "type": "object",
+  "required": ["name", "url", "description", "category", "pricing"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80,
+      "description": "Display name of the tool"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Canonical URL of the tool's homepage"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 200,
+      "description": "One-sentence factual description, no superlatives or marketing copy"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "image-generation",
+        "video-generation",
+        "text-generation",
+        "audio-generation",
+        "prompt-tools",
+        "agents",
+        "chatbots",
+        "code-assist",
+        "productivity",
+        "data-analysis",
+        "voice-cloning",
+        "other"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-z0-9-]+$", "maxLength": 30},
+      "maxItems": 5,
+      "uniqueItems": true,
+      "description": "Freeform lowercase tags, max 5"
+    },
+    "pricing": {
+      "type": "string",
+      "enum": ["free", "freemium", "paid", "subscription"]
+    },
+    "logo": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "badge_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "URL where our verifier will look for the badge. Required for tools/, omitted for seed/."
+    },
+    "seeded": {
+      "type": "boolean",
+      "description": "True for editor-curated seed entries (no badge required)"
+    },
+    "submitted_by": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9-]+$",
+      "description": "GitHub username of the submitter (auto-filled from PR author)"
+    },
+    "submitted_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["verified", "pending", "failed", "removed"]
+        },
+        "first_verified_at": {"type": "string", "format": "date-time"},
+        "last_checked_at": {"type": "string", "format": "date-time"},
+        "last_passed_at": {"type": "string", "format": "date-time"},
+        "failure_count": {"type": "integer", "minimum": 0},
+        "failure_reason": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"seeded": {"const": true}},
+        "required": ["seeded"]
+      },
+      "then": {
+        "not": {"required": ["badge_url"]}
+      },
+      "else": {
+        "required": ["badge_url"]
+      }
+    }
+  ]
+}

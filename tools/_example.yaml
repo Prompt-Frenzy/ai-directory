@@ -1,0 +1,14 @@
+# Copy this file, rename it to your tool's slug (lowercase, hyphens, no spaces),
+# fill in your details, open a PR. Our bot does the rest.
+#
+# Required fields: name, url, description, category, pricing, badge_url
+# Optional: tags, logo
+
+name: Example AI Tool
+url: https://example.com
+description: One sentence (max 200 chars). Factual. No superlatives. State what it does.
+category: image-generation
+tags: [photo-editing, portrait]
+pricing: freemium
+logo: https://example.com/logo.png
+badge_url: https://example.com

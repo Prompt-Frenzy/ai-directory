@@ -1,0 +1,116 @@
+name: verify-badges
+
+on:
+  pull_request:
+    paths:
+      - "tools/**.yaml"
+  schedule:
+    # Daily 06:00 UTC — only checks entries with first_verified_at within last 7 days
+    - cron: "0 6 * * *"
+    # Sunday 06:30 UTC — checks all active entries
+    - cron: "30 6 * * 0"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: true
+        default: "all-active"
+        type: choice
+        options:
+          - all-active
+          - recent-7d
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # On PR, check out the PR head so we read its YAML changes
+          ref: ${{ github.event.pull_request.head.sha || github.ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install deps
+        run: npm ci --no-audit --no-fund
+
+      - name: PR mode — verify changed file
+        if: github.event_name == 'pull_request'
+        id: pr_verify
+        continue-on-error: true
+        run: |
+          set -e
+          # Find YAML files changed under tools/
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD | grep '^tools/.*\.yaml$' | grep -v '^tools/_' || true)
+          if [ -z "$CHANGED" ]; then
+            echo "No tools/*.yaml changes detected — skipping verifier"
+            exit 0
+          fi
+          echo "Verifying: $CHANGED"
+          for f in $CHANGED; do
+            node scripts/verify-badges.mjs --pr "$f"
+          done
+
+      - name: PR comment on success
+        if: github.event_name == 'pull_request' && steps.pr_verify.outcome == 'success'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ Badge verified. Auto-merging.'
+            })
+
+      - name: Auto-merge passing PR
+        if: github.event_name == 'pull_request' && steps.pr_verify.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.DIRECTORY_BOT_PAT }}
+        run: gh pr merge ${{ github.event.pull_request.number }} --squash --auto --delete-branch
+
+      - name: PR comment on failure
+        if: github.event_name == 'pull_request' && steps.pr_verify.outcome != 'success'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Badge verification failed. See the workflow log for the exact reason. Common causes:\n- Badge URL returned non-200 status\n- No `<a>` element with `href` starting `https://promptfrenzy.com/directory` was found in the static HTML\n- The anchor has `rel="nofollow"` or `rel="sponsored"`\n- The badge is rendered by JavaScript (our verifier does not execute JS — use plain HTML)\n\nFix and push to re-run.'
+            })
+
+      - name: Cron — daily recent-7d
+        if: github.event_name == 'schedule' && github.event.schedule == '0 6 * * *'
+        run: node scripts/verify-badges.mjs --recent-7d
+
+      - name: Cron — weekly all-active
+        if: github.event_name == 'schedule' && github.event.schedule == '30 6 * * 0'
+        run: node scripts/verify-badges.mjs --all-active
+
+      - name: Manual trigger
+        if: github.event_name == 'workflow_dispatch'
+        run: node scripts/verify-badges.mjs --${{ inputs.mode }}
+
+      - name: Commit verification state changes
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          if [ -z "$(git status --porcelain tools/)" ]; then
+            echo "No state changes"
+            exit 0
+          fi
+          git config user.name "pf-directory-bot"
+          git config user.email "robin+pfbot@theforever.io"
+          git add tools/
+          git commit -m "chore: cron verification update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

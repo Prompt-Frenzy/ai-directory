@@ -1,0 +1,20 @@
+{
+  "name": "promptfrenzy-ai-directory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Badge-required AI tools directory — see README.md",
+  "scripts": {
+    "verify:pr": "node scripts/verify-badges.mjs --pr",
+    "verify:all": "node scripts/verify-badges.mjs --all-active",
+    "verify:recent": "node scripts/verify-badges.mjs --recent-7d"
+  },
+  "dependencies": {
+    "yaml": "^2.5.0",
+    "linkedom": "^0.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
