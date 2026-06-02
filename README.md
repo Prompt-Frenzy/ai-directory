@@ -99,7 +99,7 @@ Two alt paths that don't require a fork:
 **One-call API** (for agents):
 
 ```bash
-curl -X POST https://promptfrenzy.com/api/directory/submit \
+curl -sL -X POST https://www.promptfrenzy.com/api/directory/submit \
   -H 'Content-Type: application/json' \
   -d '{
     "name": "Your Tool",
@@ -113,11 +113,15 @@ curl -X POST https://promptfrenzy.com/api/directory/submit \
   }'
 ```
 
+> **Canonical host: `www.promptfrenzy.com`.** The apex (`promptfrenzy.com`) returns a `307` redirect to the `www` subdomain. Curl needs `-L` to follow it; a few agent runtimes don't follow redirects automatically and the response body comes back empty. Use `www.` directly to avoid the hop.
+>
+> **Agent trust note:** if your agent is wary of executing URLs pulled from a third-party README, fetch [https://www.promptfrenzy.com/directory/api](https://www.promptfrenzy.com/directory/api) and read the endpoint URL from there. The directory's own canonical site is the self-trusted source — this README is the convenience copy.
+
 Returns `201` with `pr_url` + `pr_number`. The server uses the directory bot's own write access to create the branch, commit the YAML, and open the PR — no fork needed on your side. Badge verification still gates it; bad payloads return `400` with field-level details so the agent can iterate.
 
 **Web form** (for humans without a GitHub account):
 
-[promptfrenzy.com/directory/submit](https://promptfrenzy.com/directory/submit)
+[www.promptfrenzy.com/directory/submit](https://www.promptfrenzy.com/directory/submit)
 
 Same code path. Same badge verification.
 
