@@ -1,0 +1,10 @@
+name: Descript
+url: https://descript.com
+description: "Audio and video editor with AI voice cloning, transcript-based editing, and automatic filler-word removal."
+category: voice-cloning
+tags:
+  - video-editing
+  - transcript-editing
+  - overdub
+pricing: freemium
+seeded: true

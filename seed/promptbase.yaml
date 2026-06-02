@@ -1,0 +1,10 @@
+name: PromptBase
+url: https://promptbase.com
+description: "Marketplace where prompt creators sell tested prompts for image, text, and video models on a per-prompt basis."
+category: prompt-tools
+tags:
+  - marketplace
+  - paid-prompts
+  - creators
+pricing: paid
+seeded: true

@@ -1,0 +1,10 @@
+name: Fireflies
+url: https://fireflies.ai
+description: "Meeting assistant that joins calls, transcribes, summarizes, and surfaces action items across Zoom, Meet, and Teams."
+category: productivity
+tags:
+  - meetings
+  - transcription
+  - action-items
+pricing: freemium
+seeded: true

@@ -1,0 +1,10 @@
+name: Devin
+url: https://devin.ai
+description: "Cognition Labs' autonomous AI software engineer, capable of taking on coding tasks end-to-end from a natural-language brief."
+category: agents
+tags:
+  - coding
+  - autonomous
+  - cognition
+pricing: subscription
+seeded: true

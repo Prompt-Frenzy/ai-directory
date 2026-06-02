@@ -1,0 +1,11 @@
+name: Midjourney
+url: https://midjourney.com
+description: "AI image generator known for high-quality artistic and photorealistic outputs, primarily accessed through Discord and a web interface."
+category: image-generation
+tags:
+  - discord
+  - photoreal
+  - artistic
+  - web-interface
+pricing: subscription
+seeded: true

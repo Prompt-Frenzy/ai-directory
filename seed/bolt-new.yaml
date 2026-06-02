@@ -1,0 +1,10 @@
+name: Bolt.new
+url: https://bolt.new
+description: "StackBlitz's in-browser AI app builder that generates, edits, and deploys full-stack web apps from a single chat."
+category: code-assist
+tags:
+  - in-browser
+  - full-stack
+  - stackblitz
+pricing: freemium
+seeded: true

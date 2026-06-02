@@ -1,0 +1,10 @@
+name: DALL-E
+url: https://openai.com/dall-e-3
+description: "OpenAI's image generation model, available inside ChatGPT and via the OpenAI API for developers."
+category: image-generation
+tags:
+  - openai
+  - api
+  - text-to-image
+pricing: freemium
+seeded: true

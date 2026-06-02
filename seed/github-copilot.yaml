@@ -1,0 +1,10 @@
+name: GitHub Copilot
+url: https://github.com/features/copilot
+description: "Microsoft and OpenAI's AI pair programmer that suggests code completions and chats in editors and on github.com."
+category: code-assist
+tags:
+  - microsoft
+  - github
+  - completion
+pricing: subscription
+seeded: true

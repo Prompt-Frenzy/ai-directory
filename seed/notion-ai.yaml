@@ -1,0 +1,10 @@
+name: Notion AI
+url: https://notion.com/product/ai
+description: "Notion's built-in AI assistant for drafting, summarizing, translating, and answering questions across a workspace's pages."
+category: productivity
+tags:
+  - notion
+  - writing
+  - summarization
+pricing: subscription
+seeded: true

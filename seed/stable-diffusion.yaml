@@ -1,0 +1,10 @@
+name: Stable Diffusion
+url: https://stability.ai
+description: "Open-source image generation model from Stability AI, available as a downloadable model and hosted API."
+category: image-generation
+tags:
+  - open-source
+  - api
+  - self-hostable
+pricing: freemium
+seeded: true

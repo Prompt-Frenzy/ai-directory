@@ -1,0 +1,10 @@
+name: Pika
+url: https://pika.art
+description: "Text-to-video and image-to-video generator with effects, transitions, and a strong community for short-form creators."
+category: video-generation
+tags:
+  - text-to-video
+  - image-to-video
+  - short-form
+pricing: freemium
+seeded: true

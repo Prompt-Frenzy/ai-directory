@@ -1,0 +1,10 @@
+name: Adobe Firefly
+url: https://firefly.adobe.com
+description: "Adobe's commercially-safe generative model integrated into Photoshop, Illustrator, and a standalone web app."
+category: image-generation
+tags:
+  - adobe
+  - commercial-safe
+  - photoshop
+pricing: subscription
+seeded: true

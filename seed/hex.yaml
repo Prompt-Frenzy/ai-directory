@@ -1,0 +1,10 @@
+name: Hex
+url: https://hex.tech
+description: "Collaborative data workspace combining SQL, Python, and an AI assistant for building reproducible analyses and apps."
+category: data-analysis
+tags:
+  - sql
+  - python
+  - notebooks
+pricing: freemium
+seeded: true

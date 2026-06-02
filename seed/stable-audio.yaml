@@ -1,0 +1,10 @@
+name: Stable Audio
+url: https://stableaudio.com
+description: "Stability AI's text-to-audio model for music, sound effects, and instrumental loops up to several minutes long."
+category: audio-generation
+tags:
+  - stability
+  - sfx
+  - loops
+pricing: freemium
+seeded: true

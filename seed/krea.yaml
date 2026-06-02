@@ -1,0 +1,10 @@
+name: Krea
+url: https://krea.ai
+description: "Real-time AI image and video generator with a live canvas, image-to-image workflow, and a community feed."
+category: image-generation
+tags:
+  - realtime
+  - canvas
+  - community
+pricing: freemium
+seeded: true

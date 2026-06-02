@@ -1,0 +1,10 @@
+name: Sora
+url: https://openai.com/sora
+description: "OpenAI's video generation model, available through a dedicated web app for ChatGPT Plus and Pro subscribers."
+category: video-generation
+tags:
+  - openai
+  - text-to-video
+  - long-form
+pricing: subscription
+seeded: true

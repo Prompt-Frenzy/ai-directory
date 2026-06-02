@@ -1,0 +1,10 @@
+name: Perplexity
+url: https://perplexity.ai
+description: "Answer engine that combines language models with live web search to produce cited, sourced responses."
+category: text-generation
+tags:
+  - search
+  - citations
+  - answer-engine
+pricing: freemium
+seeded: true

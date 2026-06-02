@@ -1,0 +1,10 @@
+name: Cursor
+url: https://cursor.com
+description: "AI-first code editor built on VS Code with multi-file editing, tab autocomplete, and agent mode for end-to-end tasks."
+category: code-assist
+tags:
+  - editor
+  - vscode-fork
+  - agent-mode
+pricing: subscription
+seeded: true

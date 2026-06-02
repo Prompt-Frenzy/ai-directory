@@ -1,0 +1,10 @@
+name: Leonardo AI
+url: https://leonardo.ai
+description: "Image generation platform with fine-tuned models, an in-canvas editor, and tools for game asset and motion graphics workflows."
+category: image-generation
+tags:
+  - game-assets
+  - canvas
+  - motion-graphics
+pricing: freemium
+seeded: true

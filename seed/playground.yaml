@@ -1,0 +1,10 @@
+name: Playground
+url: https://playground.com
+description: "Image generation web app with multiple model options, a canvas editor, and a public feed of community creations."
+category: image-generation
+tags:
+  - canvas
+  - community
+  - multi-model
+pricing: freemium
+seeded: true

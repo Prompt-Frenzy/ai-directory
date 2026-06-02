@@ -1,0 +1,10 @@
+name: ElevenLabs
+url: https://elevenlabs.io
+description: "Voice generation and cloning platform for AI voiceovers, dubbing, and conversational voice agents across 30+ languages."
+category: voice-cloning
+tags:
+  - tts
+  - voice-clone
+  - dubbing
+pricing: freemium
+seeded: true

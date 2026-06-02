@@ -1,0 +1,10 @@
+name: Gamma
+url: https://gamma.app
+description: "AI-powered presentation, document, and website builder that generates structured layouts from a single text prompt."
+category: productivity
+tags:
+  - presentations
+  - decks
+  - websites
+pricing: freemium
+seeded: true

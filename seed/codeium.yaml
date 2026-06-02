@@ -1,0 +1,10 @@
+name: Codeium
+url: https://codeium.com
+description: "Free AI code completion and chat for individual developers, with Windsurf as its dedicated AI-first editor for teams."
+category: code-assist
+tags:
+  - completion
+  - windsurf
+  - free-tier
+pricing: freemium
+seeded: true

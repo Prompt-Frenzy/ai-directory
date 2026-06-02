@@ -1,0 +1,10 @@
+name: Meta AI
+url: https://meta.ai
+description: "Meta's conversational AI assistant powered by Llama models, also embedded across Facebook, Instagram, and WhatsApp."
+category: text-generation
+tags:
+  - meta
+  - llama
+  - social-integration
+pricing: free
+seeded: true

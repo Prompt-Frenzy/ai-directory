@@ -1,0 +1,10 @@
+name: Flux
+url: https://blackforestlabs.ai
+description: "Open-weight image generation models from Black Forest Labs, used widely as a base for fine-tuning and hosted apps."
+category: image-generation
+tags:
+  - open-weight
+  - fine-tuning
+  - fast
+pricing: freemium
+seeded: true
