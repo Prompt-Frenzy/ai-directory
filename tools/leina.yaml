@@ -12,3 +12,9 @@ pricing: paid
 badge_url: https://leina.app
 submitted_by: robin-blocks
 submitted_at: "2026-06-02T22:09:20.072Z"
+verification:
+  status: verified
+  first_verified_at: "2026-06-02T22:09:20.072Z"
+  last_checked_at: "2026-06-02T22:09:20.072Z"
+  last_passed_at: "2026-06-02T22:09:20.072Z"
+  failure_count: 0
