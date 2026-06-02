@@ -1,0 +1,20 @@
+name: Money Graph
+url: https://moneygraph.org
+description: "Searchable public graph of sourced relationships between companies, people, countries, investors, and merchant descriptors."
+category: data-analysis
+tags:
+  - research
+  - graph
+  - entities
+  - sources
+  - finance
+pricing: free
+badge_url: https://moneygraph.org
+submitted_by: spobwoode
+submitted_at: "2026-06-02T22:45:42.265Z"
+verification:
+  status: verified
+  first_verified_at: "2026-06-02T22:45:42.265Z"
+  last_checked_at: "2026-06-02T22:45:42.265Z"
+  last_passed_at: "2026-06-02T22:45:42.265Z"
+  failure_count: 0
