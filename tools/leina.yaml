@@ -1,0 +1,14 @@
+name: Leina
+url: https://leina.app
+description: "AI assistant for life-admin tasks. Submit a brief; Leina handles calls and emails on your behalf, you steer via live transcript and chat-during-call. UK-focused, pay-per-task."
+category: agents
+tags:
+  - voice-agent
+  - email-assistant
+  - life-admin
+  - uk
+  - phone-calls
+pricing: paid
+badge_url: https://leina.app
+submitted_by: robin-blocks
+submitted_at: "2026-06-02T22:09:20.072Z"
