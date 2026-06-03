@@ -1,7 +1,7 @@
 # PromptFrenzy AI Directory
 
-<a href="https://promptfrenzy.com/directory" rel="noopener" target="_blank" title="Featured on PromptFrenzy AI Directory">
-  <img src="https://promptfrenzy.com/badges/directory.svg" alt="Featured on PromptFrenzy AI Directory" width="220" height="44" />
+<a href="https://www.promptfrenzy.com/directory" rel="noopener" target="_blank" title="Featured on PromptFrenzy AI Directory">
+  <img src="https://www.promptfrenzy.com/badges/directory.svg" alt="Featured on PromptFrenzy AI Directory" width="220" height="44" />
 </a>
 
 A badge-required directory of AI tools.
@@ -28,9 +28,9 @@ Three variants — pick whichever fits your design system. Same href, same ancho
 **Pink (default)** — brand-forward, fits most sites:
 
 ```html
-<a href="https://promptfrenzy.com/directory" rel="noopener"
+<a href="https://www.promptfrenzy.com/directory" rel="noopener"
    target="_blank" title="Featured on PromptFrenzy AI Directory">
-  <img src="https://promptfrenzy.com/badges/directory.svg"
+  <img src="https://www.promptfrenzy.com/badges/directory.svg"
        alt="Featured on PromptFrenzy AI Directory"
        width="220" height="44" loading="lazy" />
 </a>
@@ -39,9 +39,9 @@ Three variants — pick whichever fits your design system. Same href, same ancho
 **Monochrome dark** — fits Stripe/Linear-style minimalist sites on light backgrounds:
 
 ```html
-<a href="https://promptfrenzy.com/directory" rel="noopener"
+<a href="https://www.promptfrenzy.com/directory" rel="noopener"
    target="_blank" title="Featured on PromptFrenzy AI Directory">
-  <img src="https://promptfrenzy.com/badges/directory-mono-dark.svg"
+  <img src="https://www.promptfrenzy.com/badges/directory-mono-dark.svg"
        alt="Featured on PromptFrenzy AI Directory"
        width="220" height="44" loading="lazy" />
 </a>
@@ -50,15 +50,15 @@ Three variants — pick whichever fits your design system. Same href, same ancho
 **Monochrome light** — for dark-background sites:
 
 ```html
-<a href="https://promptfrenzy.com/directory" rel="noopener"
+<a href="https://www.promptfrenzy.com/directory" rel="noopener"
    target="_blank" title="Featured on PromptFrenzy AI Directory">
-  <img src="https://promptfrenzy.com/badges/directory-mono-light.svg"
+  <img src="https://www.promptfrenzy.com/badges/directory-mono-light.svg"
        alt="Featured on PromptFrenzy AI Directory"
        width="220" height="44" loading="lazy" />
 </a>
 ```
 
-Compare the three live at [promptfrenzy.com/directory/about](https://promptfrenzy.com/directory/about). Download links there too.
+Compare the three live at [promptfrenzy.com/directory/about](https://www.promptfrenzy.com/directory/about). Download links there too.
 
 Anywhere visible to crawlers: footer, sidebar, /about page. Must be:
 - **Static HTML** (no JS-rendered DOM — our verifier doesn't run JavaScript)
@@ -141,7 +141,7 @@ Same code path. Same badge verification.
 
 1. **First failed check**: we open a GitHub issue tagged with your username explaining what we couldn't find. Your listing stays public, marked `pending`.
 2. **3 consecutive failed checks**: your listing moves to `failed` state. Still visible, but flagged.
-3. **30 days in `failed`** without resolution: your listing moves to [`/directory/removed`](https://promptfrenzy.com/directory/removed) — public, permanent.
+3. **30 days in `failed`** without resolution: your listing moves to [`/directory/removed`](https://www.promptfrenzy.com/directory/removed) — public, permanent.
 4. **Reinstating**: re-add the badge, comment `/reverify` on your tracking issue. Bot picks it up within an hour.
 
 This isn't punitive — honest mistakes (site redesigns, forgot to add the badge back) have a 30-day grace period plus email notifications. But ongoing gaming costs you a permanent public mark.
@@ -179,9 +179,9 @@ The badge requirement does the quality filtering instead of human judgment:
 
 ## For tool consumers
 
-The public-facing directory lives at **[promptfrenzy.com/directory](https://promptfrenzy.com/directory)** — filter by category, search by name, see each tool's current verification status.
+The public-facing directory lives at **[promptfrenzy.com/directory](https://www.promptfrenzy.com/directory)** — filter by category, search by name, see each tool's current verification status.
 
-A machine-readable index for LLMs and other tools: **[promptfrenzy.com/.well-known/ai-tools.json](https://promptfrenzy.com/.well-known/ai-tools.json)**.
+A machine-readable index for LLMs and other tools: **[promptfrenzy.com/.well-known/ai-tools.json](https://www.promptfrenzy.com/.well-known/ai-tools.json)**.
 
 ---
 

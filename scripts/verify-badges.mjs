@@ -24,11 +24,17 @@ import { parse as parseYaml, stringify as stringifyYaml } from "yaml"
 import { parseHTML } from "linkedom"
 
 const TOOLS_DIR = "tools"
-const TARGET_PREFIX = "https://promptfrenzy.com/directory"
+// Accept both apex and www forms. Docs canonicalize on www, but legacy
+// badge HTML on submitter sites uses the apex form (original README shipped
+// with that). Rejecting apex would break existing pastes.
+const TARGET_PREFIXES = [
+  "https://www.promptfrenzy.com/directory",
+  "https://promptfrenzy.com/directory",
+]
 const FETCH_TIMEOUT_MS = 10_000
 const MAX_REDIRECTS = 3
 const USER_AGENT =
-  "Mozilla/5.0 (compatible; PromptFrenzyDirectoryBot/1.0; +https://promptfrenzy.com/directory)"
+  "Mozilla/5.0 (compatible; PromptFrenzyDirectoryBot/1.0; +https://www.promptfrenzy.com/directory)"
 
 const args = process.argv.slice(2)
 const mode = args[0]
@@ -74,7 +80,7 @@ function findBadgeAnchor(html) {
   const anchors = document.querySelectorAll("a[href]")
   for (const a of anchors) {
     const href = a.getAttribute("href") || ""
-    if (!href.startsWith(TARGET_PREFIX)) continue
+    if (!TARGET_PREFIXES.some((p) => href.startsWith(p))) continue
     const rel = (a.getAttribute("rel") || "").toLowerCase()
     if (rel.includes("nofollow")) {
       return { found: true, error: "anchor has rel=nofollow" }
@@ -84,7 +90,10 @@ function findBadgeAnchor(html) {
     }
     return { found: true, error: null, href }
   }
-  return { found: false, error: "no anchor with href starting " + TARGET_PREFIX }
+  return {
+    found: false,
+    error: `no anchor with href starting ${TARGET_PREFIXES[0]} or ${TARGET_PREFIXES[1]}`,
+  }
 }
 
 async function verifyFile(path) {
