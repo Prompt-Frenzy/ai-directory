@@ -8,3 +8,4 @@ tags:
   - statistics
 pricing: freemium
 seeded: true
+sample_use_case: "A user uploads a spreadsheet containing customer feedback to Julius. They then type a question into the chat interface, such as, \"Summarize the most frequent issues mentioned in the feedback from the last quarter.\" Julius processes the data, identifies key themes, and outputs a statistical summary listing the top recurring complaints and their frequencies, potentially alongside a relevant chart. This provides immediate insights into customer sentiment without requiring manual data analysis."
