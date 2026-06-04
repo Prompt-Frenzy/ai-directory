@@ -8,3 +8,4 @@ tags:
   - cognition
 pricing: subscription
 seeded: true
+sample_use_case: "A developer needs to implement a new API endpoint for a web service that handles user authentication. The developer provides Devin with a natural language brief outlining the required endpoint path, expected input parameters like username and password, and the desired output format for success or failure. Devin then autonomously writes the code, sets up necessary database interactions, creates unit tests, and debugs any issues, delivering a fully functional and tested API endpoint."
