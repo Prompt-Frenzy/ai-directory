@@ -8,3 +8,4 @@ tags:
   - answer-engine
 pricing: freemium
 seeded: true
+sample_use_case: "A researcher needs to quickly understand the current state of a rapidly evolving scientific field. They input a specific question into Perplexity, such as \"What are the recent breakthroughs in CRISPR gene editing technology?\" Perplexity then provides a concise, sourced summary of the latest developments, complete with clickable links to the original research papers and news articles, enabling efficient information gathering and verification."
