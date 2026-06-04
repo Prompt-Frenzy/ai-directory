@@ -8,3 +8,4 @@ tags:
   - creators
 pricing: paid
 seeded: true
+sample_use_case: "A user needing a specific, high-quality AI output, such as a detailed image or a particular text style, can visit PromptBase. They browse or search for prompts matching their requirements, then purchase a proven prompt from a creator. The user then copies this purchased prompt and inputs it directly into their chosen AI model to generate the desired result efficiently, bypassing the need for extensive prompt engineering."
