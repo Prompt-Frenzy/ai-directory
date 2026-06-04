@@ -8,3 +8,4 @@ tags:
   - self-hostable
 pricing: freemium
 seeded: true
+sample_use_case: "A graphic designer uses Stable Diffusion to create custom visuals for a project. They input a detailed text prompt, such as \"a serene forest landscape with a hidden waterfall, painterly style, golden hour lighting.\" The tool then generates unique images matching this description, which the designer can further edit or incorporate into their work."
