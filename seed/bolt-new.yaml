@@ -8,3 +8,4 @@ tags:
   - stackblitz
 pricing: freemium
 seeded: true
+sample_use_case: "A developer uses Bolt.new in their browser to describe a full-stack web application, such as an e-commerce site or a task manager, through a chat interface. The AI generates the initial code, which the developer can then iteratively refine and edit by providing further instructions in the chat. Once the application meets requirements, the developer commands Bolt.new to deploy the functional web app directly from the same browser environment."

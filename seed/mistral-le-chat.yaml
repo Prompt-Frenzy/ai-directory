@@ -8,3 +8,4 @@ tags:
   - web-browsing
 pricing: freemium
 seeded: true
+sample_use_case: "A user can input a query asking Mistral Le Chat to research a topic, such as the latest advancements in quantum computing, leveraging its built-in web browsing. The tool will then generate a concise text summary of the findings. Subsequently, the user can request an image illustrating a key concept from that summary, like a quantum processor, which the tool will create, providing an integrated research and visual content workflow."

@@ -8,3 +8,4 @@ tags:
   - agent-mode
 pricing: subscription
 seeded: true
+sample_use_case: "A developer uses Cursor to implement a new feature across multiple files in a large project. They describe the desired functionality, such as \"Implement a new user profile page with data validation and API integration,\" directly within the editor's agent mode. Cursor then proposes and generates the necessary code changes, including modifications to existing files, new file creation, and relevant autocompletions, which the developer reviews and integrates."

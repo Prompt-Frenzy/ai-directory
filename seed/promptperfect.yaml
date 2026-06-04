@@ -8,3 +8,4 @@ tags:
   - rewriting
 pricing: freemium
 seeded: true
+sample_use_case: "A user inputs an initial prompt into PromptPerfect when a language model or image generator is not producing the desired output. The tool analyzes and rewrites this prompt, generating an optimized version. This revised prompt is then used with the target AI model to achieve more accurate or higher-quality results."

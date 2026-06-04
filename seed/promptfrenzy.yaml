@@ -9,3 +9,4 @@ tags:
   - multi-model
 pricing: freemium
 seeded: true
+sample_use_case: "A user needing a specific type of AI-generated content, like a Midjourney image or a ChatGPT story, visits PromptFrenzy to find or create a suitable prompt. They can browse the existing prompt library for inspiration or use the prompt generator to build a customized prompt for their chosen AI model. After selecting the target model, such as Midjourney, the user can then generate the content directly using the tool's integrated one-click generation feature."

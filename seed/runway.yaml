@@ -8,3 +8,4 @@ tags:
   - post-production
 pricing: subscription
 seeded: true
+sample_use_case: "A video editor uses Runway to quickly generate initial footage for an advertisement by inputting a text prompt into Gen-3. They then apply the motion brush to add dynamic movement to specific objects within the generated video, like animating a product. Finally, they use the integrated post-production tools to refine the clips, perform color correction, and combine them with other footage to produce a polished ad sequence."

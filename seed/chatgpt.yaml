@@ -9,3 +9,4 @@ tags:
   - multimodal
 pricing: freemium
 seeded: true
+sample_use_case: "A user can draft a marketing email by providing a prompt detailing the product and desired tone. After receiving the text, they might ask ChatGPT to generate an accompanying image based on the email's description. Finally, the user could paste a code snippet into the chat, requesting an explanation or optimization suggestions for their project."
