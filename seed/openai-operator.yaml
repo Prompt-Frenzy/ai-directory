@@ -8,3 +8,4 @@ tags:
   - research-preview
 pricing: subscription
 seeded: true
+sample_use_case: "A user instructs the OpenAI Operator to research the best deals for a specific product across multiple e-commerce sites. The Operator autonomously visits various online stores, inputs search terms, compares prices and features, and filters results based on user-defined criteria. It then presents a consolidated list of options, including direct links and key specifications, allowing the user to quickly make an informed purchase decision."
