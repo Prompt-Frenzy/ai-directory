@@ -76,6 +76,12 @@
       "type": "string",
       "format": "date-time"
     },
+    "sample_use_case": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 800,
+      "description": "2-3 sentence paragraph describing a realistic use case. Auto-generated at submit time by promptfrenzy.com/api/directory/submit (Gemini 2.5 Flash via AIMLAPI). Optional — pages render fine without it."
+    },
     "verification": {
       "type": "object",
       "additionalProperties": false,
