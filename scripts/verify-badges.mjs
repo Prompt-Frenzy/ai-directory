@@ -96,6 +96,14 @@ function findBadgeAnchor(html) {
   }
 }
 
+// Strip leading "www." so example.com and www.example.com compare equal.
+// Mirrors the same helper in promptfrenzy2's submit route — the API blocks
+// mismatched hosts up front, but for git-native PRs (someone editing
+// tools/*.yaml directly via the GitHub UI) the verifier is the only gate.
+function apexHost(urlStr) {
+  return new URL(urlStr).host.toLowerCase().replace(/^www\./, "")
+}
+
 async function verifyFile(path) {
   const raw = readFileSync(path, "utf8")
   const data = parseYaml(raw)
@@ -104,6 +112,26 @@ async function verifyFile(path) {
   }
   if (!data.badge_url) {
     return { ok: false, reason: "no badge_url" }
+  }
+  if (!data.url) {
+    return { ok: false, reason: "no url" }
+  }
+  // Apex-domain guard: badge_url must live on the same host as url.
+  // Without this, a submitter could paste the badge on a Reddit/Medium post
+  // and submit a `url` they don't own — verifier would pass and a
+  // misattributed listing would land in the directory.
+  let urlHost, badgeHost
+  try {
+    urlHost = apexHost(data.url)
+    badgeHost = apexHost(data.badge_url)
+  } catch (e) {
+    return { ok: false, reason: `invalid URL: ${e.message}` }
+  }
+  if (urlHost !== badgeHost) {
+    return {
+      ok: false,
+      reason: `badge_url host (${badgeHost}) must match url host (${urlHost})`,
+    }
   }
   let pageRes
   try {
