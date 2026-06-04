@@ -8,3 +8,4 @@ tags:
   - lip-sync
 pricing: freemium
 seeded: true
+sample_use_case: A user provides a text script and an optional character image to Hailuo AI. The tool then generates a video featuring the character speaking the script with realistic lip-sync and fluid body movements. This allows for quick creation of animated explainers or virtual presenter clips without manual animation.
