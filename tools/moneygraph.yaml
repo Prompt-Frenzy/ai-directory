@@ -12,6 +12,7 @@ tags:
 pricing: free
 badge_url: https://moneygraph.org
 submitted_by: spobwoode
+sample_use_case: "A financial analyst uses Money Graph to research the complex web of relationships surrounding a target company. They input the company's name and the tool displays a network of connected investors, associated individuals, and related companies. This allows the analyst to identify investment patterns, potential conflicts of interest, or key stakeholders based on sourced financial data."
 submitted_at: 2026-06-02T22:45:42.265Z
 verification:
   status: verified
