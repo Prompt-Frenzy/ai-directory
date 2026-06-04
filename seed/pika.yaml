@@ -8,3 +8,4 @@ tags:
   - short-form
 pricing: freemium
 seeded: true
+sample_use_case: "A content creator uses Pika to quickly produce short video clips for social media or presentations. They input a text description, such as 'a robot walking through a forest,' or upload a static image to bring to life. Pika generates a video based on this input, allowing the user to apply effects and transitions to create engaging short-form content efficiently."
