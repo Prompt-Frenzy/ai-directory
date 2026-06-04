@@ -8,3 +8,4 @@ tags:
   - character-consistency
 pricing: freemium
 seeded: true
+sample_use_case: "A graphic designer uses Recraft to create a consistent set of vector illustrations for a new product launch. They input descriptions for each scene, specify brand colors and fonts, and define the appearance of a recurring mascot character. Recraft generates editable vector images where the character's style remains uniform across all visuals, ready for use in print or digital media."
