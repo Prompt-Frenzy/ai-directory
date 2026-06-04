@@ -8,3 +8,4 @@ tags:
   - community
 pricing: freemium
 seeded: true
+sample_use_case: "A user selects a character from the platform, such as a historical figure or a fictional persona, to engage in a specific type of conversation. For example, a student could choose a \"Shakespearean scholar\" character and input questions about Hamlet's themes or plot points. The AI then generates detailed, character-appropriate responses, simulating a personalized learning or roleplay interaction."
