@@ -8,3 +8,4 @@ tags:
   - loops
 pricing: freemium
 seeded: true
+sample_use_case: "A video editor can use Stable Audio to quickly generate custom sound effects or background music. They input a text prompt like \"gentle acoustic guitar loop for a calm scene\" or \"whooshing sci-fi door opening sound.\" The tool then produces an audio file matching that description, which the editor can download and incorporate directly into their video project."
