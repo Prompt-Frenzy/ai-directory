@@ -8,3 +8,4 @@ tags:
   - autonomous-coding
 pricing: subscription
 seeded: true
+sample_use_case: "A developer can use Replit Agent to quickly create and deploy web applications. They provide a text prompt detailing the desired application, such as \"Build a simple blog platform with user authentication and a database.\" The agent then generates the full codebase, sets up the development environment, and deploys the functional application directly to Replit's hosting, ready for testing or further development."
