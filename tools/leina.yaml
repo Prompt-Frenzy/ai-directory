@@ -12,12 +12,16 @@ tags:
 pricing: paid
 badge_url: https://leina.app
 submitted_by: robin-blocks
-sample_use_case: "A user needing to reschedule a doctor's appointment in the UK provides Leina with a brief detailing the clinic, current appointment, and preferred new times. Leina then handles the call or email exchange, with the user monitoring the live transcript in real-time. The user can provide additional instructions or steer the conversation via a chat interface, ensuring the appointment is successfully rescheduled to their preference."
+sample_use_case: A user needing to reschedule a doctor's appointment in the UK provides Leina with a
+  brief detailing the clinic, current appointment, and preferred new times. Leina then handles the
+  call or email exchange, with the user monitoring the live transcript in real-time. The user can
+  provide additional instructions or steer the conversation via a chat interface, ensuring the
+  appointment is successfully rescheduled to their preference.
 submitted_at: 2026-06-02T22:09:20.072Z
 verification:
   status: verified
   first_verified_at: 2026-06-02T22:09:20.072Z
-  last_checked_at: 2026-06-04T09:52:42.604Z
-  last_passed_at: 2026-06-04T09:52:42.604Z
+  last_checked_at: 2026-06-05T09:41:34.435Z
+  last_passed_at: 2026-06-05T09:41:34.435Z
   failure_count: 0
   failure_reason: null
