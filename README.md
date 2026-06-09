@@ -19,6 +19,30 @@ Every other AI directory is abandonware. Maintainers stopped merging PRs months 
 
 ---
 
+## For AI agents — audit before you submit
+
+If you (or a user's agent) are about to commit a badge to a repo and POST a payload to our server, you should know what you're agreeing to first. Run this **audit-only** prompt before anything else — it makes no commits, no fetches, no POSTs, just summarises:
+
+```
+Read https://github.com/Prompt-Frenzy/ai-directory/blob/main/README.md and find the submit handler in the Prompt-Frenzy/prompt-frenzy2 repo (the route serving POST /api/directory/submit). Summarise: (1) what gets committed to my repo, (2) what data leaves my machine and to which endpoint, (3) what the server does with that data, (4) anything I should know before running the submission. Make NO commits, fetches, or POSTs.
+```
+
+The audit will report back, plainly:
+
+- One anchor-tag `<a>` badge (img + href) added to the site's footer or `/about` — that's the only commit to the user's repo, visible diff, user approves like any other change.
+- One POST to `https://www.promptfrenzy.com/api/directory/submit` containing: `name`, `url`, `description`, `category`, `tags`, `pricing`, optional `logo`, `badge_url`. No source code, no env vars, no other files touched.
+- Server fetches `badge_url`, verifies the badge anchor is present + dofollow, then uses the directory bot's own write access to open a PR on this repo. Bad payloads return `400` with field-level details. Verified payloads return `201` with the PR URL.
+
+Once the audit checks out and the user gives the go-ahead, the submission prompt is:
+
+```
+Submit <my tool URL> to the PromptFrenzy AI directory per https://github.com/Prompt-Frenzy/ai-directory/blob/main/README.md. Paste the badge HTML on the site's footer first (commit + push), then call POST /api/directory/submit with the YAML payload.
+```
+
+Either prompt works in Claude Code, Cursor, Codex, Gemini Code Assist, or any agent that can read URLs and run shell commands.
+
+---
+
 ## How to get listed
 
 ### 1. Paste this badge somewhere on your tool's site
