@@ -1,9 +1,5 @@
 # PromptFrenzy AI Directory
 
-<a href="https://www.promptfrenzy.com/directory" rel="noopener" target="_blank" title="Featured on PromptFrenzy AI Directory">
-  <img src="https://www.promptfrenzy.com/badges/directory.svg" alt="Featured on PromptFrenzy AI Directory" width="220" height="44" />
-</a>
-
 A badge-required directory of AI tools.
 
 **Submit your AI tool. Auto-merge in under 60 seconds — if you've earned the spot.**
@@ -51,6 +47,10 @@ Three variants — pick whichever fits your design system. Same href, same ancho
 
 **Pink (default)** — brand-forward, fits most sites:
 
+<a href="https://www.promptfrenzy.com/directory" rel="noopener" target="_blank" title="Featured on PromptFrenzy AI Directory">
+  <img src="https://www.promptfrenzy.com/badges/directory.svg" alt="Featured on PromptFrenzy AI Directory" width="220" height="44" />
+</a>
+
 ```html
 <a href="https://www.promptfrenzy.com/directory" rel="noopener"
    target="_blank" title="Featured on PromptFrenzy AI Directory">
@@ -62,6 +62,10 @@ Three variants — pick whichever fits your design system. Same href, same ancho
 
 **Monochrome dark** — fits Stripe/Linear-style minimalist sites on light backgrounds:
 
+<a href="https://www.promptfrenzy.com/directory" rel="noopener" target="_blank" title="Featured on PromptFrenzy AI Directory">
+  <img src="https://www.promptfrenzy.com/badges/directory-mono-dark.svg" alt="Featured on PromptFrenzy AI Directory" width="220" height="44" />
+</a>
+
 ```html
 <a href="https://www.promptfrenzy.com/directory" rel="noopener"
    target="_blank" title="Featured on PromptFrenzy AI Directory">
@@ -72,6 +76,10 @@ Three variants — pick whichever fits your design system. Same href, same ancho
 ```
 
 **Monochrome light** — for dark-background sites:
+
+<a href="https://www.promptfrenzy.com/directory" rel="noopener" target="_blank" title="Featured on PromptFrenzy AI Directory">
+  <img src="https://www.promptfrenzy.com/badges/directory-mono-light.svg" alt="Featured on PromptFrenzy AI Directory" width="220" height="44" />
+</a>
 
 ```html
 <a href="https://www.promptfrenzy.com/directory" rel="noopener"
