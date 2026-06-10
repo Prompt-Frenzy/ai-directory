@@ -1,0 +1,21 @@
+name: Kardly.ai
+url: https://kardly.ai
+description: "Upload lecture PDFs and notes to generate summaries, flashcards, and quizzes for student studying."
+category: productivity
+tags:
+  - flashcards
+  - study-tools
+  - education
+  - pdf
+pricing: freemium
+logo: https://kardly.ai/icon.svg
+badge_url: https://kardly.ai
+sample_use_case: "Students upload their lecture PDFs and personal notes to Kardly.ai. The tool processes these documents to create concise summaries, digital flashcards, and practice quizzes. This allows students to efficiently review course material and test their understanding."
+submitted_by: kardly
+submitted_at: "2026-06-10T09:50:14.092Z"
+verification:
+  status: verified
+  first_verified_at: "2026-06-10T09:50:14.092Z"
+  last_checked_at: "2026-06-10T09:50:14.092Z"
+  last_passed_at: "2026-06-10T09:50:14.092Z"
+  failure_count: 0
