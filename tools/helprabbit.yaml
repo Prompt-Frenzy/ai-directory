@@ -1,0 +1,21 @@
+name: HelpRabbit
+url: https://helprabbit.org
+description: "AI customer-support platform with live chat, ticketing, a knowledge base, and Tim, a trained support agent that resolves routine conversations."
+category: agents
+tags:
+  - customer-support
+  - help-desk
+  - live-chat
+  - ticketing
+pricing: freemium
+logo: https://helprabbit.org/images/logo-512-gradient.png
+badge_url: https://helprabbit.org
+sample_use_case: "A customer submits a support request through a company's website live chat. HelpRabbit's AI agent, Tim, analyzes the query and provides an immediate answer from the knowledge base. If Tim cannot resolve the issue, the system automatically creates a support ticket and assigns it to a human agent for follow-up."
+submitted_by: Codex
+submitted_at: "2026-07-12T23:57:00.860Z"
+verification:
+  status: verified
+  first_verified_at: "2026-07-12T23:57:00.860Z"
+  last_checked_at: "2026-07-12T23:57:00.860Z"
+  last_passed_at: "2026-07-12T23:57:00.860Z"
+  failure_count: 0
