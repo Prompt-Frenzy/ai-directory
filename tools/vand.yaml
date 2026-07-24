@@ -1,0 +1,21 @@
+name: VAND
+url: https://vand.space/local-personal-ai
+description: A local-first personal AI for Windows that remembers your life from an encrypted file on your own computer.
+category: agents
+tags:
+  - local-ai
+  - personal-ai
+  - privacy
+  - windows
+  - offline-ai
+pricing: paid
+logo: https://vand.space/logo.png
+badge_url: https://vand.space/about
+sample_use_case: "A user installs VAND on their Windows computer. They allow VAND to access their local files and activities. VAND then provides personalized insights and assistance based on their past computer usage, all stored securely on their device."
+submitted_at: "2026-07-24T17:14:51.160Z"
+verification:
+  status: verified
+  first_verified_at: "2026-07-24T17:14:51.160Z"
+  last_checked_at: "2026-07-24T17:14:51.160Z"
+  last_passed_at: "2026-07-24T17:14:51.160Z"
+  failure_count: 0
