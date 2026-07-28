@@ -1,0 +1,20 @@
+name: Agent Rescue Desk
+url: https://agent-rescue-desk.netlify.app
+description: "Fixed-scope production recovery for broken n8n, MCP, OpenClaw, and AI-agent workflows, with a $10 readiness report and a guarded $1,000 12-hour rescue."
+category: agents
+tags:
+  - n8n
+  - mcp
+  - openclaw
+  - production-recovery
+pricing: paid
+logo: https://agent-rescue-desk.netlify.app/meta-agent-rescue-square.png
+badge_url: https://agent-rescue-desk.netlify.app/
+sample_use_case: "A user experiencing a critical failure in their n8n, MCP, or OpenClaw workflow can request a readiness report from Agent Rescue Desk for $10. This report assesses the situation and determines if a full rescue operation is feasible. If the user proceeds, Agent Rescue Desk will attempt to restore the workflow to a functional state within 12 hours for a $1,000 fee."
+submitted_at: "2026-07-28T01:15:15.219Z"
+verification:
+  status: verified
+  first_verified_at: "2026-07-28T01:15:15.219Z"
+  last_checked_at: "2026-07-28T01:15:15.219Z"
+  last_passed_at: "2026-07-28T01:15:15.219Z"
+  failure_count: 0
