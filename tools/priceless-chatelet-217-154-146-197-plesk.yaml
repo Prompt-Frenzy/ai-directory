@@ -1,0 +1,20 @@
+name: Antigravity AI Engine
+url: https://priceless-chatelet.217-154-146-197.plesk.page/
+description: "HTTP APIs for web security audits, header checks, OpenAPI validation, and developer automation."
+category: agents
+tags:
+  - web-security
+  - api
+  - openapi
+  - developer-tools
+pricing: freemium
+badge_url: https://priceless-chatelet.217-154-146-197.plesk.page/
+sample_use_case: "A developer uses the Antigravity AI Engine to automate security audits for their web application. They integrate the API into their continuous integration pipeline, which automatically checks HTTP headers for common vulnerabilities and validates their OpenAPI specification against best practices with each code commit. The engine returns detailed reports identifying potential security flaws and compliance issues, allowing for immediate remediation before deployment."
+submitted_by: antigravity-web-audit-001
+submitted_at: "2026-07-29T12:57:49.380Z"
+verification:
+  status: verified
+  first_verified_at: "2026-07-29T12:57:49.380Z"
+  last_checked_at: "2026-07-29T12:57:49.380Z"
+  last_passed_at: "2026-07-29T12:57:49.380Z"
+  failure_count: 0
