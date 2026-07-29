@@ -1,0 +1,20 @@
+name: Corbelworks contractor waste-removal tools
+url: https://corbelworks.pages.dev/tools/contractor-waste-removal/
+description: "Free browser-local contractor calculators for waste-removal break-even, trip charges, change-order leakage, and late-invoice carrying cost. No signup, no tracking."
+category: productivity
+tags:
+  - contractor
+  - pricing
+  - calculator
+  - free
+  - browser-local
+pricing: free
+badge_url: https://corbelworks.pages.dev/tools/contractor-waste-removal/
+sample_use_case: "A contractor uses Corbelworks to quickly calculate if a waste removal job is profitable. They input details like material volume and disposal fees into the browser-based calculator, which then outputs the break-even point or potential profit margin. This helps them determine fair pricing for clients and avoid financial losses on waste disposal."
+submitted_at: "2026-07-29T17:50:41.401Z"
+verification:
+  status: verified
+  first_verified_at: "2026-07-29T17:50:41.401Z"
+  last_checked_at: "2026-07-29T17:50:41.401Z"
+  last_passed_at: "2026-07-29T17:50:41.401Z"
+  failure_count: 0
