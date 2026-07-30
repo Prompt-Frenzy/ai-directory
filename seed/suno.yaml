@@ -9,3 +9,6 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "To create a new song, a user types a descriptive text prompt into Suno, such as 'an upbeat synth-pop track about overcoming challenges with a male vocalist.' Suno then generates a full audio file containing original lyrics, a complete instrumental arrangement, and sung vocals that match the specified style and theme. This allows users to quickly produce unique musical content for podcasts, videos, or personal projects."
+platforms:
+  - web
+  - ios

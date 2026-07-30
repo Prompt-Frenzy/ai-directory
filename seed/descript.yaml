@@ -9,3 +9,11 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A podcast creator records an episode but later identifies a misspoken word or a missing sentence. They can use Descript to type the correction or new content directly into the transcript. Descript then generates the audio in the creator's cloned voice, seamlessly inserting it into the podcast without requiring a full re-recording."
+works_with:
+  - zoom
+  - youtube
+  - premiere pro
+platforms:
+  - web
+  - macos
+  - windows

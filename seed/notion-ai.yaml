@@ -9,3 +9,10 @@ tags:
 pricing: subscription
 seeded: true
 sample_use_case: "A user can efficiently process a long meeting transcript stored within a Notion page. They select the transcript text and instruct Notion AI to \"Summarize this meeting and extract all action items.\" The AI then analyzes the content and outputs a concise summary along with a clear list of tasks directly onto the Notion page, streamlining follow-up without leaving the workspace."
+works_with:
+  - slack
+  - google drive
+platforms:
+  - web
+  - ios
+  - android

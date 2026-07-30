@@ -9,3 +9,9 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A developer downloads the open-weight Flux model to create a specialized image generator. They input a dataset of specific images, such as architectural designs or character art, and fine-tune Flux on this data. The output is a custom image generation model that can then produce new visuals consistently in the desired style or domain."
+works_with:
+  - comfyui
+  - replicate
+  - hugging face
+platforms:
+  - api

@@ -9,3 +9,11 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A developer uses Codeium within their IDE to accelerate coding tasks. As they write code, Codeium provides real-time suggestions for completing lines, functions, or entire code blocks based on context. If they need help debugging or understanding a concept, they can ask questions in the integrated chat and receive relevant code examples or explanations directly within their workflow."
+works_with:
+  - vs code
+  - jetbrains
+  - neovim
+platforms:
+  - windows
+  - macos
+  - linux

@@ -9,3 +9,11 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A data analyst investigating a recent drop in user engagement would connect Hex to their data warehouse. They would write SQL queries to extract relevant user activity data, then use Python notebooks to perform statistical analysis and create visualizations. The AI assistant could help refine queries or suggest code, ultimately producing a shareable, interactive report for stakeholders to understand the engagement decline."
+works_with:
+  - snowflake
+  - bigquery
+  - python
+  - sql
+  - dbt
+platforms:
+  - web

@@ -9,3 +9,11 @@ tags:
 pricing: subscription
 seeded: true
 sample_use_case: "A graphic designer can use Adobe Firefly to quickly generate custom background images for a marketing campaign. They would input a text prompt, such as \"futuristic cityscape at sunset with neon lights,\" into the Firefly web app or directly within Photoshop. Firefly then produces several image variations based on the description, which the designer can select, refine, and integrate into their project with confidence in its commercial usability."
+works_with:
+  - photoshop
+  - illustrator
+  - adobe express
+  - lightroom
+platforms:
+  - web
+  - api

@@ -9,3 +9,9 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user needing a specific visual for a presentation or social media post can input a detailed text description into DALL-E. For example, they might ask for \"a minimalist logo of a green leaf inside a circuit board.\" DALL-E then generates several distinct image variations based on this prompt, allowing the user to select and download the most suitable option for their project."
+works_with:
+  - chatgpt
+  - python
+platforms:
+  - web
+  - api

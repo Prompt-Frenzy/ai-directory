@@ -9,3 +9,10 @@ tags:
 pricing: subscription
 seeded: true
 sample_use_case: "A developer writing a new function in their integrated development environment types the function signature and a comment describing its intent. GitHub Copilot then automatically suggests the function's body, including variable declarations and logical steps, based on the context. The developer reviews the suggested code, accepts it, or uses the chat interface to request modifications or alternative implementations, streamlining the coding process."
+works_with:
+  - vs code
+  - github
+  - jetbrains
+  - neovim
+platforms:
+  - web

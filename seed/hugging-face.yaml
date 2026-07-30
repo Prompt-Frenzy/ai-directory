@@ -10,3 +10,10 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A data scientist can visit Hugging Face to find and download a pre-trained large language model for text generation. They would then integrate this model into their local development environment, providing a text prompt as input. The model would generate coherent, contextually relevant text based on the given prompt, which the scientist can then use for their application."
+works_with:
+  - python
+  - pytorch
+  - transformers
+platforms:
+  - web
+  - api

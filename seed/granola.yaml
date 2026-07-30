@@ -9,3 +9,11 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "During a client call, a user types key takeaways and action items directly into Granola. The tool simultaneously transcribes the entire conversation in the background. Immediately after the call, Granola merges these inputs, generating a structured meeting summary that includes the full transcript, the user's personal notes, and a concise overview of decisions and next steps."
+works_with:
+  - zoom
+  - google meet
+  - microsoft teams
+  - notion
+  - slack
+platforms:
+  - macos

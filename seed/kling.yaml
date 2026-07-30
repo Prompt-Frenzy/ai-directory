@@ -9,3 +9,6 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A filmmaker uses Kling to generate a realistic establishing shot for a movie scene. They input a text description detailing a character walking down a busy city street, specifying the character's appearance, the time of day, and the desired camera movement, such as a slow tracking shot following the character for 30 seconds. Kling then produces a high-fidelity video clip that accurately depicts the scene with natural physics and the requested camera work, ready for integration into their project."
+platforms:
+  - web
+  - api

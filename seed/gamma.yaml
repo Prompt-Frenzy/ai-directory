@@ -9,3 +9,9 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user can quickly draft a presentation or document by providing Gamma with a text prompt detailing the topic and desired sections. For example, a marketing specialist might input \"Create a presentation on Q3 sales performance, including overall revenue, regional breakdown, and future outlook.\" Gamma then generates a structured slide deck or document layout, which the user can populate with specific data and refine."
+works_with:
+  - powerpoint
+  - pdf
+  - notion
+platforms:
+  - web

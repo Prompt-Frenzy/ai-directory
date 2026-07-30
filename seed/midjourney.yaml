@@ -10,3 +10,6 @@ tags:
 pricing: subscription
 seeded: true
 sample_use_case: "A graphic designer needs a unique image for a project. They input a text description, such as \"a vibrant, photorealistic jungle scene with hidden ancient ruins,\" into Midjourney via Discord or the web interface. The tool then generates several distinct image options that the designer can refine, upscale, or use directly in their work."
+platforms:
+  - web
+  - discord
