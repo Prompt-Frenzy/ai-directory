@@ -9,3 +9,7 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user can upload a still photograph and a text prompt, such as \"a serene lake with mist rising,\" to generate a short video clip animating the scene with cinematic camera movement. Alternatively, a user can input a series of keyframe images to define specific poses or scene transitions. The tool then produces a video that smoothly interpolates between these keyframes, creating a dynamic sequence from static inputs."
+platforms:
+  - web
+  - ios
+  - api

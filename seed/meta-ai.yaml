@@ -9,3 +9,12 @@ tags:
 pricing: free
 seeded: true
 sample_use_case: "A user drafts a social media post on Instagram and needs help with the accompanying text. They open the Meta AI chat within the Instagram app and input a request like \"Write a short, engaging caption for my photo of a sunset over the mountains.\" Meta AI then provides several distinct caption options, allowing the user to quickly choose one, make minor edits, and publish their post directly from the platform."
+works_with:
+  - instagram
+  - whatsapp
+  - facebook
+  - messenger
+platforms:
+  - web
+  - ios
+  - android

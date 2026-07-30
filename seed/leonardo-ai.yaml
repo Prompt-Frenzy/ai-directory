@@ -9,3 +9,7 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A game developer uses Leonardo AI to generate a consistent set of creature sprites and textures for their new project. They input text prompts or upload concept art to create initial designs, then utilize the in-canvas editor to refine details and ensure style consistency across multiple variations. This process yields high-quality, game-ready assets, including different poses and animation frames, tailored for their game's specific aesthetic."
+platforms:
+  - web
+  - ios
+  - api

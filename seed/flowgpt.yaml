@@ -9,3 +9,9 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user needing to quickly generate marketing copy can visit FlowGPT, search the marketing category for a suitable prompt, and copy it. They then paste this prompt into ChatGPT or Claude, adding their product details as input. The AI will then produce tailored marketing content based on the chosen prompt, saving time and effort in content creation."
+works_with:
+  - chatgpt
+  - claude
+  - gpt-4
+platforms:
+  - web

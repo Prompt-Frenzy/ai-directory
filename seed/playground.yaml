@@ -9,3 +9,7 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user needing a custom image for a blog post can access Playground, input a detailed text prompt, and choose from various generation models to create an initial draft. They then use the integrated canvas editor to make precise adjustments, such as adding specific objects or altering backgrounds, before exporting the final image. The user might also browse the community feed for inspiration or to see how others are using the tool."
+works_with:
+  - stable diffusion
+platforms:
+  - web

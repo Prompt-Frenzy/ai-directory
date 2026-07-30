@@ -9,3 +9,7 @@ tags:
 pricing: subscription
 seeded: true
 sample_use_case: "A user needing a specific video clip for a project, such as a marketing campaign or educational content, can access Sora through their ChatGPT Plus subscription. They input a detailed text description outlining the desired scene, characters, actions, and visual style. Sora then generates a high-quality video based on this prompt, which the user can download and integrate into their work."
+works_with:
+  - chatgpt
+platforms:
+  - web

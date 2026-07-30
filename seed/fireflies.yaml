@@ -9,3 +9,14 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user schedules a virtual team meeting on Zoom, Google Meet, or Microsoft Teams and invites Fireflies to join. During the call, Fireflies automatically transcribes the entire discussion in real-time, capturing every detail. Afterward, the user receives a complete, searchable transcript, a concise summary of key decisions, and a clear list of identified action items, ensuring all follow-up tasks are easily tracked and assigned."
+works_with:
+  - zoom
+  - google meet
+  - microsoft teams
+  - slack
+  - notion
+  - salesforce
+platforms:
+  - web
+  - ios
+  - android

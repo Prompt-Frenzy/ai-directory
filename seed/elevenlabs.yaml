@@ -9,3 +9,8 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A documentary filmmaker needs to dub their film into several foreign languages while maintaining a consistent voice for the narrator. They upload a short audio sample of the original narrator's voice to ElevenLabs to create a voice clone. The filmmaker then inputs the translated scripts for each language, and ElevenLabs generates separate audio tracks of the cloned voice speaking the translations, which can be directly integrated into the film."
+works_with:
+  - python
+platforms:
+  - web
+  - api

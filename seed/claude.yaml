@@ -9,3 +9,11 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user can upload a lengthy research paper or a detailed financial report to Claude. They then prompt Claude to summarize the key findings, identify main arguments, or extract specific data points from the document. Claude processes the entire uploaded file, leveraging its long-context reasoning, and provides a concise, accurate text summary or extracted information."
+works_with:
+  - mcp
+  - python
+platforms:
+  - web
+  - ios
+  - android
+  - api

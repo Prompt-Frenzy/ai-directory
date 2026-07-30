@@ -9,3 +9,8 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A graphic designer can use Krea to rapidly prototype visual concepts. They would upload an initial sketch or image onto the live canvas and then use text prompts to guide the AI's real-time generation. As the AI creates variations, the designer can draw directly on the canvas or adjust prompts to quickly refine and explore different design directions for a project. This allows for fast iteration and concept development."
+works_with:
+  - flux
+  - stable diffusion
+platforms:
+  - web

@@ -9,3 +9,9 @@ tags:
 pricing: subscription
 seeded: true
 sample_use_case: "A user can generate custom video clips by providing a text description of the desired scene. For example, they might input \"a drone shot of a bustling city street at night\" into the Gemini app or via Vertex AI. Veo then produces a short video clip matching this prompt, which can be used for presentations, social media, or creative projects."
+works_with:
+  - gemini
+  - vertex ai
+platforms:
+  - web
+  - api

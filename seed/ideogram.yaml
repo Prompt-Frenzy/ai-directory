@@ -9,3 +9,7 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A graphic designer needs to create a promotional poster that includes a specific slogan and visual elements. They input a detailed text prompt into Ideogram, specifying the exact slogan to be rendered, the desired font style, and the overall aesthetic for the poster's imagery. Ideogram then generates high-quality image options where the text is seamlessly integrated and clearly legible within the visual design, ready for review or minor adjustments."
+platforms:
+  - web
+  - ios
+  - api

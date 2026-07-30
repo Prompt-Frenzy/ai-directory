@@ -9,3 +9,7 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user feeling isolated or stressed could open the Replika app and type a message about their day or feelings. Replika responds conversationally, offering empathetic listening, asking follow-up questions, or suggesting journaling prompts. This allows the user to process thoughts and receive non-judgmental interaction, simulating a supportive conversation partner."
+platforms:
+  - web
+  - ios
+  - android

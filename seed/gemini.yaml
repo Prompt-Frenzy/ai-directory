@@ -9,3 +9,12 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user can leverage Gemini directly within Google Workspace applications to streamline content creation. For example, they might prompt Gemini within Google Docs to summarize a lengthy research paper or ask it in Gmail to draft a professional email response based on a few key points. This integration allows for immediate text generation and refinement without switching between different tools."
+works_with:
+  - google workspace
+  - google docs
+  - gmail
+platforms:
+  - web
+  - ios
+  - android
+  - api

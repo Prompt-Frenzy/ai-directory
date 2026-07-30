@@ -9,3 +9,6 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A musician or content creator can use Udio to quickly generate a custom song for a project. They input a text description specifying the desired genre, tempo, instrumentation, and any vocal style or lyrics. Udio then produces a high-fidelity audio file containing both instrumental music and synthesized vocals, ready for integration into videos, podcasts, or demos."
+platforms:
+  - web
+  - ios

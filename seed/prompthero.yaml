@@ -9,3 +9,9 @@ tags:
 pricing: freemium
 seeded: true
 sample_use_case: "A user wants to generate a specific style of image, such as a \"steampunk airship,\" using Midjourney but needs effective prompt ideas. They visit PromptHero and search for relevant keywords, browsing through community-submitted prompts and their corresponding image outputs. The user then selects a successful prompt, learns its structure and phrasing, and adapts it for their own image generation task."
+works_with:
+  - midjourney
+  - stable diffusion
+  - chatgpt
+platforms:
+  - web

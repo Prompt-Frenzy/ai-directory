@@ -9,3 +9,7 @@ tags:
 pricing: free
 seeded: true
 sample_use_case: "A user can describe a personal challenge or a complex decision they are facing to Pi. Pi then engages in a natural, empathetic conversation, asking clarifying questions and offering reflective prompts to help the user explore their thoughts and feelings. This interaction allows the user to process their emotions and gain new perspectives on their situation."
+platforms:
+  - web
+  - ios
+  - android
