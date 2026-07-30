@@ -56,8 +56,9 @@ jobs:
             exit 0
           fi
           echo "Verifying: $CHANGED"
+          set -o pipefail
           for f in $CHANGED; do
-            node scripts/verify-badges.mjs --pr "$f"
+            node scripts/verify-badges.mjs --pr "$f" 2>&1 | tee -a verify-output.txt
           done
 
       - name: PR comment on success
@@ -83,11 +84,20 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const fs = require('fs')
+            let reason = ''
+            try {
+              const out = fs.readFileSync('verify-output.txt', 'utf8')
+              // verify-badges.mjs prints "  ✗ failed — <reason>" for each failure.
+              const matches = [...out.matchAll(/✗ failed — (.*)$/gm)]
+              if (matches.length) reason = matches[matches.length - 1][1].trim()
+            } catch {}
+            const reasonBlock = reason ? `\n\n**Reason:** ${reason}` : ''
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '❌ Badge verification failed. See the workflow log for the exact reason. Common causes:\n- Badge URL returned non-200 status\n- No `<a>` element with `href` starting `https://promptfrenzy.com/directory` was found in the static HTML\n- The anchor has `rel="nofollow"` or `rel="sponsored"`\n- The badge is rendered by JavaScript (our verifier does not execute JS — use plain HTML)\n\nFix and push to re-run.'
+              body: `❌ Badge verification failed.${reasonBlock}\n\nCommon causes:\n- **Host not eligible** — the tool URL is a raw IP, an auto-provisioned host with an embedded IP, a temporary tunnel (ngrok/trycloudflare), a free-host placeholder, or a link shortener. List your tool at its own durable domain. Platform subdomains (\`*.vercel.app\`, \`*.netlify.app\`, \`*.github.io\`, …) are accepted but listed as *early-stage* until you move to a custom domain.\n- Badge URL returned a non-200 status\n- No \`<a>\` element with \`href\` starting \`https://promptfrenzy.com/directory\` was found in the static HTML\n- The anchor has \`rel="nofollow"\` or \`rel="sponsored"\`\n- The badge is rendered by JavaScript (our verifier does not execute JS — use plain HTML)\n\nFix and push to re-run.`
             })
 
       - name: Cron — daily recent-7d

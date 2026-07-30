@@ -2,7 +2,14 @@
 # fill in your details, open a PR. Our bot does the rest.
 #
 # Required fields: name, url, description, category, pricing, badge_url
-# Optional: tags, logo
+# Encouraged (richer listing, better ranking): tags, key_features, works_with,
+#   platforms, pricing_detail, logo
+#
+# Host rule: `url` must be your tool's own durable domain. Platform subdomains
+# (*.vercel.app, *.netlify.app, *.github.io, *.hf.space, ...) are accepted but
+# listed as "early-stage" until you move to a custom domain. Raw IPs,
+# auto-provisioned control-panel hosts, temporary tunnels (ngrok/trycloudflare),
+# free-host placeholders, and link shorteners are rejected.
 
 name: Example AI Tool
 url: https://example.com
@@ -10,5 +17,12 @@ description: One sentence (max 200 chars). Factual. No superlatives. State what 
 category: image-generation
 tags: [photo-editing, portrait]
 pricing: freemium
+pricing_detail: Free tier is watermarked; Pro is $12/mo for 1,000 credits and no watermark.
+key_features:
+  - Text-to-image generation from a prompt
+  - Inpainting and outpainting on an editable canvas
+  - Batch export at up to 4K resolution
+works_with: [chatgpt, figma, photoshop]
+platforms: [web, api]
 logo: https://example.com/logo.png
 badge_url: https://example.com

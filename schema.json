@@ -52,6 +52,35 @@
       "type": "string",
       "enum": ["free", "freemium", "paid", "subscription"]
     },
+    "pricing_detail": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "Specific pricing beyond the tier, e.g. 'Free tier watermarked; Pro $19/mo for 500 credits'. Optional but encouraged — it makes the listing page far more useful."
+    },
+    "key_features": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 3, "maxLength": 100},
+      "maxItems": 6,
+      "description": "2-6 short factual capability bullets, one per string. Optional but encouraged."
+    },
+    "works_with": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9 .+-]{0,38}[a-z0-9]$", "maxLength": 40},
+      "maxItems": 8,
+      "uniqueItems": true,
+      "description": "Tools, platforms, or models this integrates with, e.g. ['chatgpt', 'figma', 'vs code']. Optional but encouraged — powers cross-linking."
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["web", "api", "ios", "android", "windows", "macos", "linux", "cli", "browser-extension", "discord", "slack", "self-hosted"]
+      },
+      "maxItems": 12,
+      "uniqueItems": true,
+      "description": "Where the tool runs / how it's accessed. Optional but encouraged."
+    },
     "logo": {
       "type": "string",
       "format": "uri",

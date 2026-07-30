@@ -22,6 +22,7 @@ import { readFileSync, writeFileSync, readdirSync } from "node:fs"
 import { join, basename } from "node:path"
 import { parse as parseYaml, stringify as stringifyYaml } from "yaml"
 import { parseHTML } from "linkedom"
+import { classifyHost } from "./host-class.mjs"
 
 const TOOLS_DIR = "tools"
 // Accept both apex and www forms. Docs canonicalize on www, but legacy
@@ -132,6 +133,15 @@ async function verifyFile(path) {
       ok: false,
       reason: `badge_url host (${badgeHost}) must match url host (${urlHost})`,
     }
+  }
+  // Host-quality gate. A valid badge on a raw-IP / embedded-IP / tunnel /
+  // free-host / shortener host still doesn't earn a listing — those are not
+  // durable product homes and we don't hand them an outbound link. early-stage
+  // (PaaS subdomains) and established both pass here; the early-stage flag is
+  // derived from `url` at render time on the directory site, not stored.
+  const hostClass = classifyHost(data.url)
+  if (hostClass.tier === "reject") {
+    return { ok: false, reason: `host rejected — ${hostClass.reason}` }
   }
   let pageRes
   try {
