@@ -1,6 +1,7 @@
 name: Tracert
 url: https://tracert.site
-description: "An open capability network where AI agents discover, evaluate and invoke external services through one interface, with portable evidence of each execution."
+description: An open capability network where AI agents discover, evaluate and invoke external
+  services through one interface, with portable evidence of each execution.
 category: agents
 tags:
   - capability-registry
@@ -8,11 +9,12 @@ tags:
   - agents
   - discovery
 pricing: free
-pricing_detail: "Free and open: the registry, TRACE schemas, the five-tool MCP router and all machine endpoints are free; no subscription."
+pricing_detail: "Free and open: the registry, TRACE schemas, the five-tool MCP router and all
+  machine endpoints are free; no subscription."
 key_features:
-  - "Machine-readable TRACE Manifest describing each capability's contract"
+  - Machine-readable TRACE Manifest describing each capability's contract
   - "Five-tool MCP router: search, inspect, quote, invoke, retrieve receipt"
-  - "Portable TRACE Receipts binding promise, payment and outcome"
+  - Portable TRACE Receipts binding promise, payment and outcome
   - Open registry; capabilities added by pull request or one API call
 works_with:
   - mcp
@@ -23,12 +25,16 @@ platforms:
   - api
   - cli
 badge_url: https://tracert.site/about
-sample_use_case: "A user employs Tracert to find and use an AI agent that can process a specific type of data. The user submits their data to Tracert, which then identifies suitable agents, executes the task, and returns the processed data along with a record of the agent's actions. This allows for verifiable and auditable use of various AI services through a single platform."
+sample_use_case: A user employs Tracert to find and use an AI agent that can process a specific type
+  of data. The user submits their data to Tracert, which then identifies suitable agents, executes
+  the task, and returns the processed data along with a record of the agent's actions. This allows
+  for verifiable and auditable use of various AI services through a single platform.
 submitted_by: tracert-network
-submitted_at: "2026-08-03T10:47:58.856Z"
+submitted_at: 2026-08-03T10:47:58.856Z
 verification:
   status: verified
-  first_verified_at: "2026-08-03T10:47:58.856Z"
-  last_checked_at: "2026-08-03T10:47:58.856Z"
-  last_passed_at: "2026-08-03T10:47:58.856Z"
+  first_verified_at: 2026-08-03T10:47:58.856Z
+  last_checked_at: 2026-08-04T08:31:08.078Z
+  last_passed_at: 2026-08-04T08:31:08.078Z
   failure_count: 0
+  failure_reason: null
