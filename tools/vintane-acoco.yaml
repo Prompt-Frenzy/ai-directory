@@ -1,0 +1,28 @@
+name: Vintane
+url: https://vintane.acoco.ai
+description: "Scores your investor deck and last 10 founder-update emails the way a skeptical VC reads them, then returns a fundability score and 5 specific fixes."
+category: data-analysis
+tags:
+  - fundraising
+  - pitch-deck
+  - vc
+  - startups
+  - founders
+pricing: freemium
+pricing_detail: Free score; $49 one-time full report
+key_features:
+  - Reads a pitch deck + last 10 founder-update emails
+  - Returns a numeric fundability score
+  - "Flags the 5 issues VCs judge silently: traction, market size, metrics, story, ask vs milestones"
+  - Gives the specific rewrite for each fix in the paid tier
+platforms:
+  - web
+badge_url: https://vintane.acoco.ai
+sample_use_case: A startup founder uploads their investor deck and the last ten founder-update emails to Vintane. The tool analyzes these documents for common VC concerns and weaknesses. Vintane then provides a fundability score and five concrete suggestions for improving the pitch and communication before the founder approaches investors.
+submitted_at: "2026-08-05T16:14:40.147Z"
+verification:
+  status: verified
+  first_verified_at: "2026-08-05T16:14:40.147Z"
+  last_checked_at: "2026-08-05T16:14:40.147Z"
+  last_passed_at: "2026-08-05T16:14:40.147Z"
+  failure_count: 0
