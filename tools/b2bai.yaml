@@ -1,0 +1,29 @@
+name: B2B AI Directory
+url: https://www.b2bai.directory
+description: "Directory of practical AI workflows and production-grade prompts for B2B marketing, sales, and RevOps teams."
+category: prompt-tools
+tags:
+  - b2b-marketing
+  - sales
+  - revops
+  - ai-workflows
+  - prompts
+pricing: freemium
+pricing_detail: Free browsing and selected content; Pro plans unlock full workflow execution guides and premium prompts.
+key_features:
+  - "Browse practical AI workflows across B2B marketing, sales, and RevOps use cases"
+  - "Follow workflow-specific tools, steps, prompts, outputs, and execution guidance"
+  - Use a production-grade prompt library for common GTM tasks
+  - "Search and filter workflows by category, tool, role, use case, difficulty, and access tier"
+platforms:
+  - web
+badge_url: https://www.b2bai.directory
+sample_use_case: "A marketing manager needs to generate a series of social media posts for a new product launch. They browse the B2B AI Directory to find a relevant AI workflow for social media content creation. The directory provides a production-grade prompt that, when fed into an AI text generator, produces several draft posts tailored for B2B audiences."
+submitted_by: p2pventures
+submitted_at: "2026-08-10T01:09:20.624Z"
+verification:
+  status: verified
+  first_verified_at: "2026-08-10T01:09:20.624Z"
+  last_checked_at: "2026-08-10T01:09:20.624Z"
+  last_passed_at: "2026-08-10T01:09:20.624Z"
+  failure_count: 0
