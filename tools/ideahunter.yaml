@@ -1,6 +1,7 @@
 name: IdeaHunter
 url: https://ideahunter.today
-description: AI research workflow for solo founders to find demand-backed app and micro-SaaS ideas from public market signals.
+description: AI research workflow for solo founders to find demand-backed app and micro-SaaS ideas
+  from public market signals.
 category: productivity
 tags:
   - startup-ideas
@@ -12,7 +13,7 @@ pricing: freemium
 pricing_detail: Free public idea browsing; subscription unlocks deeper research workflows and saved analysis.
 key_features:
   - Finds startup ideas from public demand signals
-  - "Summarizes buyer pain, evidence, MVP scope, and monetization paths"
+  - Summarizes buyer pain, evidence, MVP scope, and monetization paths
   - Links research methodology and public idea evidence for review
 works_with:
   - web research
@@ -23,12 +24,16 @@ platforms:
   - web
 logo: https://ideahunter.today/favicon.svg
 badge_url: https://ideahunter.today/launch-resources
-sample_use_case: "IdeaHunter helps solo founders identify promising app or micro-SaaS concepts. A user inputs a broad area of interest, and the AI analyzes public market data, such as trending search queries and forum discussions, to pinpoint unmet needs. The output is a list of validated business ideas, complete with potential target audiences and preliminary market demand indicators."
+sample_use_case: IdeaHunter helps solo founders identify promising app or micro-SaaS concepts. A
+  user inputs a broad area of interest, and the AI analyzes public market data, such as trending
+  search queries and forum discussions, to pinpoint unmet needs. The output is a list of validated
+  business ideas, complete with potential target audiences and preliminary market demand indicators.
 submitted_by: happynocode
-submitted_at: "2026-08-16T02:24:24.193Z"
+submitted_at: 2026-08-16T02:24:24.193Z
 verification:
   status: verified
-  first_verified_at: "2026-08-16T02:24:24.193Z"
-  last_checked_at: "2026-08-16T02:24:24.193Z"
-  last_passed_at: "2026-08-16T02:24:24.193Z"
+  first_verified_at: 2026-08-16T02:24:24.193Z
+  last_checked_at: 2026-08-16T06:33:26.339Z
+  last_passed_at: 2026-08-16T06:33:26.339Z
   failure_count: 0
+  failure_reason: null
