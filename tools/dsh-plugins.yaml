@@ -1,6 +1,7 @@
 name: DSH Plugins
 url: https://deepseekharnessplugins.com
-description: "A searchable community directory for DeepSeek Harness plugins, dsh plugins, tools, workflows, and agents."
+description: A searchable community directory for DeepSeek Harness plugins, dsh plugins, tools,
+  workflows, and agents.
 category: other
 tags:
   - deepseek-harness
@@ -20,12 +21,17 @@ works_with:
   - github
 logo: https://deepseekharnessplugins.com/logo.png
 badge_url: https://deepseekharnessplugins.com
-sample_use_case: "A developer looking for a specific DeepSeek Harness plugin can use DSH Plugins to search the community directory. They can input keywords related to the plugin's function, such as \"image generation\" or \"data analysis,\" and the tool will return a list of matching plugins, along with descriptions and links to their repositories. This allows developers to quickly discover and integrate open-source tools into their DeepSeek Harness workflows."
+sample_use_case: A developer looking for a specific DeepSeek Harness plugin can use DSH Plugins to
+  search the community directory. They can input keywords related to the plugin's function, such as
+  "image generation" or "data analysis," and the tool will return a list of matching plugins, along
+  with descriptions and links to their repositories. This allows developers to quickly discover and
+  integrate open-source tools into their DeepSeek Harness workflows.
 submitted_by: cccakeee
-submitted_at: "2026-08-18T17:50:15.748Z"
+submitted_at: 2026-08-18T17:50:15.748Z
 verification:
   status: verified
-  first_verified_at: "2026-08-18T17:50:15.748Z"
-  last_checked_at: "2026-08-18T17:50:15.748Z"
-  last_passed_at: "2026-08-18T17:50:15.748Z"
+  first_verified_at: 2026-08-18T17:50:15.748Z
+  last_checked_at: 2026-08-19T06:37:41.222Z
+  last_passed_at: 2026-08-19T06:37:41.222Z
   failure_count: 0
+  failure_reason: null
