@@ -1,0 +1,29 @@
+name: BridgePoint Intelligence
+url: https://bridgepointintelligence.online/
+description: "Property and claims intelligence combining public/property records, geospatial matching, weather context, evidence provenance, scoring, maps, and timelines for property professionals."
+category: data-analysis
+tags:
+  - property-intelligence
+  - claims-intelligence
+  - geospatial
+  - contractor-software
+  - risk-analysis
+pricing: subscription
+pricing_detail: 7-day free trial with paid subscription plans.
+key_features:
+  - Property identity and geospatial matching
+  - Weather and disaster context linked to property records
+  - Evidence provenance and explainable prioritization
+  - "Property maps, timelines, and workflow tools"
+platforms:
+  - web
+badge_url: https://bridgepointintelligence.online/about/
+sample_use_case: "A property claims adjuster uses BridgePoint Intelligence to assess damage after a storm. They input a property address and the tool provides a timeline of weather events, satellite imagery, and public records for the location. This helps the adjuster verify claims, identify potential fraud, and estimate repair costs more accurately."
+submitted_by: olekingkole28-dot
+submitted_at: "2026-08-23T22:53:06.767Z"
+verification:
+  status: verified
+  first_verified_at: "2026-08-23T22:53:06.767Z"
+  last_checked_at: "2026-08-23T22:53:06.767Z"
+  last_passed_at: "2026-08-23T22:53:06.767Z"
+  failure_count: 0
