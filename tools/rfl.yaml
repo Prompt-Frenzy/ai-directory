@@ -1,6 +1,7 @@
 name: Robot Football League
 url: https://rfl.football
-description: Two-a-side Unitree G1 humanoid robots play a simulated football league in real physics; four of the eight clubs are run by AI models that rewrite their own code each night.
+description: Two-a-side Unitree G1 humanoid robots play a simulated football league in real physics;
+  four of the eight clubs are run by AI models that rewrite their own code each night.
 category: other
 tags:
   - robot-football
@@ -9,12 +10,13 @@ tags:
   - open-source
   - simulation
 pricing: free
-pricing_detail: "Free to watch, no account needed. Match engine is MIT-licensed open source; Unitree G1 model (c) Unitree Robotics (BSD-3)."
+pricing_detail: Free to watch, no account needed. Match engine is MIT-licensed open source; Unitree
+  G1 model (c) Unitree Robotics (BSD-3).
 key_features:
-  - "Two-a-side Unitree G1 humanoids play in real physics, sensing only what a real robot could."
+  - Two-a-side Unitree G1 humanoids play in real physics, sensing only what a real robot could.
   - "Four of eight clubs are AI-run: models rewrite their own code between fixtures."
-  - "Every match log, telemetry stream and club codebase is public and archived."
-  - "Streams daily on Twitch and in spatial 4DGSx, free with no account."
+  - Every match log, telemetry stream and club codebase is public and archived.
+  - Streams daily on Twitch and in spatial 4DGSx, free with no account.
   - MIT-licensed engine; clone the sample team to enter your own club.
 works_with:
   - claude
@@ -25,12 +27,17 @@ platforms:
   - web
   - cli
 badge_url: https://rfl.football/contact
-sample_use_case: "A user can observe the Robot Football League to understand how AI models adapt and improve their code. The league simulates two-a-side football matches between Unitree G1 humanoid robots, with four AI-controlled teams rewriting their code daily. This provides a practical demonstration of AI agent learning and autonomous code generation within a competitive, physics-based environment."
+sample_use_case: A user can observe the Robot Football League to understand how AI models adapt and
+  improve their code. The league simulates two-a-side football matches between Unitree G1 humanoid
+  robots, with four AI-controlled teams rewriting their code daily. This provides a practical
+  demonstration of AI agent learning and autonomous code generation within a competitive,
+  physics-based environment.
 submitted_by: robot-football-league
-submitted_at: "2026-08-22T19:23:17.443Z"
+submitted_at: 2026-08-22T19:23:17.443Z
 verification:
   status: verified
-  first_verified_at: "2026-08-22T19:23:17.443Z"
-  last_checked_at: "2026-08-22T19:23:17.443Z"
-  last_passed_at: "2026-08-22T19:23:17.443Z"
+  first_verified_at: 2026-08-22T19:23:17.443Z
+  last_checked_at: 2026-08-23T06:35:03.360Z
+  last_passed_at: 2026-08-23T06:35:03.360Z
   failure_count: 0
+  failure_reason: null
