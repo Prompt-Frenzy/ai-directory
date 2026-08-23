@@ -1,0 +1,36 @@
+name: Agents Get Paid Kit
+url: https://www.agentsgetpaidmore.com
+description: "Get Paid Kit ($49): x402 MCP path so agents help humans clear USDC, with spend caps + AUP. CAPTCHA/web-unlock as optional metered fuel."
+category: agents
+tags:
+  - mcp
+  - x402
+  - agents
+  - payments
+  - usdc
+pricing: paid
+pricing_detail: "$49 one-time Get Paid Kit handoff (wallet guidance, x402 MCP scaffold, spend caps, AUP). Optional consumables via x402 on testnet until mainnet flip."
+key_features:
+  - x402 MCP path for get-paid setup with spend caps and AUP
+  - "Free tools: get_quote, get_spend_status, report_issue"
+  - Optional CAPTCHA and page unlock as metered x402 fuel
+  - Official MCP registry listing io.github.AgentsGetPaid/agents-get-paid-kit
+works_with:
+  - mcp
+  - claude
+  - cursor
+  - base
+platforms:
+  - web
+  - api
+logo: https://agentsgetpaidmore.com/logo.png
+badge_url: https://agentsgetpaidmore.com/
+sample_use_case: "An agent uses the Get Paid Kit to process USDC payments for humans. The agent receives instructions to clear a specific amount of USDC, adhering to predefined spending limits and an acceptable use policy. If required, the agent can complete CAPTCHA challenges or web-unlock tasks to facilitate the payment process."
+submitted_by: wrenunlock
+submitted_at: "2026-08-23T04:42:11.179Z"
+verification:
+  status: verified
+  first_verified_at: "2026-08-23T04:42:11.179Z"
+  last_checked_at: "2026-08-23T04:42:11.179Z"
+  last_passed_at: "2026-08-23T04:42:11.179Z"
+  failure_count: 0
