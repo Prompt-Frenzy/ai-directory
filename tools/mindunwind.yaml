@@ -1,0 +1,27 @@
+name: MindUnwind
+url: https://mindunwind.life/
+description: "Free no-account tool that separates a replayed conversation into known facts, interpretations, unknowns, and one proportionate next step."
+category: productivity
+tags:
+  - conversation-reflection
+  - communication
+  - decision-support
+pricing: free
+pricing_detail: "Free during validation; no account, card, or subscription."
+key_features:
+  - Structured intake for one replayed conversation
+  - "Preview separating known facts, interpretation, and unresolved points"
+  - "Printable result with unknowns, action framing, and one next step"
+  - Crisis and high-risk content exits the commercial flow
+platforms:
+  - web
+badge_url: https://mindunwind.life/
+sample_use_case: "A user pastes a transcript of a recent meeting into MindUnwind. The tool analyzes the text and presents a breakdown of confirmed information, subjective viewpoints, unanswered questions, and a single, actionable suggestion for moving forward. This helps the user clarify the discussion and identify the most effective next step."
+submitted_by: MindUnwind
+submitted_at: "2026-08-25T13:27:48.257Z"
+verification:
+  status: verified
+  first_verified_at: "2026-08-25T13:27:48.257Z"
+  last_checked_at: "2026-08-25T13:27:48.257Z"
+  last_passed_at: "2026-08-25T13:27:48.257Z"
+  failure_count: 0
