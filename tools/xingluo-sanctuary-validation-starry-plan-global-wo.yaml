@@ -1,6 +1,7 @@
 name: SleepSerene
 url: https://xingluo-sanctuary-validation.starry-plan-global.workers.dev/?source=community
-description: "A free, no-account AI-supported room for brief late-night reflection, real silence, and a natural ending."
+description: A free, no-account AI-supported room for brief late-night reflection, real silence, and
+  a natural ending.
 category: productivity
 tags:
   - reflection
@@ -9,7 +10,7 @@ tags:
   - privacy
   - silence
 pricing: free
-pricing_detail: "Free public validation with no account, subscription, or payment."
+pricing_detail: Free public validation with no account, subscription, or payment.
 key_features:
   - Brief AI-supported responses inside one quiet room
   - Real quiet intervals without an endless chat feed
@@ -20,11 +21,15 @@ works_with:
 platforms:
   - web
 badge_url: https://xingluo-sanctuary-validation.starry-plan-global.workers.dev/about/
-sample_use_case: "Users visit SleepSerene to engage in a short, guided reflection before sleep. They type or speak their thoughts into the AI, which then processes the input to provide a calming, non-judgmental summary. The session concludes with a period of silence, helping users transition to rest without further interaction or data retention."
-submitted_at: "2026-08-25T13:19:52.146Z"
+sample_use_case: Users visit SleepSerene to engage in a short, guided reflection before sleep. They
+  type or speak their thoughts into the AI, which then processes the input to provide a calming,
+  non-judgmental summary. The session concludes with a period of silence, helping users transition
+  to rest without further interaction or data retention.
+submitted_at: 2026-08-25T13:19:52.146Z
 verification:
   status: verified
-  first_verified_at: "2026-08-25T13:19:52.146Z"
-  last_checked_at: "2026-08-25T13:19:52.146Z"
-  last_passed_at: "2026-08-25T13:19:52.146Z"
+  first_verified_at: 2026-08-25T13:19:52.146Z
+  last_checked_at: 2026-08-26T06:41:45.959Z
+  last_passed_at: 2026-08-26T06:41:45.959Z
   failure_count: 0
+  failure_reason: null
