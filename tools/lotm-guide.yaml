@@ -1,6 +1,7 @@
 name: LOTM Guide
 url: https://lordofmysteriesgame.org
-description: "The complete guide for Lord of Mysteries MMORPG: master all 22 Beyonder pathways, boss mechanics, and builds."
+description: "The complete guide for Lord of Mysteries MMORPG: master all 22 Beyonder pathways, boss
+  mechanics, and builds."
 category: other
 tags:
   - gaming
@@ -20,12 +21,16 @@ works_with:
   - browser
 logo: https://lordofmysteriesgame.org/logo.png
 badge_url: https://lordofmysteriesgame.org
-sample_use_case: "A player of Lord of Mysteries MMORPG can use LOTM Guide to plan their character's progression. They would search for a specific Beyonder pathway, review its abilities and optimal equipment builds, and then use this information to choose their in-game class and gear. The guide helps players understand boss mechanics and strategize for encounters."
+sample_use_case: A player of Lord of Mysteries MMORPG can use LOTM Guide to plan their character's
+  progression. They would search for a specific Beyonder pathway, review its abilities and optimal
+  equipment builds, and then use this information to choose their in-game class and gear. The guide
+  helps players understand boss mechanics and strategize for encounters.
 submitted_by: cccakeee
-submitted_at: "2026-08-27T05:18:33.841Z"
+submitted_at: 2026-08-27T05:18:33.841Z
 verification:
   status: verified
-  first_verified_at: "2026-08-27T05:18:33.841Z"
-  last_checked_at: "2026-08-27T05:18:33.841Z"
-  last_passed_at: "2026-08-27T05:18:33.841Z"
+  first_verified_at: 2026-08-27T05:18:33.841Z
+  last_checked_at: 2026-08-27T17:17:26.497Z
+  last_passed_at: 2026-08-27T17:17:26.497Z
   failure_count: 0
+  failure_reason: null
