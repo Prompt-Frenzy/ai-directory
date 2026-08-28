@@ -1,0 +1,29 @@
+name: Sprint Ops
+url: https://sprint-ops-phi.vercel.app
+description: "Overnight sprint: a live one-pager or 5-source competitor brief by morning. $79."
+category: agents
+tags:
+  - landing-page
+  - research
+  - overnight
+pricing: paid
+pricing_detail: "$79 USD per overnight sprint. Pay first. One deliverable: live one-pager or 5-source competitor brief."
+key_features:
+  - Live one-pager by morning after payment
+  - 5-source competitor brief delivered overnight
+  - Pay $79 first via Stripe
+works_with:
+  - stripe
+  - cursor
+platforms:
+  - web
+badge_url: https://sprint-ops-phi.vercel.app
+sample_use_case: "A user needs a quick overview of a competitor's strategy. They submit a request to Sprint Ops before the end of their workday, specifying the competitor and the desired output, such as a 5-source brief. By the next morning, the user receives the completed brief, allowing them to start their day with actionable intelligence."
+submitted_by: sprintops
+submitted_at: "2026-08-28T04:28:53.127Z"
+verification:
+  status: verified
+  first_verified_at: "2026-08-28T04:28:53.127Z"
+  last_checked_at: "2026-08-28T04:28:53.127Z"
+  last_passed_at: "2026-08-28T04:28:53.127Z"
+  failure_count: 0
