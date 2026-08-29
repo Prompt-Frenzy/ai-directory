@@ -12,9 +12,9 @@ sample_use_case: Sprint Ops allows users to quickly generate specific business a
 submitted_by: sprintops
 submitted_at: 2026-08-28T04:27:29.545Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-08-28T04:27:29.545Z
-  last_checked_at: 2026-08-28T18:09:53.124Z
+  last_checked_at: 2026-08-29T12:14:13.349Z
   last_passed_at: 2026-08-28T18:09:53.124Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: "fetch failed: HTTP 404"
