@@ -1,0 +1,19 @@
+name: ReelForge AI
+url: https://reelforge-landing-steel.vercel.app
+description: "Create short-form videos and Reels from ideas, images, screenshots and video clips."
+category: video-generation
+tags:
+  - reels
+  - short-video
+  - video-creation
+  - content-creation
+pricing: freemium
+badge_url: https://reelforge-landing-steel.vercel.app/directory/
+sample_use_case: "A social media manager uses ReelForge AI to quickly generate a series of short promotional videos. They input product images, a few lines of text describing new features, and a short existing video clip. The tool then produces several ready-to-post Reels, each with different music and text overlays, which the manager can review and select from."
+submitted_at: "2026-08-30T16:24:00.572Z"
+verification:
+  status: verified
+  first_verified_at: "2026-08-30T16:24:00.572Z"
+  last_checked_at: "2026-08-30T16:24:00.572Z"
+  last_passed_at: "2026-08-30T16:24:00.572Z"
+  failure_count: 0
