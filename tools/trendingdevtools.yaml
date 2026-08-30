@@ -9,11 +9,15 @@ tags:
   - saas
 pricing: freemium
 badge_url: https://trendingdevtools.online/
-sample_use_case: "A developer looking for new tools to improve their workflow can browse trendingdevtools. They can filter by category like \"AI\" or \"SaaS\" to find relevant software. The directory provides concise descriptions and links to each tool, helping them quickly evaluate options."
-submitted_at: "2026-08-30T11:56:58.319Z"
+sample_use_case: A developer looking for new tools to improve their workflow can browse
+  trendingdevtools. They can filter by category like "AI" or "SaaS" to find relevant software. The
+  directory provides concise descriptions and links to each tool, helping them quickly evaluate
+  options.
+submitted_at: 2026-08-30T11:56:58.319Z
 verification:
   status: verified
-  first_verified_at: "2026-08-30T11:56:58.319Z"
-  last_checked_at: "2026-08-30T11:56:58.319Z"
-  last_passed_at: "2026-08-30T11:56:58.319Z"
+  first_verified_at: 2026-08-30T11:56:58.319Z
+  last_checked_at: 2026-08-30T12:08:34.777Z
+  last_passed_at: 2026-08-30T12:08:34.777Z
   failure_count: 0
+  failure_reason: null
