@@ -4,11 +4,15 @@ description: AI-powered tool for creating ready-to-publish Reels quickly.
 category: prompt-tools
 pricing: free
 badge_url: https://web-production-3e349.up.railway.app
-sample_use_case: "ReelForge AI assists content creators in generating short video scripts for social media. Users input a topic or theme, and the AI produces a structured script including scene descriptions, dialogue suggestions, and visual cues. This allows for rapid content ideation and streamlined production of engaging Reels."
-submitted_at: "2026-08-31T09:13:54.704Z"
+sample_use_case: ReelForge AI assists content creators in generating short video scripts for social
+  media. Users input a topic or theme, and the AI produces a structured script including scene
+  descriptions, dialogue suggestions, and visual cues. This allows for rapid content ideation and
+  streamlined production of engaging Reels.
+submitted_at: 2026-08-31T09:13:54.704Z
 verification:
   status: verified
-  first_verified_at: "2026-08-31T09:13:54.704Z"
-  last_checked_at: "2026-08-31T09:13:54.704Z"
-  last_passed_at: "2026-08-31T09:13:54.704Z"
+  first_verified_at: 2026-08-31T09:13:54.704Z
+  last_checked_at: 2026-08-31T12:37:03.691Z
+  last_passed_at: 2026-08-31T12:37:03.691Z
   failure_count: 0
+  failure_reason: null
