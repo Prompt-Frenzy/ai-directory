@@ -65,6 +65,17 @@ export const EARLY_STAGE_SUFFIXES = [
   "carrd.co",
   "notion.site",
   "super.site",
+  // AI app-builders that auto-provision a per-user publish subdomain. Same
+  // shape as the PaaS entries above: durable enough to list, but the submitter
+  // does not own the domain, so it is early-stage rather than a custom domain.
+  // Only add a suffix here if it is the *publish* domain and NOT the builder's
+  // own homepage — listing "bolt.host" is right, listing "bolt.new" would
+  // demote Bolt itself to early-stage.
+  "chatgpt.site",
+  "lovable.app",
+  "bolt.host",
+  "base44.app",
+  "canva.site",
 ]
 
 // Hosts that are never a durable product home. reject outright with a reason.

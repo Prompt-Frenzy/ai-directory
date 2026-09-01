@@ -131,8 +131,8 @@
         },
         "removal_reason": {
           "type": "string",
-          "enum": ["badge-failure", "discontinued-by-owner", "owner-request", "editorial"],
-          "description": "Why the entry was removed. Only 'badge-failure' (30 days in failed, per README) is a punitive mark — the others record a cooperative or editorial delisting and carry no implication of gaming."
+          "enum": ["badge-failure", "discontinued-by-owner", "owner-request", "editorial", "duplicate"],
+          "description": "Why the entry was removed. Only 'badge-failure' (30 days in failed, per README) is a punitive mark — the others record a cooperative, editorial, or housekeeping delisting and carry no implication of gaming. 'duplicate' means the same product is already listed under another entry, which stays live."
         }
       }
     }

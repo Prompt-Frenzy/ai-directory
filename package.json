@@ -7,7 +7,8 @@
   "scripts": {
     "verify:pr": "node scripts/verify-badges.mjs --pr",
     "verify:all": "node scripts/verify-badges.mjs --all-active",
-    "verify:recent": "node scripts/verify-badges.mjs --recent-7d"
+    "verify:recent": "node scripts/verify-badges.mjs --recent-7d",
+    "test:host-class": "node scripts/host-class.test.mjs"
   },
   "dependencies": {
     "yaml": "^2.5.0",
