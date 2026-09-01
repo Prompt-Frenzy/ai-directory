@@ -123,7 +123,17 @@
         "last_checked_at": {"type": "string", "format": "date-time"},
         "last_passed_at": {"type": "string", "format": "date-time"},
         "failure_count": {"type": "integer", "minimum": 0},
-        "failure_reason": {"type": ["string", "null"]}
+        "failure_reason": {"type": ["string", "null"]},
+        "removed_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the entry was moved to removed/. Set only when status is 'removed'."
+        },
+        "removal_reason": {
+          "type": "string",
+          "enum": ["badge-failure", "discontinued-by-owner", "owner-request", "editorial"],
+          "description": "Why the entry was removed. Only 'badge-failure' (30 days in failed, per README) is a punitive mark — the others record a cooperative or editorial delisting and carry no implication of gaming."
+        }
       }
     }
   },

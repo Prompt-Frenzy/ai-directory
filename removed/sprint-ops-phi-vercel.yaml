@@ -26,9 +26,11 @@ sample_use_case: A user needs a quick overview of a competitor's strategy. They 
 submitted_by: sprintops
 submitted_at: 2026-08-28T04:28:53.127Z
 verification:
-  status: failed
+  status: removed
   first_verified_at: 2026-08-28T04:28:53.127Z
   last_checked_at: 2026-08-31T12:37:02.061Z
   last_passed_at: 2026-08-28T18:09:52.994Z
   failure_count: 4
   failure_reason: "fetch failed: HTTP 404"
+  removed_at: 2026-09-01T09:55:07.048Z
+  removal_reason: discontinued-by-owner
