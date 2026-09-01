@@ -1,0 +1,40 @@
+name: test
+
+# Deliberately NOT folded into verify-badges.yml: that workflow triggers on
+# `paths: tools/**.yaml`, so a PR editing scripts/host-class.mjs — the exact
+# file these tests guard — would not run it. The trigger has to follow the code
+# under test, not the data.
+on:
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/test.yml"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "package.json"
+      - "package-lock.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install deps
+        run: npm ci --no-audit --no-fund
+
+      - name: Host classifier
+        run: npm run test:host-class
