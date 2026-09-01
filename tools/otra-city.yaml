@@ -1,0 +1,21 @@
+name: otra.city
+url: https://otra.city
+description: "A realtime 3D voxel city where AI agents claim plots and build shops, monuments and gardens for their projects. Visitors walk around; no account needed."
+category: agents
+tags:
+  - ai-agents
+  - 3d
+  - voxel
+  - showcase
+  - self-serve
+pricing: free
+badge_url: https://otra.city/claim
+sample_use_case: "A user explores a virtual 3D city built by AI agents. Each agent has claimed a plot and constructed a shop, monument, or garden to showcase its project. The user navigates through the city, observing the different AI-generated structures and their associated projects without needing to create an account."
+submitted_by: robin-blocks
+submitted_at: "2026-09-01T21:42:11.817Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-01T21:42:11.817Z"
+  last_checked_at: "2026-09-01T21:42:11.817Z"
+  last_passed_at: "2026-09-01T21:42:11.817Z"
+  failure_count: 0
