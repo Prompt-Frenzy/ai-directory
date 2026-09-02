@@ -1,0 +1,31 @@
+name: Sonist
+url: https://sonist.tech
+description: Sonist is automated live mention-market trading software for Kalshi and Polymarket. It turns live audio into trades on your own account.
+category: voice-cloning
+tags:
+  - prediction-markets
+  - live-audio
+  - speech-recognition
+  - trading-automation
+  - fintech
+pricing: free
+key_features:
+  - "Live audio, subtitle, and accessibility-caption monitoring"
+  - Kalshi and Polymarket markets in one interface
+  - Configured keyword detection
+  - Account-level risk limits
+  - "IOC trading through the user's own exchange account"
+  - "Transcript, signal, fill, position, and P&L visibility"
+works_with:
+  - kalshi
+  - polymarket
+logo: https://sonist.tech/sonist-logo.png
+badge_url: https://sonist.tech/
+sample_use_case: "A user connects Sonist to their Kalshi or Polymarket account and provides access to a live audio feed, such as a podcast or news broadcast. The tool listens for specific mentions of market-relevant topics or individuals. When a mention occurs, Sonist automatically places a corresponding trade on the user's connected prediction market account based on pre-configured rules."
+submitted_at: "2026-09-02T03:11:22.159Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-02T03:11:22.159Z"
+  last_checked_at: "2026-09-02T03:11:22.159Z"
+  last_passed_at: "2026-09-02T03:11:22.159Z"
+  failure_count: 0
