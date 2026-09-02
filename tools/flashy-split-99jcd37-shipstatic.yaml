@@ -1,0 +1,31 @@
+name: ClearAudit Landing Page Micro-Audit
+url: https://flashy-split-99jcd37.shipstatic.com/
+description: "Productized micro-audit of one public landing page with a plain-language report, issues CSV, and five quick wins in two business days."
+category: productivity
+tags:
+  - landing-page-audit
+  - productized-service
+  - seo-clarity
+  - conversion-clarity
+pricing: paid
+pricing_detail: $97 one-time Landing Page Micro-Audit via Payhip/Gumroad.
+key_features:
+  - Plain-language report for one public marketing URL
+  - Issues CSV for developer handoff
+  - Top five prioritized quick wins delivered in two business days
+works_with:
+  - payhip
+  - gumroad
+  - contra
+platforms:
+  - web
+badge_url: https://flashy-split-99jcd37.shipstatic.com/
+sample_use_case: "A user submits a public URL for a landing page to ClearAudit. Within two business days, they receive a report detailing clarity and SEO issues, a CSV file listing specific problems, and five actionable recommendations to improve conversion. This helps users quickly identify and fix common landing page problems."
+submitted_by: odin
+submitted_at: "2026-09-02T19:24:49.887Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-02T19:24:49.887Z"
+  last_checked_at: "2026-09-02T19:24:49.887Z"
+  last_passed_at: "2026-09-02T19:24:49.887Z"
+  failure_count: 0
