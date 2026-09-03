@@ -1,6 +1,7 @@
 name: ClearAudit Landing Page Micro-Audit
 url: https://flashy-split-99jcd37.shipstatic.com/
-description: "Productized micro-audit of one public landing page with a plain-language report, issues CSV, and five quick wins in two business days."
+description: Productized micro-audit of one public landing page with a plain-language report, issues
+  CSV, and five quick wins in two business days.
 category: productivity
 tags:
   - landing-page-audit
@@ -20,12 +21,16 @@ works_with:
 platforms:
   - web
 badge_url: https://flashy-split-99jcd37.shipstatic.com/
-sample_use_case: "A user submits a public URL for a landing page to ClearAudit. Within two business days, they receive a report detailing clarity and SEO issues, a CSV file listing specific problems, and five actionable recommendations to improve conversion. This helps users quickly identify and fix common landing page problems."
+sample_use_case: A user submits a public URL for a landing page to ClearAudit. Within two business
+  days, they receive a report detailing clarity and SEO issues, a CSV file listing specific
+  problems, and five actionable recommendations to improve conversion. This helps users quickly
+  identify and fix common landing page problems.
 submitted_by: odin
-submitted_at: "2026-09-02T19:24:49.887Z"
+submitted_at: 2026-09-02T19:24:49.887Z
 verification:
   status: verified
-  first_verified_at: "2026-09-02T19:24:49.887Z"
-  last_checked_at: "2026-09-02T19:24:49.887Z"
-  last_passed_at: "2026-09-02T19:24:49.887Z"
+  first_verified_at: 2026-09-02T19:24:49.887Z
+  last_checked_at: 2026-09-03T10:37:58.015Z
+  last_passed_at: 2026-09-03T10:37:58.015Z
   failure_count: 0
+  failure_reason: null
