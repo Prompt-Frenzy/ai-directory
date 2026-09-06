@@ -8,11 +8,15 @@ tags:
   - compensation
 pricing: free
 badge_url: https://offermath-app.vercel.app
-sample_use_case: "A user inputs their base salary, equity grant details, and vesting schedule into OfferMath. The tool then instantly calculates the total compensation over various timeframes, such as one, two, or four years. This allows users to quickly compare different job offers and understand their full financial value."
-submitted_at: "2026-09-06T06:19:24.129Z"
+sample_use_case: A user inputs their base salary, equity grant details, and vesting schedule into
+  OfferMath. The tool then instantly calculates the total compensation over various timeframes, such
+  as one, two, or four years. This allows users to quickly compare different job offers and
+  understand their full financial value.
+submitted_at: 2026-09-06T06:19:24.129Z
 verification:
   status: verified
-  first_verified_at: "2026-09-06T06:19:24.129Z"
-  last_checked_at: "2026-09-06T06:19:24.129Z"
-  last_passed_at: "2026-09-06T06:19:24.129Z"
+  first_verified_at: 2026-09-06T06:19:24.129Z
+  last_checked_at: 2026-09-06T10:13:09.111Z
+  last_passed_at: 2026-09-06T10:13:09.111Z
   failure_count: 0
+  failure_reason: null

@@ -1,6 +1,7 @@
 name: Grafics MLS Ready
 url: https://grafics.com/mls-ready/
-description: "Listing-safe photo cleanup for residential realtors: mild correction plus banner, watermark, and timestamp removal for FMLS/GAMLS-ready images. Not virtual staging."
+description: "Listing-safe photo cleanup for residential realtors: mild correction plus banner,
+  watermark, and timestamp removal for FMLS/GAMLS-ready images. Not virtual staging."
 category: other
 tags:
   - mls-photo-cleanup
@@ -18,11 +19,14 @@ key_features:
   - Honest failure when cleanup is unsafe
 logo: https://grafics.com/assets/brand-mark.png?v=20260902b
 badge_url: https://grafics.com/
-sample_use_case: "A realtor uploads property photos to Grafics MLS Ready before listing. The tool automatically removes banners, watermarks, and timestamps, and applies minor color corrections. The output is a set of clean, compliant images ready for submission to FMLS or GAMLS."
-submitted_at: "2026-09-06T01:43:52.903Z"
+sample_use_case: A realtor uploads property photos to Grafics MLS Ready before listing. The tool
+  automatically removes banners, watermarks, and timestamps, and applies minor color corrections.
+  The output is a set of clean, compliant images ready for submission to FMLS or GAMLS.
+submitted_at: 2026-09-06T01:43:52.903Z
 verification:
   status: verified
-  first_verified_at: "2026-09-06T01:43:52.903Z"
-  last_checked_at: "2026-09-06T01:43:52.903Z"
-  last_passed_at: "2026-09-06T01:43:52.903Z"
+  first_verified_at: 2026-09-06T01:43:52.903Z
+  last_checked_at: 2026-09-06T10:13:08.766Z
+  last_passed_at: 2026-09-06T10:13:08.766Z
   failure_count: 0
+  failure_reason: null
