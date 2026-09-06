@@ -1,0 +1,28 @@
+name: Grafics MLS Ready
+url: https://grafics.com/mls-ready/
+description: "Listing-safe photo cleanup for residential realtors: mild correction plus banner, watermark, and timestamp removal for FMLS/GAMLS-ready images. Not virtual staging."
+category: other
+tags:
+  - mls-photo-cleanup
+  - real-estate
+  - proptech
+  - listing-photos
+  - fmls
+pricing: subscription
+pricing_detail: Ready $49/mo; Team $129/mo; 7-day free trial; overage $0.35/photo
+key_features:
+  - MLS-safe correction
+  - Banner and watermark strip
+  - Timestamp and URL removal
+  - FMLS/GAMLS or Generic targets
+  - Honest failure when cleanup is unsafe
+logo: https://grafics.com/assets/brand-mark.png?v=20260902b
+badge_url: https://grafics.com/
+sample_use_case: "A realtor uploads property photos to Grafics MLS Ready before listing. The tool automatically removes banners, watermarks, and timestamps, and applies minor color corrections. The output is a set of clean, compliant images ready for submission to FMLS or GAMLS."
+submitted_at: "2026-09-06T01:43:52.903Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-06T01:43:52.903Z"
+  last_checked_at: "2026-09-06T01:43:52.903Z"
+  last_passed_at: "2026-09-06T01:43:52.903Z"
+  failure_count: 0
