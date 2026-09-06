@@ -1,0 +1,18 @@
+name: OfferMath
+url: https://offermath-app.vercel.app
+description: Calculate total compensation (salary + equity) in seconds. $19 one-time.
+category: data-analysis
+tags:
+  - salary
+  - equity
+  - compensation
+pricing: free
+badge_url: https://offermath-app.vercel.app
+sample_use_case: "A user inputs their base salary, equity grant details, and vesting schedule into OfferMath. The tool then instantly calculates the total compensation over various timeframes, such as one, two, or four years. This allows users to quickly compare different job offers and understand their full financial value."
+submitted_at: "2026-09-06T06:19:24.129Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-06T06:19:24.129Z"
+  last_checked_at: "2026-09-06T06:19:24.129Z"
+  last_passed_at: "2026-09-06T06:19:24.129Z"
+  failure_count: 0
