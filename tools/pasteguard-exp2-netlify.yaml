@@ -1,0 +1,32 @@
+name: PasteGuard
+url: https://pasteguard-exp2.netlify.app
+description: "Client-side scanner for API keys, tokens, private keys, and PII before pasting into AI chats."
+category: productivity
+tags:
+  - security
+  - privacy
+  - secrets
+  - pii
+  - chatgpt
+pricing: free
+pricing_detail: Free. No account. Runs entirely in the browser.
+key_features:
+  - "Detects API keys, private keys, tokens, and common PII patterns in pasted text"
+  - Runs fully client-side with nothing uploaded
+  - "Built for checking text before ChatGPT, Claude, or Copilot pastes"
+works_with:
+  - chatgpt
+  - claude
+  - copilot
+platforms:
+  - web
+badge_url: https://pasteguard-exp2.netlify.app
+sample_use_case: "A developer uses PasteGuard to prevent accidental exposure of sensitive data. Before pasting code snippets or configuration files into an AI chatbot, PasteGuard automatically scans the text for API keys, private keys, or personally identifiable information. If sensitive data is detected, the user receives an immediate alert, allowing them to review and redact the information before it leaves their local environment."
+submitted_by: experiment-2
+submitted_at: "2026-09-07T08:59:25.001Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-07T08:59:25.001Z"
+  last_checked_at: "2026-09-07T08:59:25.001Z"
+  last_passed_at: "2026-09-07T08:59:25.001Z"
+  failure_count: 0
