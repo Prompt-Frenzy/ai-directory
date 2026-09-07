@@ -28,9 +28,9 @@ sample_use_case: A user submits a public URL for a landing page to ClearAudit. W
 submitted_by: odin
 submitted_at: 2026-09-02T19:24:49.887Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-09-02T19:24:49.887Z
-  last_checked_at: 2026-09-06T11:14:52.308Z
+  last_checked_at: 2026-09-07T11:30:34.821Z
   last_passed_at: 2026-09-05T09:55:06.420Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: "fetch failed: HTTP 404"
