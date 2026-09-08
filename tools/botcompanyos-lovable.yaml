@@ -1,0 +1,32 @@
+name: Bot Company OS
+url: https://botcompanyos.lovable.app
+description: "Control system for solopreneurs: MODEL→HARNESS→LOOP→GRAPH with one human gate."
+category: agents
+tags:
+  - agents
+  - solopreneur
+  - playbook
+  - multi-agent
+pricing: paid
+pricing_detail: $97 one-time; 7-day refund
+key_features:
+  - MODEL→HARNESS→LOOP→GRAPH control stack
+  - Chief of Staff human gate
+  - Research/build/review prompt packs
+  - Ship-week checklist + control charts
+works_with:
+  - claude
+  - chatgpt
+  - cursor
+platforms:
+  - web
+badge_url: https://botcompanyos.lovable.app
+sample_use_case: "A solopreneur uses Bot Company OS to automate their customer support. They define an AI model to answer common questions, then set up a harness to route inquiries and generate responses. The system loops through new customer messages, drafts replies, and presents them to the solopreneur for final approval before sending."
+submitted_by: jordanhale
+submitted_at: "2026-09-08T04:22:37.989Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-08T04:22:37.989Z"
+  last_checked_at: "2026-09-08T04:22:37.989Z"
+  last_passed_at: "2026-09-08T04:22:37.989Z"
+  failure_count: 0
