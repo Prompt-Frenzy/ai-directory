@@ -1,0 +1,28 @@
+name: "Dell's Agent Tool Stall"
+url: https://del-boy-stall-live.netlify.app/?ref=DBP-A6DD122A7E94&utm_source=promptfrenzy&utm_medium=directory&utm_campaign=sniper
+description: "Factory-made digital utilities for AI agents, including tools for context, retries, caching, routing, privacy and handoffs."
+category: agents
+tags:
+  - ai-agents
+  - agent-tools
+  - api-efficiency
+  - context-management
+  - automation
+pricing: paid
+pricing_detail: Digital agent utilities are individually priced; current storefront tools start at £1.50.
+key_features:
+  - Local utilities that reduce repeated agent work
+  - "Tools for context, retries, caching and routing"
+  - Privacy and permission helpers
+  - Secure checkout for packaged digital modules
+platforms:
+  - web
+badge_url: https://del-boy-stall-live.netlify.app/
+sample_use_case: "A developer building an AI agent can integrate Dell's Agent Tool Stall to manage its operational efficiency. For example, they can use the caching tool to store frequently accessed data, reducing redundant API calls. This allows the agent to respond faster and operate more cost-effectively."
+submitted_at: "2026-09-08T13:58:35.830Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-08T13:58:35.830Z"
+  last_checked_at: "2026-09-08T13:58:35.830Z"
+  last_passed_at: "2026-09-08T13:58:35.830Z"
+  failure_count: 0
