@@ -1,6 +1,7 @@
 name: OPC Clinic
 url: https://qrex102300-ui.github.io/opc-clinic/directory.html
-description: "Open-source AI startup diagnostician for solo founders, with a free post-launch bottleneck triage and an optional evidence-backed diagnosis."
+description: Open-source AI startup diagnostician for solo founders, with a free post-launch
+  bottleneck triage and an optional evidence-backed diagnosis.
 category: agents
 tags:
   - startup
@@ -9,7 +10,8 @@ tags:
   - founder
   - business
 pricing: freemium
-pricing_detail: Free MIT-licensed core and free bottleneck triage; accepted founding-beta cases can buy a $59 USDC evidence-backed diagnosis.
+pricing_detail: Free MIT-licensed core and free bottleneck triage; accepted founding-beta cases can
+  buy a $59 USDC evidence-backed diagnosis.
 key_features:
   - Multi-turn startup root-cause diagnosis tied to founder-provided facts
   - Free post-launch bottleneck triage for launched products
@@ -23,12 +25,16 @@ works_with:
 platforms:
   - web
 badge_url: https://qrex102300-ui.github.io/opc-clinic/directory.html
-sample_use_case: "A solo founder can use OPC Clinic to diagnose issues hindering their startup's growth after launch. The founder describes the problem, and the tool provides a free initial triage, identifying potential bottlenecks. For a deeper analysis, the founder can opt for an evidence-backed diagnosis, receiving actionable insights to address specific business challenges."
+sample_use_case: A solo founder can use OPC Clinic to diagnose issues hindering their startup's
+  growth after launch. The founder describes the problem, and the tool provides a free initial
+  triage, identifying potential bottlenecks. For a deeper analysis, the founder can opt for an
+  evidence-backed diagnosis, receiving actionable insights to address specific business challenges.
 submitted_by: qrex102300-ui
-submitted_at: "2026-09-09T05:15:15.744Z"
+submitted_at: 2026-09-09T05:15:15.744Z
 verification:
   status: verified
-  first_verified_at: "2026-09-09T05:15:15.744Z"
-  last_checked_at: "2026-09-09T05:15:15.744Z"
-  last_passed_at: "2026-09-09T05:15:15.744Z"
+  first_verified_at: 2026-09-09T05:15:15.744Z
+  last_checked_at: 2026-09-09T10:43:19.452Z
+  last_passed_at: 2026-09-09T10:43:19.452Z
   failure_count: 0
+  failure_reason: null
