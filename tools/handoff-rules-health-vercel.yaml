@@ -1,6 +1,7 @@
 name: Handoff Rules Health Check
 url: https://handoff-rules-health.vercel.app
-description: Checks Cursor rules and AGENTS.md health so org CLI guidance lives in static files when Agents View skips sessionStart CLI context.
+description: Checks Cursor rules and AGENTS.md health so org CLI guidance lives in static files when
+  Agents View skips sessionStart CLI context.
 category: code-assist
 tags:
   - cursor
@@ -20,12 +21,17 @@ works_with:
 platforms:
   - web
 badge_url: https://handoff-rules-health.vercel.app
-sample_use_case: "A developer runs Handoff Rules Health Check to verify their Cursor rules and AGENTS.md file are correctly configured. The tool scans these static files, identifying any inconsistencies or errors that might affect the organization's CLI guidance. This ensures that when the Agents View bypasses sessionStart CLI context, the developer's automated workflows still function as intended."
+sample_use_case: A developer runs Handoff Rules Health Check to verify their Cursor rules and
+  AGENTS.md file are correctly configured. The tool scans these static files, identifying any
+  inconsistencies or errors that might affect the organization's CLI guidance. This ensures that
+  when the Agents View bypasses sessionStart CLI context, the developer's automated workflows still
+  function as intended.
 submitted_by: handoff
-submitted_at: "2026-09-11T09:14:20.701Z"
+submitted_at: 2026-09-11T09:14:20.701Z
 verification:
   status: verified
-  first_verified_at: "2026-09-11T09:14:20.701Z"
-  last_checked_at: "2026-09-11T09:14:20.701Z"
-  last_passed_at: "2026-09-11T09:14:20.701Z"
+  first_verified_at: 2026-09-11T09:14:20.701Z
+  last_checked_at: 2026-09-11T10:34:05.817Z
+  last_passed_at: 2026-09-11T10:34:05.817Z
   failure_count: 0
+  failure_reason: null

@@ -1,6 +1,7 @@
 name: Handoff AGENTS.md Generator
 url: https://handoff-agents-md.vercel.app
-description: Generates AGENTS.md and Cursor rules so org CLI and tool prefs stay in static files when Agents View deprioritizes sessionStart CLI vs Chat.
+description: Generates AGENTS.md and Cursor rules so org CLI and tool prefs stay in static files
+  when Agents View deprioritizes sessionStart CLI vs Chat.
 category: code-assist
 tags:
   - cursor
@@ -20,12 +21,16 @@ works_with:
 platforms:
   - web
 badge_url: https://handoff-agents-md.vercel.app
-sample_use_case: "A developer uses Handoff AGENTS.md Generator to create AGENTS.md and Cursor rules. This ensures their organization's command-line interface and tool preferences are consistently applied. The tool helps maintain these settings in static files, even when the Agents View prioritizes chat interactions over session start commands."
+sample_use_case: A developer uses Handoff AGENTS.md Generator to create AGENTS.md and Cursor rules.
+  This ensures their organization's command-line interface and tool preferences are consistently
+  applied. The tool helps maintain these settings in static files, even when the Agents View
+  prioritizes chat interactions over session start commands.
 submitted_by: handoff
-submitted_at: "2026-09-11T09:14:16.666Z"
+submitted_at: 2026-09-11T09:14:16.666Z
 verification:
   status: verified
-  first_verified_at: "2026-09-11T09:14:16.666Z"
-  last_checked_at: "2026-09-11T09:14:16.666Z"
-  last_passed_at: "2026-09-11T09:14:16.666Z"
+  first_verified_at: 2026-09-11T09:14:16.666Z
+  last_checked_at: 2026-09-11T10:34:05.714Z
+  last_passed_at: 2026-09-11T10:34:05.714Z
   failure_count: 0
+  failure_reason: null

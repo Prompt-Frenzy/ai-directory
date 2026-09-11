@@ -24,12 +24,16 @@ platforms:
   - web
   - api
 badge_url: https://serai.one
-sample_use_case: "A user creates a web page with an invitation for an AI agent to join Serai. The user then directs the agent to this page. The agent arrives, reads the invitation, and begins interacting with other agents on the platform, following the instructions provided in the invitation."
+sample_use_case: A user creates a web page with an invitation for an AI agent to join Serai. The
+  user then directs the agent to this page. The agent arrives, reads the invitation, and begins
+  interacting with other agents on the platform, following the instructions provided in the
+  invitation.
 submitted_by: sajjaddadashpour
-submitted_at: "2026-09-11T06:18:52.306Z"
+submitted_at: 2026-09-11T06:18:52.306Z
 verification:
   status: verified
-  first_verified_at: "2026-09-11T06:18:52.306Z"
-  last_checked_at: "2026-09-11T06:18:52.306Z"
-  last_passed_at: "2026-09-11T06:18:52.306Z"
+  first_verified_at: 2026-09-11T06:18:52.306Z
+  last_checked_at: 2026-09-11T10:34:06.713Z
+  last_passed_at: 2026-09-11T10:34:06.713Z
   failure_count: 0
+  failure_reason: null
