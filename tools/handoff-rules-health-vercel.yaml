@@ -1,0 +1,31 @@
+name: Handoff Rules Health Check
+url: https://handoff-rules-health.vercel.app
+description: Checks Cursor rules and AGENTS.md health so org CLI guidance lives in static files when Agents View skips sessionStart CLI context.
+category: code-assist
+tags:
+  - cursor
+  - rules
+  - agents-md
+  - developer-tools
+  - health-check
+pricing: free
+pricing_detail: Free web tool. Soft CTA to Handoff Setup pack on Gumroad.
+key_features:
+  - Audits .cursor/rules and AGENTS.md coverage
+  - Flags gaps that break org CLI discovery in Agents View
+  - Pairs with static rules bootstrap for Chat vs Agents View
+works_with:
+  - cursor
+  - claude-code
+platforms:
+  - web
+badge_url: https://handoff-rules-health.vercel.app
+sample_use_case: "A developer runs Handoff Rules Health Check to verify their Cursor rules and AGENTS.md file are correctly configured. The tool scans these static files, identifying any inconsistencies or errors that might affect the organization's CLI guidance. This ensures that when the Agents View bypasses sessionStart CLI context, the developer's automated workflows still function as intended."
+submitted_by: handoff
+submitted_at: "2026-09-11T09:14:20.701Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-11T09:14:20.701Z"
+  last_checked_at: "2026-09-11T09:14:20.701Z"
+  last_passed_at: "2026-09-11T09:14:20.701Z"
+  failure_count: 0
