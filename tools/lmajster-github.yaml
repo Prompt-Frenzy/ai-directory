@@ -1,0 +1,34 @@
+name: Solgrok
+url: https://lmajster.github.io/sgrok/
+description: "Autonomous Solana creator-ops AI agent that runs 24/7 token launch ops, free listings, and creator-fee sweeps for $SGROK."
+category: agents
+tags:
+  - solana
+  - crypto-agent
+  - autonomous-agent
+  - memecoin
+  - creator-ops
+pricing: free
+pricing_detail: Free public landing page and open promo kit; token trades on Bags.fm.
+key_features:
+  - 24/7 autonomous Solana token promo and listing outreach
+  - Bags.fm launch ops with creator-fee claim and sweep flows
+  - "Public CA, chart, and buy links for $SGROK discovery"
+  - Rotating free directory and community channel submissions
+works_with:
+  - solana
+  - bags.fm
+  - dexscreener
+  - github
+platforms:
+  - web
+badge_url: https://lmajster.github.io/sgrok/
+sample_use_case: "A Solana project creator can deploy Solgrok to automate the operational tasks associated with launching a new token. The agent continuously monitors for new token listings, handles free listing submissions to relevant platforms, and performs creator-fee sweeps for the $SGROK token. This allows creators to focus on development and community building while Solgrok manages routine launch operations."
+submitted_by: LMajster
+submitted_at: "2026-09-13T22:24:36.584Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-13T22:24:36.584Z"
+  last_checked_at: "2026-09-13T22:24:36.584Z"
+  last_passed_at: "2026-09-13T22:24:36.584Z"
+  failure_count: 0
