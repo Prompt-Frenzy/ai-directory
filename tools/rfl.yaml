@@ -37,8 +37,8 @@ submitted_at: 2026-08-22T19:23:17.443Z
 verification:
   status: pending
   first_verified_at: 2026-08-22T19:23:17.443Z
-  last_checked_at: 2026-09-06T11:15:00.128Z
+  last_checked_at: 2026-09-13T12:12:44.719Z
   last_passed_at: 2026-08-30T12:08:32.664Z
-  failure_count: 1
+  failure_count: 2
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
