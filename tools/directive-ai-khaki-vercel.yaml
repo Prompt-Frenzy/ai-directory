@@ -1,0 +1,39 @@
+name: Directive AI
+url: https://directive-ai-khaki.vercel.app
+description: "A free AI prompt engineering platform that turns rough intent into precise, structured directives optimized for any target AI model."
+category: prompt-tools
+tags:
+  - prompt-engineering
+  - ai-prompts
+  - directive
+  - optimization
+  - developer-tools
+pricing: free
+pricing_detail: "Free, no credit card required. Works with any target AI model."
+key_features:
+  - "Intent analysis that detects target AI, task type, and hidden requirements"
+  - Context assembly structuring constraints and success criteria
+  - Target-aware prompt optimization tuned for each model strengths
+  - On-demand quality estimation scoring 8 dimensions
+  - "History, saved prompts, templates, and side-by-side comparison"
+works_with:
+  - chatgpt
+  - claude
+  - gemini
+  - grok
+  - cursor
+  - cline
+  - copilot
+  - llama
+platforms:
+  - web
+badge_url: https://directive-ai-khaki.vercel.app
+sample_use_case: "A user with a general idea for an AI task, such as \"summarize this document,\" can input their request into Directive AI. The platform then refines this rough intent into a detailed, model-specific prompt, like \"Using a 500-word limit, extract key insights and main arguments from the provided PDF, focusing on financial implications, and present them in a bulleted list suitable for a business report.\" This optimized prompt is then ready for direct input into their chosen AI model, ensuring a more accurate and relevant output."
+submitted_by: ghulamdastgeer1113-art
+submitted_at: "2026-09-13T22:51:16.965Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-13T22:51:16.965Z"
+  last_checked_at: "2026-09-13T22:51:16.965Z"
+  last_passed_at: "2026-09-13T22:51:16.965Z"
+  failure_count: 0
