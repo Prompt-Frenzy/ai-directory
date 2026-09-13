@@ -1,0 +1,14 @@
+name: MonkeeTools
+url: https://monkeetools.surge.sh
+description: "Free invoice generator for freelancers. No signup, nothing uploaded — invoices build in your browser tab and PDFs download to your device. On-device auto-fill and duplication, tracking, AI agent kit."
+category: productivity
+pricing: free
+badge_url: https://monkeetools.surge.sh
+sample_use_case: "A freelancer can use MonkeeTools to quickly create an invoice for a client. They input the service details, client information, and payment terms directly into the browser. The tool then generates a PDF invoice that downloads to their device, ready to be sent."
+submitted_at: "2026-09-13T03:08:47.094Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-13T03:08:47.094Z"
+  last_checked_at: "2026-09-13T03:08:47.094Z"
+  last_passed_at: "2026-09-13T03:08:47.094Z"
+  failure_count: 0
