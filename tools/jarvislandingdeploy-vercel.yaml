@@ -1,0 +1,37 @@
+name: Agent Skill Safety Kit
+url: https://jarvislandingdeploy.vercel.app/agent-skill-safety-kit.html
+description: "Free review kit for checking AI-agent skills before granting file, browser, memory, SaaS, messaging, or workflow authority."
+category: agents
+tags:
+  - agent-safety
+  - agent-skills
+  - security
+  - permissions
+  - openclaw
+pricing: free
+pricing_detail: "Free kit, scorecard, schema, validator, and templates; optional custom mini-report is $29."
+key_features:
+  - 30-minute agent skill safety review workflow
+  - Permission manifest schema and browser-local validator
+  - "Scorecard for tool, memory, receipt, rollback, and exception risk"
+  - Sample mini-report and redaction-friendly intake
+  - Directory and GitHub-ready submission assets
+works_with:
+  - openclaw
+  - claude code
+  - hermes
+  - codex
+  - ai agents
+platforms:
+  - web
+logo: https://jarvislandingdeploy.vercel.app/media/agent-skill-safety-preview-01.svg
+badge_url: https://jarvislandingdeploy.vercel.app/agent-skill-safety-kit.html
+sample_use_case: "A developer uses the Agent Skill Safety Kit to evaluate a new AI agent's capabilities before deployment. They input the agent's code and a set of test scenarios, then review the kit's report detailing potential security vulnerabilities or unintended actions related to file access or external service integration. This process ensures the agent operates within defined safety parameters."
+submitted_by: jarvisonclaw
+submitted_at: "2026-09-14T03:33:02.723Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-14T03:33:02.723Z"
+  last_checked_at: "2026-09-14T03:33:02.723Z"
+  last_passed_at: "2026-09-14T03:33:02.723Z"
+  failure_count: 0
