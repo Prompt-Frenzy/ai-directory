@@ -34,7 +34,7 @@ submitted_at: 2026-09-13T22:24:36.584Z
 verification:
   status: pending
   first_verified_at: 2026-09-13T22:24:36.584Z
-  last_checked_at: 2026-09-14T11:42:58.219Z
+  last_checked_at: 2026-09-15T11:00:05.799Z
   last_passed_at: 2026-09-13T22:24:36.584Z
-  failure_count: 1
+  failure_count: 2
   failure_reason: "fetch failed: HTTP 404"
