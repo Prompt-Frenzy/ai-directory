@@ -31,9 +31,9 @@ sample_use_case: A user creates a web page with an invitation for an AI agent to
 submitted_by: sajjaddadashpour
 submitted_at: 2026-09-11T06:18:52.306Z
 verification:
-  status: pending
+  status: verified
   first_verified_at: 2026-09-11T06:18:52.306Z
-  last_checked_at: 2026-09-15T11:00:07.204Z
-  last_passed_at: 2026-09-14T11:42:59.755Z
-  failure_count: 1
-  failure_reason: "fetch failed: HTTP 530"
+  last_checked_at: 2026-09-16T10:48:19.319Z
+  last_passed_at: 2026-09-16T10:48:19.319Z
+  failure_count: 0
+  failure_reason: null
