@@ -1,6 +1,7 @@
 name: GPT Image 2 (gptimge.com)
 url: https://gptimge.com/
-description: Independent AI image workspace for generating images from text and editing uploaded reference images in a browser.
+description: Independent AI image workspace for generating images from text and editing uploaded
+  reference images in a browser.
 category: image-generation
 tags:
   - image-generation
@@ -13,11 +14,16 @@ key_features:
   - Multiple image models
   - Generation history
 badge_url: https://gptimge.com/
-sample_use_case: "A user uploads a photograph of a living room and describes desired changes, such as \"add a large window on the left wall\" or \"replace the sofa with a modern sectional.\" The tool generates a new image incorporating these textual instructions, allowing the user to refine the output through further text prompts. This process enables rapid visual exploration and modification of existing images."
-submitted_at: "2026-09-19T03:08:12.912Z"
+sample_use_case: A user uploads a photograph of a living room and describes desired changes, such as
+  "add a large window on the left wall" or "replace the sofa with a modern sectional." The tool
+  generates a new image incorporating these textual instructions, allowing the user to refine the
+  output through further text prompts. This process enables rapid visual exploration and
+  modification of existing images.
+submitted_at: 2026-09-19T03:08:12.912Z
 verification:
   status: verified
-  first_verified_at: "2026-09-19T03:08:12.912Z"
-  last_checked_at: "2026-09-19T03:08:12.912Z"
-  last_passed_at: "2026-09-19T03:08:12.912Z"
+  first_verified_at: 2026-09-19T03:08:12.912Z
+  last_checked_at: 2026-09-19T10:15:46.465Z
+  last_passed_at: 2026-09-19T10:15:46.465Z
   failure_count: 0
+  failure_reason: null

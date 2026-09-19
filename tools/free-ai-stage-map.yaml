@@ -1,6 +1,6 @@
 name: Free AI Stage Map
 url: https://bisesi-offers-production.up.railway.app/ai/
-description: "Free Stage Map for founders, Heads of AI, VP Eng, and technical PMs before a big AI SOW."
+description: Free Stage Map for founders, Heads of AI, VP Eng, and technical PMs before a big AI SOW.
 category: productivity
 tags:
   - ai-stage-map
@@ -13,13 +13,18 @@ pricing_detail: Free to use
 key_features:
   - Maps AI readiness stages
   - Clarifies the right stage before a major AI SOW
-  - "For founders, Heads of AI, VP Engineering, and technical PMs"
+  - For founders, Heads of AI, VP Engineering, and technical PMs
 badge_url: https://bisesi-offers-production.up.railway.app/ai/
-sample_use_case: "A founder preparing for a significant AI Statement of Work (SOW) uses the Free AI Stage Map to assess their organization's AI readiness. They input details about their current technical capabilities, data infrastructure, and team expertise. The tool then generates a structured overview, highlighting areas of strength and potential gaps, allowing the founder to refine their SOW and anticipate project requirements more accurately."
-submitted_at: "2026-09-18T15:16:47.190Z"
+sample_use_case: A founder preparing for a significant AI Statement of Work (SOW) uses the Free AI
+  Stage Map to assess their organization's AI readiness. They input details about their current
+  technical capabilities, data infrastructure, and team expertise. The tool then generates a
+  structured overview, highlighting areas of strength and potential gaps, allowing the founder to
+  refine their SOW and anticipate project requirements more accurately.
+submitted_at: 2026-09-18T15:16:47.190Z
 verification:
   status: verified
-  first_verified_at: "2026-09-18T15:16:47.190Z"
-  last_checked_at: "2026-09-18T15:16:47.190Z"
-  last_passed_at: "2026-09-18T15:16:47.190Z"
+  first_verified_at: 2026-09-18T15:16:47.190Z
+  last_checked_at: 2026-09-19T10:15:45.641Z
+  last_passed_at: 2026-09-19T10:15:45.641Z
   failure_count: 0
+  failure_reason: null
