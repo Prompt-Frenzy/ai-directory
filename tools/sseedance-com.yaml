@@ -1,0 +1,24 @@
+name: Seedance (sseedance.com)
+url: https://sseedance.com/
+description: "Independent AI video workspace for generating videos from text prompts and reference images, with Seedance and Vidu model options."
+category: video-generation
+tags:
+  - video-generation
+  - text-to-video
+  - image-to-video
+pricing: paid
+pricing_detail: "One-time credit packs from $9.99 for 130 credits, valid for 365 days; no subscription."
+key_features:
+  - Text-to-video generation
+  - Image-to-video generation
+  - Seedance and Vidu model options
+  - Credit-based video creation
+badge_url: https://sseedance.com/
+sample_use_case: "A user wants to create a short video for a social media post. They input a text description of the desired scene and upload a reference image to guide the visual style. Seedance then generates several video clips based on these inputs, allowing the user to select and refine the best option for their content."
+submitted_at: "2026-09-19T03:10:18.293Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-19T03:10:18.293Z"
+  last_checked_at: "2026-09-19T03:10:18.293Z"
+  last_passed_at: "2026-09-19T03:10:18.293Z"
+  failure_count: 0
