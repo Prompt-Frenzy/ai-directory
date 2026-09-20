@@ -1,6 +1,6 @@
 name: Genvia AI Prompt Systems
 url: https://genvia-ai-prompt-systems.pages.bu.app/
-description: "Ready-to-use AI prompt libraries for business, marketing, productivity and software development."
+description: Ready-to-use AI prompt libraries for business, marketing, productivity and software development.
 category: prompt-tools
 tags:
   - business-prompts
@@ -18,12 +18,17 @@ works_with:
   - gemini
   - copilot
 badge_url: https://genvia-ai-prompt-systems.pages.bu.app/
-sample_use_case: "A user needing to generate marketing copy can browse Genvia AI Prompt Systems for pre-built prompt libraries. They select a relevant library, such as \"Social Media Marketing,\" and then choose a specific prompt, like \"Generate 5 Instagram post ideas for a new product launch.\" The user inputs details about their product, and the system outputs tailored Instagram post suggestions."
+sample_use_case: A user needing to generate marketing copy can browse Genvia AI Prompt Systems for
+  pre-built prompt libraries. They select a relevant library, such as "Social Media Marketing," and
+  then choose a specific prompt, like "Generate 5 Instagram post ideas for a new product launch."
+  The user inputs details about their product, and the system outputs tailored Instagram post
+  suggestions.
 submitted_by: Genvia
-submitted_at: "2026-09-19T14:54:13.897Z"
+submitted_at: 2026-09-19T14:54:13.897Z
 verification:
   status: verified
-  first_verified_at: "2026-09-19T14:54:13.897Z"
-  last_checked_at: "2026-09-19T14:54:13.897Z"
-  last_passed_at: "2026-09-19T14:54:13.897Z"
+  first_verified_at: 2026-09-19T14:54:13.897Z
+  last_checked_at: 2026-09-20T10:34:15.033Z
+  last_passed_at: 2026-09-20T10:34:15.033Z
   failure_count: 0
+  failure_reason: null
