@@ -31,9 +31,10 @@ sample_use_case: IdeaHunter helps solo founders identify promising app or micro-
 submitted_by: happynocode
 submitted_at: 2026-08-16T02:24:24.193Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-08-16T02:24:24.193Z
-  last_checked_at: 2026-09-13T12:12:36.105Z
+  last_checked_at: 2026-09-20T11:43:45.825Z
   last_passed_at: 2026-09-13T12:12:36.105Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

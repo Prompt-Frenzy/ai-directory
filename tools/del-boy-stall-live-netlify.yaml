@@ -25,9 +25,9 @@ sample_use_case: A developer building an AI agent can integrate Dell's Agent Too
   more cost-effectively.
 submitted_at: 2026-09-08T13:58:35.830Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-09-08T13:58:35.830Z
-  last_checked_at: 2026-09-15T11:00:05.087Z
+  last_checked_at: 2026-09-20T11:43:39.386Z
   last_passed_at: 2026-09-15T11:00:05.087Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: "fetch failed: HTTP 404"
