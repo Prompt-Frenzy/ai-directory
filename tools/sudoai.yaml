@@ -1,0 +1,33 @@
+name: sudoai Launch Ops Toolkit
+url: https://sudoai.net/tools/
+description: "Browser-only launch-ops toolkit: polish launch copy, forecast LLM spend, and export an AI stack checklist. No signup."
+category: prompt-tools
+tags:
+  - prompt-cleaner
+  - token-estimator
+  - launch-ops
+  - makers
+  - no-signup
+pricing: free
+pricing_detail: "Free forever. Client-side only; no account, no uploads."
+key_features:
+  - Launch copy cleaner with presets and structure scaffolds
+  - "Token and spend estimator for ChatGPT, Claude, and Gemini"
+  - Exportable AI stack comparison checklist (Markdown/CSV)
+works_with:
+  - chatgpt
+  - claude
+  - gemini
+platforms:
+  - web
+logo: https://sudoai.net/og-tools.png
+badge_url: https://sudoai.net/
+sample_use_case: "A user preparing for a product launch can input their marketing copy into the Launch Ops Toolkit to refine it for clarity and conciseness. They can then input details about their planned AI usage to receive an estimated LLM token spend. Finally, the tool generates a checklist of AI-related tasks to ensure a smooth launch."
+submitted_by: SudoAIx
+submitted_at: "2026-09-21T02:21:22.634Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-21T02:21:22.634Z"
+  last_checked_at: "2026-09-21T02:21:22.634Z"
+  last_passed_at: "2026-09-21T02:21:22.634Z"
+  failure_count: 0
