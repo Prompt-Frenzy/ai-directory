@@ -1,0 +1,38 @@
+name: UpRes
+url: https://upres.ai
+description: "AI image and video upscaling to 4K/8K with 6 specialist models, batch processing, and a REST API."
+category: image-generation
+tags:
+  - upscaling
+  - 4k
+  - video-upscaling
+  - batch-processing
+  - api
+pricing: freemium
+pricing_detail: Free tier with watermarked previews; Creator $19/mo for 4K; Studio $39/mo for 8K + API access.
+key_features:
+  - 6 specialist AI upscaling models for different content types
+  - Batch processing for entire folders
+  - Video upscaling to 4K
+  - REST API and CLI tools (npm + pip)
+  - MCP server for AI agent integrations
+works_with:
+  - midjourney
+  - sora
+  - kling
+  - runway
+  - photoshop
+platforms:
+  - web
+  - api
+  - cli
+badge_url: https://upres.ai
+sample_use_case: "A user can upload a low-resolution image or video to UpRes. The tool then processes the media using one of its specialized upscaling models, increasing its resolution to 4K or 8K. The user can download the enhanced, high-resolution file."
+submitted_by: auroracapital
+submitted_at: "2026-09-22T09:09:34.914Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-22T09:09:34.914Z"
+  last_checked_at: "2026-09-22T09:09:34.914Z"
+  last_passed_at: "2026-09-22T09:09:34.914Z"
+  failure_count: 0
