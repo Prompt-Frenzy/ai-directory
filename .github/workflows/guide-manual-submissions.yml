@@ -1,0 +1,117 @@
+name: guide-manual-submissions
+
+# Why this exists (PRO-1893): verify-badges only triggers on `tools/**.yaml`, so a
+# contributor who submits by hand-editing README.md (PR #70, Dom Frame, sat 4 days
+# in silence) gets no CI, no comment, no merge and no explanation. This workflow
+# answers every non-bot PR that adds no tool YAML with the actual path to a listing.
+#
+# `pull_request_target` on purpose: external submissions come from forks, where the
+# plain `pull_request` token is read-only and cannot comment. This job never checks
+# out or executes PR code — it only reads the file list and posts a comment — so the
+# elevated token is safe here. Keep it that way: do not add a checkout of the PR head.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to evaluate"
+        required: true
+        type: number
+      post:
+        description: "Actually post the comment (false = log the decision only)"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        env:
+          INPUT_PR_NUMBER: ${{ inputs.pr_number }}
+          INPUT_POST: ${{ inputs.post }}
+        with:
+          script: |
+            const MARKER = '<!-- pf-directory:manual-submission-guide -->'
+            const BOT = 'pf-directory-bot'
+            const MAINTAINER = new Set(['OWNER', 'MEMBER', 'COLLABORATOR'])
+
+            const dispatch = context.eventName === 'workflow_dispatch'
+            const prNumber = dispatch
+              ? Number(process.env.INPUT_PR_NUMBER)
+              : context.payload.pull_request.number
+            const post = dispatch ? process.env.INPUT_POST === 'true' : true
+            const { owner, repo } = context.repo
+
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number: prNumber })
+            const author = pr.user.login
+            const assoc = pr.author_association
+
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner, repo, pull_number: prNumber, per_page: 100,
+            })
+            const paths = files.map(f => f.filename)
+            // A tool submission = a YAML under tools/ that is not the template and is
+            // not being deleted. Same shape as verify-badges' own filter.
+            const toolYaml = files.filter(f =>
+              /^tools\/[^/]+\.yaml$/.test(f.filename) &&
+              !f.filename.startsWith('tools/_') &&
+              f.status !== 'removed'
+            ).map(f => f.filename)
+            const touchesReadme = paths.includes('README.md')
+
+            const decide = () => {
+              if (author === BOT) return { act: false, why: `author is ${BOT}` }
+              if (MAINTAINER.has(assoc)) return { act: false, why: `author association ${assoc} is a maintainer` }
+              if (toolYaml.length) return { act: false, why: `adds tool YAML (${toolYaml.join(', ')}) — verify-badges owns this PR` }
+              if (!touchesReadme) return { act: false, why: 'does not touch README.md and adds no tool YAML — not a listing attempt' }
+              return { act: true, why: 'README-only edit from an outside contributor' }
+            }
+            const { act, why } = decide()
+            core.info(`PR #${prNumber} by ${author} (${assoc}); files: ${paths.join(', ') || '(none)'}`)
+            core.info(`decision: ${act ? 'COMMENT' : 'skip'} — ${why}`)
+            if (!act) return
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number: prNumber, per_page: 100,
+            })
+            if (comments.some(c => c.body && c.body.includes(MARKER))) {
+              core.info('guide comment already present — not repeating it')
+              return
+            }
+
+            const readme = `https://github.com/${owner}/${repo}/blob/main/README.md`
+            const body = [
+              MARKER,
+              `Thanks for submitting to the PromptFrenzy AI directory. This PR can't merge as-is, but the fix takes about a minute.`,
+              ``,
+              `**Why it won't merge**`,
+              ``,
+              `- The catalogue section of \`README.md\` is auto-generated from the YAML files in \`tools/\` (see the \`AUTOGEN:CATALOG\` marker). A hand-added line has no backing entry, so the next regeneration would silently drop it.`,
+              `- Our verifier only runs on PRs that add a \`tools/*.yaml\` file, so nothing here has been checked yet.`,
+              ``,
+              `**How to get listed**`,
+              ``,
+              `1. Paste the badge HTML from the [How to get listed](${readme}#how-to-get-listed) section into your site's footer or \`/about\` page and deploy it. The badge on your site is the listing requirement.`,
+              `2. Copy \`tools/_example.yaml\` to \`tools/<your-tool-slug>.yaml\` and fill it in. \`name\`, \`url\`, \`description\`, \`category\`, \`pricing\` and \`badge_url\` are required; \`tags\`, \`key_features\` and \`platforms\` help you rank.`,
+              `3. Push that file to this PR (you can drop the README change). The bot fetches your \`badge_url\`, verifies the badge, comments pass or fail, and auto-merges on pass. The README line is then generated for you.`,
+              ``,
+              `Can't fork or push? The README also documents a one-call API (\`POST https://www.promptfrenzy.com/api/directory/submit\`) that opens and merges the PR for you.`,
+              ``,
+              `_This is an automated reply. It is posted once per PR; a maintainer will follow up if the verifier reports something unexpected._`,
+            ].join('\n')
+
+            if (!post) {
+              core.info('dry run — would post:\n' + body)
+              return
+            }
+            await github.rest.issues.createComment({ owner, repo, issue_number: prNumber, body })
+            core.info('guide comment posted')
