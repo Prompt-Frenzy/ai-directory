@@ -68,15 +68,30 @@ jobs:
             ).map(f => f.filename)
             const touchesReadme = paths.includes('README.md')
 
+            // author_association is unreliable from the Actions token: an org member whose
+            // membership is private reads as CONTRIBUTOR (robin-blocks did, and PR #53 got
+            // nagged). Ask for the actual repo permission instead; keep the association
+            // set as a secondary guard.
+            let permission = 'unknown'
+            try {
+              const { data } = await github.rest.repos.getCollaboratorPermissionLevel({ owner, repo, username: author })
+              permission = data.permission
+            } catch (e) {
+              core.warning(`could not read collaborator permission for ${author}: ${e.message}`)
+            }
+            const WRITE = new Set(['admin', 'maintain', 'write'])
+
             const decide = () => {
+              if (pr.state !== 'open') return { act: false, why: `PR is ${pr.state}` }
               if (author === BOT) return { act: false, why: `author is ${BOT}` }
+              if (WRITE.has(permission)) return { act: false, why: `author has ${permission} permission on the repo` }
               if (MAINTAINER.has(assoc)) return { act: false, why: `author association ${assoc} is a maintainer` }
               if (toolYaml.length) return { act: false, why: `adds tool YAML (${toolYaml.join(', ')}) — verify-badges owns this PR` }
               if (!touchesReadme) return { act: false, why: 'does not touch README.md and adds no tool YAML — not a listing attempt' }
               return { act: true, why: 'README-only edit from an outside contributor' }
             }
             const { act, why } = decide()
-            core.info(`PR #${prNumber} by ${author} (${assoc}); files: ${paths.join(', ') || '(none)'}`)
+            core.info(`PR #${prNumber} by ${author} (${assoc}, permission=${permission}); files: ${paths.join(', ') || '(none)'}`)
             core.info(`decision: ${act ? 'COMMENT' : 'skip'} — ${why}`)
             if (!act) return
 
