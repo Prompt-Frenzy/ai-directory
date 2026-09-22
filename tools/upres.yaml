@@ -1,6 +1,6 @@
 name: UpRes
 url: https://upres.ai
-description: "AI image and video upscaling to 4K/8K with 6 specialist models, batch processing, and a REST API."
+description: AI image and video upscaling to 4K/8K with 6 specialist models, batch processing, and a REST API.
 category: image-generation
 tags:
   - upscaling
@@ -27,12 +27,15 @@ platforms:
   - api
   - cli
 badge_url: https://upres.ai
-sample_use_case: "A user can upload a low-resolution image or video to UpRes. The tool then processes the media using one of its specialized upscaling models, increasing its resolution to 4K or 8K. The user can download the enhanced, high-resolution file."
+sample_use_case: A user can upload a low-resolution image or video to UpRes. The tool then processes
+  the media using one of its specialized upscaling models, increasing its resolution to 4K or 8K.
+  The user can download the enhanced, high-resolution file.
 submitted_by: auroracapital
-submitted_at: "2026-09-22T09:09:34.914Z"
+submitted_at: 2026-09-22T09:09:34.914Z
 verification:
   status: verified
-  first_verified_at: "2026-09-22T09:09:34.914Z"
-  last_checked_at: "2026-09-22T09:09:34.914Z"
-  last_passed_at: "2026-09-22T09:09:34.914Z"
+  first_verified_at: 2026-09-22T09:09:34.914Z
+  last_checked_at: 2026-09-22T10:55:25.795Z
+  last_passed_at: 2026-09-22T10:55:25.795Z
   failure_count: 0
+  failure_reason: null
