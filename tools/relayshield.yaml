@@ -1,0 +1,31 @@
+name: RelayShield
+url: https://relayshield.net
+description: "Threat-intelligence APIs that screen URLs, wallets, emails, breaches, and packages for scams, with a pay-per-call tier for AI agents."
+category: agents
+tags:
+  - threat-intelligence
+  - fraud-detection
+  - scam-prevention
+pricing: freemium
+pricing_detail: Free keyless endpoints; x402 pay-as-you-go $0.05-$2.00 USDC per call.
+key_features:
+  - "Screen URLs, crypto wallets, emails, and data breaches against a 494K+ indicator corpus"
+  - 28 pay-per-call x402 endpoints priced $0.05-$2.00 USDC on Base and Solana
+  - "Agent pre-action verdicts: ALLOW, BLOCK, REQUIRE_REVIEW with confidence and reasons"
+  - "Free Telegram miniApp scam check for links, wallets, and bot keys"
+works_with:
+  - telegram
+  - whatsapp
+platforms:
+  - api
+  - web
+badge_url: https://relayshield.net
+sample_use_case: "An AI agent can use RelayShield to verify the safety of a user-provided URL before opening it. The agent sends the URL to RelayShield's API, which returns a threat assessment. Based on this assessment, the agent can then warn the user if the URL is malicious, preventing potential phishing or malware attacks."
+submitted_by: nzdsf2-gif
+submitted_at: "2026-09-23T16:47:33.606Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-23T16:47:33.606Z"
+  last_checked_at: "2026-09-23T16:47:33.606Z"
+  last_passed_at: "2026-09-23T16:47:33.606Z"
+  failure_count: 0
