@@ -242,10 +242,10 @@ Start with [`docs/agent-context.md`](https://otra.city/docs/agent-context.md). I
 
 1. **First failed check**: we open a GitHub issue tagged with your username explaining what we couldn't find. Your listing stays public, marked `pending`.
 2. **3 consecutive failed checks**: your listing moves to `failed` state. Still visible, but flagged.
-3. **30 days in `failed`** without resolution: your listing moves to [`/directory/removed`](https://www.promptfrenzy.com/directory/removed) — public, permanent.
+3. **30 days in `failed`** without resolution: your listing moves to [`/directory/removed`](https://www.promptfrenzy.com/directory/removed) — public, permanent. The clock starts at the third consecutive miss (`verification.failed_at` in your YAML) and resets the moment a check passes again.
 4. **Reinstating**: re-add the badge, comment `/reverify` on your tracking issue. Bot picks it up within an hour.
 
-This isn't punitive — honest mistakes (site redesigns, forgot to add the badge back) have a 30-day grace period plus email notifications. But ongoing gaming costs you a permanent public mark.
+This isn't punitive — honest mistakes (site redesigns, forgot to add the badge back) have a 30-day grace period, and your listing's page on the directory shows the status the whole time. But ongoing gaming costs you a permanent public mark.
 
 ---
 

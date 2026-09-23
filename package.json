@@ -8,7 +8,10 @@
     "verify:pr": "node scripts/verify-badges.mjs --pr",
     "verify:all": "node scripts/verify-badges.mjs --all-active",
     "verify:recent": "node scripts/verify-badges.mjs --recent-7d",
-    "test:host-class": "node scripts/host-class.test.mjs"
+    "test:host-class": "node scripts/host-class.test.mjs",
+    "test:removal-policy": "node scripts/removal-policy.test.mjs",
+    "sweep:removed": "node scripts/verify-badges.mjs --sweep-removed",
+    "sweep:dry-run": "node scripts/verify-badges.mjs --sweep-removed --dry-run"
   },
   "dependencies": {
     "yaml": "^2.5.0",

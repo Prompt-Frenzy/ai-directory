@@ -19,6 +19,7 @@ on:
         options:
           - all-active
           - recent-7d
+          - sweep-removed
 
 permissions:
   contents: write
@@ -123,15 +124,32 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         run: node scripts/verify-badges.mjs --${{ inputs.mode }}
 
+      # Policy step 3: anything `failed` for 30+ days moves to removed/.
+      # Runs after every cron verify pass (both daily and weekly) so the
+      # weekly-only entries still get swept the day their window closes.
+      - name: Sweep 30-day failed entries into removed/
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode != 'sweep-removed')
+        run: node scripts/verify-badges.mjs --sweep-removed
+
+      # The push below uses the default GITHUB_TOKEN, which does not trigger
+      # update-readme.yml, so a cron-driven move to removed/ would leave the
+      # README stats stale until the next human-merged submission. Regenerate
+      # here instead (idempotent: no-op when nothing changed).
+      - name: Regenerate README
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node scripts/regenerate-readme.mjs
+
       - name: Commit verification state changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
-          if [ -z "$(git status --porcelain tools/)" ]; then
+          if [ -z "$(git status --porcelain tools/ removed/ README.md)" ]; then
             echo "No state changes"
             exit 0
           fi
           git config user.name "pf-directory-bot"
           git config user.email "290044263+pf-directory-bot@users.noreply.github.com"
-          git add tools/
+          # removed/ must be staged too or a sweep's move is committed as a
+          # bare deletion (the file vanishes instead of moving).
+          git add tools/ removed/ README.md
           git commit -m "chore: cron verification update $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

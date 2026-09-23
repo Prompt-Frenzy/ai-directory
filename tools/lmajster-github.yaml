@@ -37,4 +37,5 @@ verification:
   last_checked_at: 2026-09-20T11:43:48.543Z
   last_passed_at: 2026-09-13T22:24:36.584Z
   failure_count: 8
+  failed_at: 2026-09-16T10:48:19.000Z
   failure_reason: "fetch failed: HTTP 404"
