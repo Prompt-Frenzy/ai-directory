@@ -1,0 +1,25 @@
+name: Atracker
+url: https://atracker.io
+description: Atracker provides analytics and tracking for media buyers to measure advertising campaigns and optimize ROI.
+category: data-analysis
+tags:
+  - analytics
+  - tracking
+  - media-buying
+  - advertising
+  - marketing
+pricing: freemium
+pricing_detail: "14 days free, no credit card required"
+key_features:
+  - Campaign analytics
+  - Click tracking
+  - ROI optimization
+badge_url: https://atracker.io
+sample_use_case: "A media buyer uses Atracker to upload their advertising campaign data, including spend and conversion metrics. The tool then generates reports showing campaign performance across different platforms and ad sets. This allows the buyer to identify underperforming campaigns and reallocate budget for better return on investment."
+submitted_at: "2026-09-23T07:26:44.305Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-23T07:26:44.305Z"
+  last_checked_at: "2026-09-23T07:26:44.305Z"
+  last_passed_at: "2026-09-23T07:26:44.305Z"
+  failure_count: 0
