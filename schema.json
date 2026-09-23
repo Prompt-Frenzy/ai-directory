@@ -124,6 +124,11 @@
         "last_passed_at": {"type": "string", "format": "date-time"},
         "failure_count": {"type": "integer", "minimum": 0},
         "failure_reason": {"type": ["string", "null"]},
+        "failed_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the entry last entered 'failed' (3rd consecutive miss). The 30-day removal clock runs from here; cleared when the badge passes again."
+        },
         "removed_at": {
           "type": "string",
           "format": "date-time",

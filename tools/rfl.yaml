@@ -40,5 +40,6 @@ verification:
   last_checked_at: 2026-09-20T11:43:54.643Z
   last_passed_at: 2026-08-30T12:08:32.664Z
   failure_count: 3
+  failed_at: 2026-09-20T11:44:02.000Z
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory

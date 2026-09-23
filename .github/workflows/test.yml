@@ -38,3 +38,6 @@ jobs:
 
       - name: Host classifier
         run: npm run test:host-class
+
+      - name: Removal policy (30-day mover)
+        run: npm run test:removal-policy

@@ -6,6 +6,8 @@
  *   --pr <yaml-path>     verify a single file (used by PR-time GH Action)
  *   --all-active         verify every tools/*.yaml (used by weekly cron)
  *   --recent-7d          verify tools/*.yaml first_verified_at within 7 days (daily cron)
+ *   --sweep-removed      move entries `failed` for ≥30 days to removed/ (cron, after a verify pass)
+ *                        add --dry-run to print what would move without touching disk
  *
  * Verification logic (intentionally dumb):
  *   1. Fetch badge_url with desktop UA, follow redirects up to 3, 10s timeout
@@ -14,17 +16,24 @@
  *   4. Check rel does NOT contain "nofollow" or "sponsored"
  *   5. Pass = update verification block, commit changes
  *
+ * Lifecycle (README "What happens if your badge disappears"):
+ *   miss 1-2 → pending · miss 3 → failed (stamps failed_at) · failed for
+ *   30 days → --sweep-removed moves the file to removed/ with
+ *   removal_reason: badge-failure. Policy maths live in removal-policy.mjs.
+ *
  * No JS execution. If a badge requires JS to render, it doesn't count —
  * forces real static markup and prevents most spoofing.
  */
 
-import { readFileSync, writeFileSync, readdirSync } from "node:fs"
+import { readFileSync, writeFileSync, readdirSync, existsSync, unlinkSync } from "node:fs"
 import { join, basename } from "node:path"
 import { parse as parseYaml, stringify as stringifyYaml } from "yaml"
 import { parseHTML } from "linkedom"
 import { classifyHost } from "./host-class.mjs"
+import { GRACE_DAYS, shouldRemove, markRemoved } from "./removal-policy.mjs"
 
 const TOOLS_DIR = "tools"
+const REMOVED_DIR = "removed"
 // Accept both apex and www forms. Docs canonicalize on www, but legacy
 // badge HTML on submitter sites uses the apex form (original README shipped
 // with that). Rejecting apex would break existing pastes.
@@ -42,7 +51,7 @@ const mode = args[0]
 
 if (!mode) {
   console.error(
-    "Usage: verify-badges.mjs --pr <yaml-path> | --all-active | --recent-7d"
+    "Usage: verify-badges.mjs --pr <yaml-path> | --all-active | --recent-7d | --sweep-removed [--dry-run]"
   )
   process.exit(1)
 }
@@ -156,8 +165,10 @@ async function verifyFile(path) {
   return { ok: true, anchor_href: result.href, fetched_url: pageRes.url }
 }
 
+// VERIFY_NOW_ISO lets a dry run / test pin "now" (e.g. to preview which entries
+// a future sweep would move). Never set in the workflow.
 function nowIso() {
-  return new Date().toISOString()
+  return (process.env.VERIFY_NOW_ISO || new Date().toISOString())
 }
 
 function updateVerificationBlock(data, result) {
@@ -170,11 +181,18 @@ function updateVerificationBlock(data, result) {
     if (!v.first_verified_at) v.first_verified_at = now
     v.failure_count = 0
     v.failure_reason = null
+    // Badge is back: the 30-day clock resets. Deleting (not nulling) keeps the
+    // key out of the YAML so a re-failure gets a fresh stamp below.
+    delete v.failed_at
   } else {
     v.failure_count = (v.failure_count || 0) + 1
     v.failure_reason = result.reason
     if (v.failure_count >= 3) {
       v.status = "failed"
+      // Start the removal clock on the FIRST check that lands in failed and
+      // leave it alone on later misses — the README promises "30 days in
+      // failed", so the stamp must be the transition, not the latest check.
+      if (!v.failed_at) v.failed_at = now
     } else {
       v.status = "pending"
     }
@@ -202,8 +220,48 @@ async function processFile(path) {
   return { path, ...result }
 }
 
+// Step 3 of the policy. Reads every tools/*.yaml, moves the ones that have
+// been `failed` for GRACE_DAYS to removed/ and stamps the punitive reason.
+// Safe to run repeatedly: removed files are no longer in tools/, so a second
+// pass finds nothing. Returns the list of moved slugs.
+function sweepRemoved({ dryRun }) {
+  const now = nowIso()
+  const nowMs = Date.parse(now)
+  const moved = []
+  const files = readdirSync(TOOLS_DIR).filter(
+    (f) => f.endsWith(".yaml") && !f.startsWith("_")
+  )
+  for (const f of files) {
+    const src = join(TOOLS_DIR, f)
+    const data = parseYaml(readFileSync(src, "utf8"))
+    if (!shouldRemove(data, nowMs)) continue
+    // A slug can be re-listed and fail again; never clobber the earlier record.
+    let dest = join(REMOVED_DIR, f)
+    if (existsSync(dest)) {
+      dest = join(REMOVED_DIR, f.replace(/\.yaml$/, `-${now.slice(0, 10)}.yaml`))
+    }
+    const days = Math.floor((nowMs - Date.parse(data.verification.failed_at)) / 86_400_000)
+    console.log(
+      `${dryRun ? "[dry-run] would move" : "→ moving"} ${src} → ${dest} (failed ${days}d, ${data.verification.failure_reason})`
+    )
+    if (!dryRun) {
+      writeFileSync(dest, stringifyYaml(markRemoved(data, now), { lineWidth: 100 }))
+      unlinkSync(src)
+    }
+    moved.push(basename(f, ".yaml"))
+  }
+  console.log(
+    `\nSweep done. ${moved.length} entr${moved.length === 1 ? "y" : "ies"} past the ${GRACE_DAYS}-day grace window${dryRun ? " (dry run, nothing written)" : ""}.`
+  )
+  return moved
+}
+
 async function main() {
   let targets = []
+  if (mode === "--sweep-removed") {
+    sweepRemoved({ dryRun: args.includes("--dry-run") })
+    return
+  }
   if (mode === "--pr") {
     const path = args[1]
     if (!path) {
