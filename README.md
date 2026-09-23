@@ -324,6 +324,7 @@ Auto-generated, sorted alphabetically within each category. Each link goes to th
 
 - [ChatGPT](https://promptfrenzy.com/directory/chatgpt) &mdash; OpenAI's conversational interface for the GPT family of models, with web search, code interpreter, and image generation built in.
 - [Claude](https://promptfrenzy.com/directory/claude) &mdash; Anthropic's conversational AI assistant with long-context reasoning, file uploads, and a focus on helpful, harmless behavior.
+- [Dom Frame](https://domframe.silentdirectivellc.com/?utm_source=ai-directory&utm_medium=resource-directory) - An AI texting coach: paste a conversation and get a read on it plus a reply you can actually send. Browser demo, also on iPhone.
 - [Gemini](https://promptfrenzy.com/directory/gemini) &mdash; Google's conversational AI assistant powered by the Gemini family of models, with deep integration into Google Workspace.
 - [Meta AI](https://promptfrenzy.com/directory/meta-ai) &mdash; Meta's conversational AI assistant powered by Llama models, also embedded across Facebook, Instagram, and WhatsApp.
 - [Mistral Le Chat](https://promptfrenzy.com/directory/mistral-le-chat) &mdash; Mistral's web chat interface for the Mistral and Codestral models, with image generation and web browsing built in.
