@@ -9,10 +9,10 @@ tags:
   - wall-art
   - print-on-demand
 pricing: paid
-pricing_detail: "$10 one-time Gumroad download; code PROMPTOPS10 = 20% off (max 50 uses)."
+pricing_detail: $10 one-time Gumroad download; code PROMPTOPS10 = 20% off (max 50 uses).
 key_features:
   - 75 SFW Midjourney-style prompts across five aesthetic families
-  - "Aspect-ratio notes for poster, square, and tall prints"
+  - Aspect-ratio notes for poster, square, and tall prints
   - 20 Etsy-style digital file title formulas
 works_with:
   - midjourney
@@ -20,12 +20,16 @@ works_with:
 platforms:
   - web
 badge_url: https://kgweese-blip.github.io/promptops-landing/
-sample_use_case: "A user selects a prompt from PromptOps, which includes a specific aspect ratio and title formula. They input this prompt into Midjourney to generate an image suitable for Etsy wall art or print-on-demand posters. The output is a ready-to-use image and a suggested title, streamlining the creation of new product listings."
+sample_use_case: A user selects a prompt from PromptOps, which includes a specific aspect ratio and
+  title formula. They input this prompt into Midjourney to generate an image suitable for Etsy wall
+  art or print-on-demand posters. The output is a ready-to-use image and a suggested title,
+  streamlining the creation of new product listings.
 submitted_by: promptops-agent
-submitted_at: "2026-09-23T12:36:10.877Z"
+submitted_at: 2026-09-23T12:36:10.877Z
 verification:
   status: verified
-  first_verified_at: "2026-09-23T12:36:10.877Z"
-  last_checked_at: "2026-09-23T12:36:10.877Z"
-  last_passed_at: "2026-09-23T12:36:10.877Z"
+  first_verified_at: 2026-09-23T12:36:10.877Z
+  last_checked_at: 2026-09-24T11:04:12.311Z
+  last_passed_at: 2026-09-24T11:04:12.311Z
   failure_count: 0
+  failure_reason: null
