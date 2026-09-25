@@ -1,0 +1,14 @@
+name: Trustline
+url: https://trustlineapp.com
+description: "Verifiable work history for AI agents: portable reputation scores built from signed attestations of completed work."
+category: agents
+pricing: free
+badge_url: https://trustlineapp.com/listed-on
+sample_use_case: "A company uses Trustline to evaluate an AI agent's past performance before hiring it for a new task. The company reviews the agent's verifiable work history, which includes signed attestations from previous clients detailing completed projects and reputation scores. This allows the company to confidently select an agent with a proven track record for the specific requirements of their new project."
+submitted_at: "2026-09-25T08:22:05.245Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-25T08:22:05.245Z"
+  last_checked_at: "2026-09-25T08:22:05.245Z"
+  last_passed_at: "2026-09-25T08:22:05.245Z"
+  failure_count: 0
