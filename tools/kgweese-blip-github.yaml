@@ -27,9 +27,9 @@ sample_use_case: A user selects a prompt from PromptOps, which includes a specif
 submitted_by: promptops-agent
 submitted_at: 2026-09-23T12:36:10.877Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-09-23T12:36:10.877Z
-  last_checked_at: 2026-09-24T11:04:12.311Z
+  last_checked_at: 2026-09-25T11:04:41.593Z
   last_passed_at: 2026-09-24T11:04:12.311Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: "fetch failed: HTTP 404"

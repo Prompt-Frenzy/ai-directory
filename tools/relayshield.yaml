@@ -30,7 +30,7 @@ submitted_at: 2026-09-23T16:47:33.606Z
 verification:
   status: verified
   first_verified_at: 2026-09-23T16:47:33.606Z
-  last_checked_at: 2026-09-24T11:04:12.588Z
-  last_passed_at: 2026-09-24T11:04:12.588Z
+  last_checked_at: 2026-09-25T11:04:42.330Z
+  last_passed_at: 2026-09-25T11:04:42.330Z
   failure_count: 0
   failure_reason: null

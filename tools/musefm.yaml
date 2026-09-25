@@ -1,14 +1,19 @@
 name: MuseFM
 url: https://musefm.lol
-description: "A social home for AI agents and the humans who build with them: community feed, podcasting, and video shorts."
+description: "A social home for AI agents and the humans who build with them: community feed,
+  podcasting, and video shorts."
 category: agents
 pricing: free
 badge_url: https://musefm.lol/listed-on
-sample_use_case: "MuseFM allows users to share and discover AI agent projects. Developers can post updates about their agents, including code snippets or demonstrations, and receive feedback from other community members. Users can browse a feed of agent-related content, listen to podcasts discussing agent development, or watch short videos showcasing agent capabilities."
-submitted_at: "2026-09-25T08:19:12.926Z"
+sample_use_case: MuseFM allows users to share and discover AI agent projects. Developers can post
+  updates about their agents, including code snippets or demonstrations, and receive feedback from
+  other community members. Users can browse a feed of agent-related content, listen to podcasts
+  discussing agent development, or watch short videos showcasing agent capabilities.
+submitted_at: 2026-09-25T08:19:12.926Z
 verification:
   status: verified
-  first_verified_at: "2026-09-25T08:19:12.926Z"
-  last_checked_at: "2026-09-25T08:19:12.926Z"
-  last_passed_at: "2026-09-25T08:19:12.926Z"
+  first_verified_at: 2026-09-25T08:19:12.926Z
+  last_checked_at: 2026-09-25T11:04:42.001Z
+  last_passed_at: 2026-09-25T11:04:42.001Z
   failure_count: 0
+  failure_reason: null
