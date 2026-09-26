@@ -22,10 +22,11 @@ sample_use_case: A media buyer uses Atracker to upload their advertising campaig
   reallocate budget for better return on investment.
 submitted_at: 2026-09-23T07:26:44.305Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-09-23T07:26:44.305Z
-  last_checked_at: 2026-09-25T11:04:40.015Z
+  last_checked_at: 2026-09-26T10:45:51.832Z
   last_passed_at: 2026-09-23T10:43:24.691Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
+  failed_at: 2026-09-26T10:45:51.832Z
