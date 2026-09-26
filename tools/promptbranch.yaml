@@ -1,0 +1,29 @@
+name: PromptBranch
+url: https://promptbranch.app/
+description: "Local-first prompt version control for organizing, comparing, evaluating, sharing, and syncing AI prompts across desktop, CLI, and MCP."
+category: prompt-tools
+tags:
+  - prompt-management
+  - prompt-versioning
+  - prompt-evaluation
+  - mcp
+  - cli
+pricing: free
+works_with:
+  - chatgpt
+  - opencode
+  - pi
+  - zcode
+  - claude-code
+  - kimi-code
+logo: https://github.com/PromptBranch/promptbranch/raw/main/docs/assets/icon.svg
+badge_url: https://promptbranch.app/
+sample_use_case: "A user can create a new prompt within PromptBranch and save it. They can then modify this prompt multiple times, saving each version. Later, they can compare these versions side-by-side to see the changes and evaluate which prompt performs best for a specific AI model, then share the optimal version with team members."
+submitted_by: NightRang3r
+submitted_at: "2026-09-26T20:48:34.521Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-26T20:48:34.521Z"
+  last_checked_at: "2026-09-26T20:48:34.521Z"
+  last_passed_at: "2026-09-26T20:48:34.521Z"
+  failure_count: 0
