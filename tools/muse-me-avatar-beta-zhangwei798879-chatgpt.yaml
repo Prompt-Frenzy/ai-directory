@@ -1,0 +1,20 @@
+name: Muse Me
+url: https://muse-me-avatar-beta.zhangwei798879.chatgpt.site/
+description: "Turn one authorized adult selfie into an original anime-style profile picture. One free result, no account, downloadable, and private by default."
+category: image-generation
+tags:
+  - avatar-generator
+  - profile-picture
+  - anime-avatar
+  - selfie
+  - portrait
+pricing: free
+badge_url: https://muse-me-avatar-beta.zhangwei798879.chatgpt.site/brand
+sample_use_case: "A user uploads a single adult selfie to Muse Me. The tool then processes this image and generates a unique, anime-style profile picture based on the input. This new profile picture can be downloaded directly and used across various online platforms."
+submitted_at: "2026-09-27T12:40:07.583Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-27T12:40:07.583Z"
+  last_checked_at: "2026-09-27T12:40:07.583Z"
+  last_passed_at: "2026-09-27T12:40:07.583Z"
+  failure_count: 0
