@@ -11,9 +11,10 @@ sample_use_case: A freelancer can use MonkeeTools to quickly create an invoice f
   tool then generates a PDF invoice that downloads to their device, ready to be sent.
 submitted_at: 2026-09-13T03:08:47.094Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-09-13T03:08:47.094Z
-  last_checked_at: 2026-09-20T11:43:52.379Z
+  last_checked_at: 2026-09-27T12:20:33.176Z
   last_passed_at: 2026-09-20T11:43:52.379Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

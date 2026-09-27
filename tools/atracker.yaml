@@ -24,9 +24,9 @@ submitted_at: 2026-09-23T07:26:44.305Z
 verification:
   status: failed
   first_verified_at: 2026-09-23T07:26:44.305Z
-  last_checked_at: 2026-09-27T11:20:49.667Z
+  last_checked_at: 2026-09-27T12:20:18.531Z
   last_passed_at: 2026-09-23T10:43:24.691Z
-  failure_count: 4
+  failure_count: 5
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
   failed_at: 2026-09-26T10:45:51.832Z
