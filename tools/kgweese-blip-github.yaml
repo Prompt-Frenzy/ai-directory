@@ -29,8 +29,8 @@ submitted_at: 2026-09-23T12:36:10.877Z
 verification:
   status: failed
   first_verified_at: 2026-09-23T12:36:10.877Z
-  last_checked_at: 2026-09-28T12:50:26.414Z
+  last_checked_at: 2026-09-29T12:04:51.639Z
   last_passed_at: 2026-09-24T11:04:12.311Z
-  failure_count: 5
+  failure_count: 6
   failure_reason: "fetch failed: HTTP 404"
   failed_at: 2026-09-27T11:20:49.755Z
