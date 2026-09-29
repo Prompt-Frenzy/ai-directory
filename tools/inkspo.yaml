@@ -1,0 +1,25 @@
+name: Inkspo
+url: https://inkspo.ai/
+description: "Free AI tattoo generator that turns a text description into a tattoo design in seconds, with artist-informed style presets."
+category: image-generation
+tags:
+  - tattoo
+  - tattoo-design
+  - text-to-image
+pricing: freemium
+pricing_detail: "Free: 2 designs/day, no sign-up. One-time credit packs from $4.99; no subscription."
+key_features:
+  - Text-to-image tattoo design generation from a prompt
+  - Artist-informed style presets using professional tattoo terminology
+  - Placement and size options matched to real tattoo practice
+  - "Tattoo Idea Hub with guides on styles, placement, cost, pain, and healing"
+logo: https://inkspo.ai/logo/inkspo-mark.svg
+badge_url: https://inkspo.ai/friends
+sample_use_case: "A user enters a text description of their desired tattoo, such as \"a minimalist black and white hummingbird with outstretched wings.\" They then select a style preset like \"traditional Japanese\" or \"geometric.\" The tool generates several tattoo design options based on these inputs, which the user can then review and refine."
+submitted_at: "2026-09-29T20:22:28.209Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-29T20:22:28.209Z"
+  last_checked_at: "2026-09-29T20:22:28.209Z"
+  last_passed_at: "2026-09-29T20:22:28.209Z"
+  failure_count: 0
