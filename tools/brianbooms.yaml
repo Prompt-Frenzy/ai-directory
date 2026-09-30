@@ -1,0 +1,34 @@
+name: Brian Booms Agent Catalog
+url: https://brianbooms.com/agents/
+description: "Pay-per-call data APIs and digital products for AI agents: 33 buyable items from $0.05, settled in USDC on Base via x402. No accounts, no API keys."
+category: agents
+tags:
+  - x402
+  - micropayments
+  - mcp
+  - agent-commerce
+pricing: paid
+pricing_detail: "Pay-per-call via x402 USDC micropayments, $0.05-$999 per item. No subscription."
+key_features:
+  - "33 agent-buyable digital products: music licenses, sample packs, wallpapers"
+  - Pay-per-call in USDC on Base via x402 — no accounts or API keys
+  - MCP server (brianbooms-mcp) exposes the catalog as callable agent tools
+  - Live 402 payment requirements fetched per product before purchase
+works_with:
+  - claude
+  - cursor
+  - vscode
+platforms:
+  - web
+  - api
+  - cli
+badge_url: https://brianbooms.com/agents/
+sample_use_case: "A user integrates Brian Booms Agent Catalog into their AI agent to access specific data. The agent makes a request for a particular data item, and the catalog processes a micropayment in USDC on Base via x402. The requested data is then delivered to the agent for its task, without requiring any prior account setup or API keys."
+submitted_by: brianbooms
+submitted_at: "2026-09-30T21:25:23.304Z"
+verification:
+  status: verified
+  first_verified_at: "2026-09-30T21:25:23.304Z"
+  last_checked_at: "2026-09-30T21:25:23.304Z"
+  last_passed_at: "2026-09-30T21:25:23.304Z"
+  failure_count: 0
