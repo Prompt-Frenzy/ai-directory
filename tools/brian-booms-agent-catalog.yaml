@@ -1,6 +1,7 @@
 name: Brian Booms Agent Catalog
 url: https://brianbooms.com/agents/
-description: "Pay-per-call data APIs and digital products for AI agents: 33 buyable items from $0.05, settled in USDC on Base via x402. No accounts, no API keys."
+description: "Pay-per-call data APIs and digital products for AI agents: 33 buyable items from
+  $0.05, settled in USDC on Base via x402. No accounts, no API keys."
 category: agents
 tags:
   - x402
@@ -8,7 +9,7 @@ tags:
   - mcp
   - agent-commerce
 pricing: paid
-pricing_detail: "Pay-per-call via x402 USDC micropayments, $0.05-$999 per item. No subscription."
+pricing_detail: Pay-per-call via x402 USDC micropayments, $0.05-$999 per item. No subscription.
 key_features:
   - "33 agent-buyable digital products: music licenses, sample packs, wallpapers"
   - Pay-per-call in USDC on Base via x402 — no accounts or API keys
@@ -22,11 +23,15 @@ works_with:
   - api
   - cli
 badge_url: https://brianbooms.com/agents/
-sample_use_case: "A user browsing the Brian Booms Agent Catalog can select from 33 data APIs and digital products. They pay a small fee, starting at $0.05, using USDC on the Base network via x402. The AI agent then immediately accesses the purchased data or product without needing to create an account or manage API keys."
-submitted_at: "2026-09-30T21:35:02.355Z"
+sample_use_case: A user browsing the Brian Booms Agent Catalog can select from 33 data APIs and
+  digital products. They pay a small fee, starting at $0.05, using USDC on the Base network via
+  x402. The AI agent then immediately accesses the purchased data or product without needing to
+  create an account or manage API keys.
+submitted_at: 2026-09-30T21:35:02.355Z
 verification:
   status: verified
-  first_verified_at: "2026-09-30T21:35:02.355Z"
-  last_checked_at: "2026-09-30T21:35:02.355Z"
-  last_passed_at: "2026-09-30T21:35:02.355Z"
+  first_verified_at: 2026-09-30T21:35:02.355Z
+  last_checked_at: 2026-10-01T12:22:49.950Z
+  last_passed_at: 2026-10-01T12:22:49.950Z
   failure_count: 0
+  failure_reason: null
