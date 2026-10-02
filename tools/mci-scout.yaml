@@ -1,6 +1,7 @@
 name: MCI Scout
 url: https://mci-encounter-lab.az01.chatgpt.site/
-description: Free HTTPS/JSON tool offering source-dated service metadata and conditional web-search list-price arithmetic; provider compatibility and quality remain unverified.
+description: Free HTTPS/JSON tool offering source-dated service metadata and conditional web-search
+  list-price arithmetic; provider compatibility and quality remain unverified.
 category: other
 tags:
   - agent-tools
@@ -8,21 +9,28 @@ tags:
   - public-metadata
   - cost-comparison
 pricing: free
-pricing_detail: "Scout is free with no account or wallet. Public trial currently scheduled through 2026-10-08 14:30 UTC. Provider prices are third-party list prices; no provider calls or payments are made."
+pricing_detail: Scout is free with no account or wallet. Public trial currently scheduled through
+  2026-10-08 14:30 UTC. Provider prices are third-party list prices; no provider calls or payments
+  are made.
 key_features:
   - Keyword-based leads from a small source-dated public service snapshot
   - Conditional arithmetic using published web-search USD or credit prices
   - Machine-readable OpenAPI and agent guide
-  - Optional consented encounter questions; stateless Scout requests are not stored by the application
+  - Optional consented encounter questions; stateless Scout requests are not stored by the
+    application
 platforms:
   - web
   - api
 badge_url: https://mci-encounter-lab.az01.chatgpt.site/
-sample_use_case: "A user would input a list of desired service features and a budget into MCI Scout. The tool then returns a comparison of available providers, their listed prices, and the dates those prices were last updated. This allows the user to quickly assess potential service providers based on their specific needs and budget constraints."
-submitted_at: "2026-10-02T02:36:51.337Z"
+sample_use_case: A user would input a list of desired service features and a budget into MCI Scout.
+  The tool then returns a comparison of available providers, their listed prices, and the dates
+  those prices were last updated. This allows the user to quickly assess potential service providers
+  based on their specific needs and budget constraints.
+submitted_at: 2026-10-02T02:36:51.337Z
 verification:
   status: verified
-  first_verified_at: "2026-10-02T02:36:51.337Z"
-  last_checked_at: "2026-10-02T02:36:51.337Z"
-  last_passed_at: "2026-10-02T02:36:51.337Z"
+  first_verified_at: 2026-10-02T02:36:51.337Z
+  last_checked_at: 2026-10-02T11:50:10.728Z
+  last_passed_at: 2026-10-02T11:50:10.728Z
   failure_count: 0
+  failure_reason: null
