@@ -28,9 +28,9 @@ sample_use_case: A user would input a list of desired service features and a bud
   based on their specific needs and budget constraints.
 submitted_at: 2026-10-02T02:36:51.337Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-02T02:36:51.337Z
-  last_checked_at: 2026-10-02T11:50:10.728Z
+  last_checked_at: 2026-10-03T11:03:20.529Z
   last_passed_at: 2026-10-02T11:50:10.728Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: "fetch failed: HTTP 401"

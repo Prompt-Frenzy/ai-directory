@@ -1,6 +1,7 @@
 name: TableProof Dots Review Tools
 url: https://tableproof-data.mitchellwhite.chatgpt.site/dots
-description: "Free workflow checklists, public-source link checks and local evidence helpers for reviewing agent work, plus scoped paid reviews. Native OpenAI Dots compatibility is unverified."
+description: Free workflow checklists, public-source link checks and local evidence helpers for
+  reviewing agent work, plus scoped paid reviews. Native OpenAI Dots compatibility is unverified.
 category: agents
 tags:
   - agent-review
@@ -9,7 +10,8 @@ tags:
   - mcp
   - workflow
 pricing: freemium
-pricing_detail: Free checklists and helpers; Speedbot reviews 6.48–19.44 USDC standard price; workbook 3 USDC; CSV toolkit 9 USDC. No verified native Dot installation.
+pricing_detail: Free checklists and helpers; Speedbot reviews 6.48–19.44 USDC standard price;
+  workbook 3 USDC; CSV toolkit 9 USDC. No verified native Dot installation.
 key_features:
   - Free bounded public-source link checker
   - Free local file-hash and handoff evidence checker
@@ -20,11 +22,16 @@ platforms:
   - api
   - cli
 badge_url: https://tableproof-data.mitchellwhite.chatgpt.site/about
-sample_use_case: "A user can upload an agent's output to TableProof Dots Review Tools to automatically check for broken links or inconsistencies against public data sources. The tool provides a detailed report highlighting potential errors and offers structured checklists to guide a human reviewer through a thorough validation process. This helps ensure the accuracy and reliability of agent-generated content before final publication."
-submitted_at: "2026-10-03T06:00:49.282Z"
+sample_use_case: A user can upload an agent's output to TableProof Dots Review Tools to
+  automatically check for broken links or inconsistencies against public data sources. The tool
+  provides a detailed report highlighting potential errors and offers structured checklists to guide
+  a human reviewer through a thorough validation process. This helps ensure the accuracy and
+  reliability of agent-generated content before final publication.
+submitted_at: 2026-10-03T06:00:49.282Z
 verification:
   status: verified
-  first_verified_at: "2026-10-03T06:00:49.282Z"
-  last_checked_at: "2026-10-03T06:00:49.282Z"
-  last_passed_at: "2026-10-03T06:00:49.282Z"
+  first_verified_at: 2026-10-03T06:00:49.282Z
+  last_checked_at: 2026-10-03T11:03:21.856Z
+  last_passed_at: 2026-10-03T11:03:21.856Z
   failure_count: 0
+  failure_reason: null
