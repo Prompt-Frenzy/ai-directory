@@ -1,6 +1,7 @@
 name: Public Prompts
 url: https://www.publicprompts.art
-description: "Discover AI tools by category and pricing, browse free prompts and AI model resources, and follow official product links."
+description: Discover AI tools by category and pricing, browse free prompts and AI model resources,
+  and follow official product links.
 category: prompt-tools
 tags:
   - ai-tools-directory
@@ -14,11 +15,15 @@ key_features:
   - AI model resources
 logo: https://www.publicprompts.art/android-chrome-512x512.png
 badge_url: https://www.publicprompts.art
-sample_use_case: A user looking for a specific type of AI tool can navigate Public Prompts by category or pricing model. They can also search for free prompts to use with various AI models or find official links to AI products. This helps users quickly locate relevant AI resources and prompts for their projects.
-submitted_at: "2026-10-03T19:42:41.468Z"
+sample_use_case: A user looking for a specific type of AI tool can navigate Public Prompts by
+  category or pricing model. They can also search for free prompts to use with various AI models or
+  find official links to AI products. This helps users quickly locate relevant AI resources and
+  prompts for their projects.
+submitted_at: 2026-10-03T19:42:41.468Z
 verification:
   status: verified
-  first_verified_at: "2026-10-03T19:42:41.468Z"
-  last_checked_at: "2026-10-03T19:42:41.468Z"
-  last_passed_at: "2026-10-03T19:42:41.468Z"
+  first_verified_at: 2026-10-03T19:42:41.468Z
+  last_checked_at: 2026-10-04T11:45:04.022Z
+  last_passed_at: 2026-10-04T11:45:04.022Z
   failure_count: 0
+  failure_reason: null

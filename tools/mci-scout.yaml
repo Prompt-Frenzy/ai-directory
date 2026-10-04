@@ -30,7 +30,7 @@ submitted_at: 2026-10-02T02:36:51.337Z
 verification:
   status: pending
   first_verified_at: 2026-10-02T02:36:51.337Z
-  last_checked_at: 2026-10-03T11:03:20.529Z
+  last_checked_at: 2026-10-04T11:45:03.489Z
   last_passed_at: 2026-10-02T11:50:10.728Z
-  failure_count: 1
+  failure_count: 2
   failure_reason: "fetch failed: HTTP 401"
