@@ -1,6 +1,7 @@
 name: Shipvela
 url: https://shipvela.com
-description: "Shipvela lets coding agents publish prebuilt static websites through its OAuth MCP server or CLI, with GitHub deployment, custom domains and managed HTTPS."
+description: Shipvela lets coding agents publish prebuilt static websites through its OAuth MCP
+  server or CLI, with GitHub deployment, custom domains and managed HTTPS.
 category: code-assist
 tags:
   - mcp
@@ -11,11 +12,15 @@ tags:
 pricing: freemium
 logo: https://shipvela.com/social/premium/avatar.png
 badge_url: https://shipvela.com/
-sample_use_case: "A developer uses Shipvela to deploy a static website. They connect their GitHub repository to Shipvela, configure a custom domain, and Shipvela handles the deployment and managed HTTPS, making the site live. The developer can also use the command-line interface for direct deployments."
-submitted_at: "2026-10-04T16:49:47.802Z"
+sample_use_case: A developer uses Shipvela to deploy a static website. They connect their GitHub
+  repository to Shipvela, configure a custom domain, and Shipvela handles the deployment and managed
+  HTTPS, making the site live. The developer can also use the command-line interface for direct
+  deployments.
+submitted_at: 2026-10-04T16:49:47.802Z
 verification:
   status: verified
-  first_verified_at: "2026-10-04T16:49:47.802Z"
-  last_checked_at: "2026-10-04T16:49:47.802Z"
-  last_passed_at: "2026-10-04T16:49:47.802Z"
+  first_verified_at: 2026-10-04T16:49:47.802Z
+  last_checked_at: 2026-10-05T13:31:57.856Z
+  last_passed_at: 2026-10-05T13:31:57.856Z
   failure_count: 0
+  failure_reason: null

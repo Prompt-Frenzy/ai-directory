@@ -1,6 +1,7 @@
 name: Honer AI
 url: https://xoner4.github.io/
-description: "Honer AI by HONER is an Android assistant for AI chat, web search with sources, photo and document analysis, writing, translation and voice input."
+description: Honer AI by HONER is an Android assistant for AI chat, web search with sources, photo
+  and document analysis, writing, translation and voice input.
 category: chatbots
 tags:
   - android-ai
@@ -9,24 +10,29 @@ tags:
   - document-analysis
   - voice-input
 pricing: free
-pricing_detail: Free APK download for Android 7.0 and later. AI responses and web search require internet and available cloud services; unlimited free cloud usage is not promised.
+pricing_detail: Free APK download for Android 7.0 and later. AI responses and web search require
+  internet and available cloud services; unlimited free cloud usage is not promised.
 key_features:
-  - "AI chat for writing, translation and learning"
+  - AI chat for writing, translation and learning
   - Web search with source links
   - Photo and document analysis
   - Android dictation and text-to-speech
-  - "Chat history, memory and custom instructions"
+  - Chat history, memory and custom instructions
   - Editable tables with CSV export
 works_with:
   - android-speech-services
 logo: https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/icon-512.png
 badge_url: https://xoner4.github.io/
-sample_use_case: "A user can open Honer AI on their Android device and ask it to summarize a PDF document. The user uploads the PDF, and Honer AI processes the content, providing a concise summary directly within the chat interface. This allows for quick understanding of lengthy documents without leaving the app."
+sample_use_case: A user can open Honer AI on their Android device and ask it to summarize a PDF
+  document. The user uploads the PDF, and Honer AI processes the content, providing a concise
+  summary directly within the chat interface. This allows for quick understanding of lengthy
+  documents without leaving the app.
 submitted_by: XONER4
-submitted_at: "2026-10-05T04:52:53.625Z"
+submitted_at: 2026-10-05T04:52:53.625Z
 verification:
   status: verified
-  first_verified_at: "2026-10-05T04:52:53.625Z"
-  last_checked_at: "2026-10-05T04:52:53.625Z"
-  last_passed_at: "2026-10-05T04:52:53.625Z"
+  first_verified_at: 2026-10-05T04:52:53.625Z
+  last_checked_at: 2026-10-05T13:31:52.522Z
+  last_passed_at: 2026-10-05T13:31:52.522Z
   failure_count: 0
+  failure_reason: null
