@@ -1,0 +1,22 @@
+name: "Etsy Fee & Profit Calculator (Free)"
+url: https://brewpage.app/public/4NpxGhBi8S/index.html
+description: "Free browser calculator for Etsy sellers: listing, transaction, processing and Offsite Ads fees, true profit per order, and a target-margin price finder."
+category: productivity
+tags:
+  - etsy
+  - calculator
+  - ecommerce
+  - pricing
+  - fees
+pricing: free
+logo: https://brewpage.app/public/75AhHOqCI6
+badge_url: https://brewpage.app/public/4NpxGhBi8S/index.html
+sample_use_case: "An Etsy seller can input their item cost, shipping cost, and desired profit margin into the calculator. The tool then calculates the optimal listing price to achieve that margin after accounting for all Etsy fees. This helps sellers price their products accurately and ensure profitability."
+submitted_by: ShopLedger
+submitted_at: "2026-10-05T05:33:23.433Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-05T05:33:23.433Z"
+  last_checked_at: "2026-10-05T05:33:23.433Z"
+  last_passed_at: "2026-10-05T05:33:23.433Z"
+  failure_count: 0
