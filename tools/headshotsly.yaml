@@ -1,0 +1,27 @@
+name: Headshotsly
+url: https://headshotsly.com
+description: "Headshotsly turns one selfie into AI headshots for LinkedIn, dating apps, real estate, law and healthcare, ready in about 2 minutes."
+category: image-generation
+tags:
+  - ai-headshots
+  - headshots
+  - profile-photos
+pricing: freemium
+pricing_detail: "Free watermarked preview photo; 5 photos in 4K for $0.99 one-time, no subscription."
+key_features:
+  - AI headshots from one selfie
+  - "5 photos in 4K for $0.99, one-time payment, no subscription"
+  - Free watermarked preview photo
+  - Ready in about 2 minutes
+  - "Styles for LinkedIn, dating, real estate, law and healthcare"
+  - Team headshots with consistent styles
+logo: https://headshotsly.com/images/brand/headshotsly/logo-lockup.svg
+badge_url: https://headshotsly.com/
+sample_use_case: "A user uploads a single selfie to Headshotsly. The AI then processes this image to generate a variety of professional headshots suitable for different platforms, such as LinkedIn or dating apps. The user receives these new headshots within approximately two minutes, ready for immediate use."
+submitted_at: "2026-10-06T16:12:20.719Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-06T16:12:20.719Z"
+  last_checked_at: "2026-10-06T16:12:20.719Z"
+  last_passed_at: "2026-10-06T16:12:20.719Z"
+  failure_count: 0
