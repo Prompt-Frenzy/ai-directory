@@ -1,0 +1,18 @@
+name: Clipy
+url: https://clipy.online/
+description: "Clipy is a screen recorder for coding agents. Show a bug or UI change, explain it out loud, and share agent-readable context."
+category: productivity
+tags:
+  - aiagent
+  - developertool
+pricing: freemium
+logo: https://clipy.online/brand/social/product-hunt-thumb.png
+badge_url: https://clipy.online/
+sample_use_case: "A developer encounters an unexpected UI behavior in their application. They use Clipy to record their screen, demonstrating the bug while narrating the steps to reproduce it and highlighting the incorrect display. Clipy then generates a shareable link that includes the video and relevant code context, which can be provided directly to an AI coding agent for analysis and resolution."
+submitted_at: "2026-10-06T11:26:55.597Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-06T11:26:55.597Z"
+  last_checked_at: "2026-10-06T11:26:55.597Z"
+  last_passed_at: "2026-10-06T11:26:55.597Z"
+  failure_count: 0
