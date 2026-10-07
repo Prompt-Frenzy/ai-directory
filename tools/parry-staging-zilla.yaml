@@ -1,6 +1,7 @@
 name: Parry
 url: https://parry.staging.zilla.so/aep-2026-objection-pack
-description: "Turns a typed insurance objection into three tailored, compliance-safe response scripts, with a free preview and a paid playbook that adds a state-specific compliance note."
+description: Turns a typed insurance objection into three tailored, compliance-safe response
+  scripts, with a free preview and a paid playbook that adds a state-specific compliance note.
 category: text-generation
 tags:
   - insurance
@@ -8,22 +9,27 @@ tags:
   - objection-handling
   - script-generation
 pricing: freemium
-pricing_detail: "Free preview, no card. Solo $19 one-time; Team/Agency $79 one-time for up to 15 producer seats; Pro $29/mo, cancel anytime."
+pricing_detail: Free preview, no card. Solo $19 one-time; Team/Agency $79 one-time for up to 15
+  producer seats; Pro $29/mo, cancel anytime.
 key_features:
   - Three tailored response scripts for any typed objection
-  - "Free preview in under ten seconds, no credit card"
+  - Free preview in under ten seconds, no credit card
   - Paid playbook adds a state-specific compliance note
   - Bookmarkable order link so a playbook can be revisited
   - Team license covers up to 15 producer seats via a claim link
 platforms:
   - web
 badge_url: https://parry.staging.zilla.so/
-sample_use_case: "A user types an insurance objection into Parry, such as \"Your rates are too high.\" The tool then generates three distinct, compliance-safe response scripts. For a free preview, the user sees these scripts; a paid playbook adds a state-specific compliance note relevant to the objection."
+sample_use_case: A user types an insurance objection into Parry, such as "Your rates are too high."
+  The tool then generates three distinct, compliance-safe response scripts. For a free preview, the
+  user sees these scripts; a paid playbook adds a state-specific compliance note relevant to the
+  objection.
 submitted_by: parry
-submitted_at: "2026-10-06T15:20:32.897Z"
+submitted_at: 2026-10-06T15:20:32.897Z
 verification:
   status: verified
-  first_verified_at: "2026-10-06T15:20:32.897Z"
-  last_checked_at: "2026-10-06T15:20:32.897Z"
-  last_passed_at: "2026-10-06T15:20:32.897Z"
+  first_verified_at: 2026-10-06T15:20:32.897Z
+  last_checked_at: 2026-10-07T12:36:07.190Z
+  last_passed_at: 2026-10-07T12:36:07.190Z
   failure_count: 0
+  failure_reason: null

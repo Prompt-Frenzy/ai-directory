@@ -1,6 +1,7 @@
 name: AI Compare
 url: https://www.aicompare.ninja/
-description: "Compare 700+ AI tools with editorial profiles, sourced prices, free tiers, limits and alternatives, plus a free embeddable LLM API cost calculator."
+description: Compare 700+ AI tools with editorial profiles, sourced prices, free tiers, limits and
+  alternatives, plus a free embeddable LLM API cost calculator.
 category: other
 tags:
   - ai-tools
@@ -9,11 +10,12 @@ tags:
   - api-costs
   - research
 pricing: free
-pricing_detail: The comparison catalogue and API cost calculator are free to use. AI tools and API services have their own provider pricing.
+pricing_detail: The comparison catalogue and API cost calculator are free to use. AI tools and API
+  services have their own provider pricing.
 key_features:
   - Editorial comparison of 700+ AI tools across 10 categories
-  - "Sourced pricing, free access, paid plans, limits and alternatives"
-  - "Task search, regional pricing and side-by-side tool comparison"
+  - Sourced pricing, free access, paid plans, limits and alternatives
+  - Task search, regional pricing and side-by-side tool comparison
   - Free LLM API cost calculator using published OpenRouter prices
   - Configurable embeddable calculator widget and eight interface languages
 works_with:
@@ -22,11 +24,15 @@ platforms:
   - web
 logo: https://www.aicompare.ninja/mark.png
 badge_url: https://www.aicompare.ninja/listed-on
-sample_use_case: "A user researching AI solutions for their business can use AI Compare to find suitable tools. They input their requirements and the tool provides a list of AI options, including pricing, free tier availability, and direct comparisons to alternatives. This allows for informed decision-making based on detailed feature and cost breakdowns."
-submitted_at: "2026-10-06T20:27:53.276Z"
+sample_use_case: A user researching AI solutions for their business can use AI Compare to find
+  suitable tools. They input their requirements and the tool provides a list of AI options,
+  including pricing, free tier availability, and direct comparisons to alternatives. This allows for
+  informed decision-making based on detailed feature and cost breakdowns.
+submitted_at: 2026-10-06T20:27:53.276Z
 verification:
   status: verified
-  first_verified_at: "2026-10-06T20:27:53.276Z"
-  last_checked_at: "2026-10-06T20:27:53.276Z"
-  last_passed_at: "2026-10-06T20:27:53.276Z"
+  first_verified_at: 2026-10-06T20:27:53.276Z
+  last_checked_at: 2026-10-07T12:36:01.549Z
+  last_passed_at: 2026-10-07T12:36:01.549Z
   failure_count: 0
+  failure_reason: null
