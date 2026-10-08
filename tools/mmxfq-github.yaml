@@ -1,6 +1,7 @@
 name: FirstPass
 url: https://mmxfq.github.io/firstpass-site/
-description: "AI-operated SaaS homepage teardown with page-cited findings, a complete hero rewrite, and a seven-day action plan delivered within one business day."
+description: AI-operated SaaS homepage teardown with page-cited findings, a complete hero rewrite,
+  and a seven-day action plan delivered within one business day.
 category: agents
 tags:
   - saas
@@ -14,18 +15,22 @@ key_features:
   - 10 or more prioritized findings tied to visible page evidence
   - Complete homepage hero rewrite
   - Seven-day action plan ordered by impact and effort
-  - "Observed, contradicted, and unknown evidence states"
+  - Observed, contradicted, and unknown evidence states
 works_with:
   - public-saas-websites
 platforms:
   - web
 badge_url: https://mmxfq.github.io/firstpass-site/
-sample_use_case: "A user submits their SaaS homepage URL to FirstPass. The AI analyzes the page content, identifies areas for improvement based on conversion best practices, and provides specific, cited feedback. The output includes a rewritten hero section and a seven-day action plan to implement the suggested changes."
+sample_use_case: A user submits their SaaS homepage URL to FirstPass. The AI analyzes the page
+  content, identifies areas for improvement based on conversion best practices, and provides
+  specific, cited feedback. The output includes a rewritten hero section and a seven-day action plan
+  to implement the suggested changes.
 submitted_by: Mmxfq
-submitted_at: "2026-10-07T18:00:24.619Z"
+submitted_at: 2026-10-07T18:00:24.619Z
 verification:
   status: verified
-  first_verified_at: "2026-10-07T18:00:24.619Z"
-  last_checked_at: "2026-10-07T18:00:24.619Z"
-  last_passed_at: "2026-10-07T18:00:24.619Z"
+  first_verified_at: 2026-10-07T18:00:24.619Z
+  last_checked_at: 2026-10-08T12:45:59.931Z
+  last_passed_at: 2026-10-08T12:45:59.931Z
   failure_count: 0
+  failure_reason: null
