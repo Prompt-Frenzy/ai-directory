@@ -24,7 +24,7 @@ sample_use_case: A realtor uploads property photos to Grafics MLS Ready before l
   The output is a set of clean, compliant images ready for submission to FMLS or GAMLS.
 submitted_at: 2026-09-06T01:43:52.903Z
 verification:
-  status: failed
+  status: removed
   first_verified_at: 2026-09-06T01:43:52.903Z
   last_checked_at: 2026-10-04T12:45:30.555Z
   last_passed_at: 2026-09-07T11:30:35.103Z
@@ -32,3 +32,5 @@ verification:
   failed_at: 2026-09-10T10:32:59.000Z
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
+  removed_at: 2026-10-10T11:51:51.001Z
+  removal_reason: badge-failure
