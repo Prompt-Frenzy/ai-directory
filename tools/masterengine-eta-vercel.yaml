@@ -1,0 +1,31 @@
+name: MIDDLE
+url: https://masterengine-eta.vercel.app
+description: "MIDDLE is a messaging-first coaching platform that helps you build authentic courage and take action on your goals through persistent, structured conversations."
+category: productivity
+tags:
+  - coaching
+  - messaging
+  - productivity
+  - courage
+  - goals
+pricing: freemium
+pricing_detail: Free tier available; Pro $9.99/mo
+key_features:
+  - Messaging-first coaching interface with persistent conversations
+  - Structured goal tracking and accountability
+  - Mobile-first iPhone-style design
+  - Stripe subscription integration
+works_with:
+  - stripe
+  - vercel
+platforms:
+  - web
+badge_url: https://masterengine-eta.vercel.app
+sample_use_case: "A user defines a personal or professional goal within MIDDLE. The AI then initiates a series of structured conversations via text messages, prompting the user to reflect on challenges, identify actionable steps, and commit to specific behaviors. The user responds to these prompts, and the AI provides feedback and further questions to guide them toward achieving their stated goal."
+submitted_at: "2026-10-10T08:56:55.441Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-10T08:56:55.441Z"
+  last_checked_at: "2026-10-10T08:56:55.441Z"
+  last_passed_at: "2026-10-10T08:56:55.441Z"
+  failure_count: 0
