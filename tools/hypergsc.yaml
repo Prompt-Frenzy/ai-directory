@@ -1,0 +1,30 @@
+name: HyperGSC
+url: https://hypergsc.com/
+description: "Connect Google Search Console to compatible AI clients through MCP to analyze traffic, rankings, queries and indexing using your own website data."
+category: data-analysis
+tags:
+  - seo
+  - analytics
+  - mcp
+  - google-search-console
+pricing: freemium
+pricing_detail: Free plan for one Search Console property; paid plans from $15/month (USD).
+key_features:
+  - Read-only Google Search Console access
+  - Traffic and ranking analysis by page and query
+  - URL indexing checks
+  - Remote MCP connection for compatible AI clients
+works_with:
+  - chatgpt
+  - claude
+  - cursor
+  - codex
+badge_url: https://hypergsc.com/
+sample_use_case: "A website owner uses HyperGSC to connect their Google Search Console data to an AI analysis tool. They input their website's URL and the AI then processes traffic, ranking, and query information. This allows the owner to identify trends in their search performance and make data-driven decisions to improve their site's visibility."
+submitted_at: "2026-10-10T08:58:12.584Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-10T08:58:12.584Z"
+  last_checked_at: "2026-10-10T08:58:12.584Z"
+  last_passed_at: "2026-10-10T08:58:12.584Z"
+  failure_count: 0
