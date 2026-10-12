@@ -1,0 +1,26 @@
+name: Cover Letter Lab
+url: https://cover.xstupid.com/
+description: "Free English cover-letter generator for global job seekers: paste a role, get a tailored letter."
+category: text-generation
+tags:
+  - cover-letter
+  - job-search
+  - writing
+  - career
+  - english
+pricing: freemium
+pricing_detail: "Free, no account; optional $9 Pro pack via waitlist."
+key_features:
+  - Paste a job role description
+  - Generates a tailored English cover letter
+  - Copy the finished letter to your clipboard
+  - No signup or account required
+badge_url: https://cover.xstupid.com/
+sample_use_case: A job seeker copies the text of a job advertisement and pastes it into Cover Letter Lab. The tool analyzes the job description and generates a customized cover letter. The user then reviews and edits this letter before submitting it with their application.
+submitted_at: "2026-10-12T07:20:02.239Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-12T07:20:02.239Z"
+  last_checked_at: "2026-10-12T07:20:02.239Z"
+  last_passed_at: "2026-10-12T07:20:02.239Z"
+  failure_count: 0
