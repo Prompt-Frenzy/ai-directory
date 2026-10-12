@@ -1,6 +1,7 @@
 name: CloudPloy
 url: https://cloudploy.com
-description: "CloudPloy lets you deploy web apps directly from AI coding tools like Cursor and Claude Code to your own cloud, with no DevOps setup."
+description: CloudPloy lets you deploy web apps directly from AI coding tools like Cursor and Claude
+  Code to your own cloud, with no DevOps setup.
 category: code-assist
 tags:
   - deployment
@@ -12,17 +13,21 @@ pricing: freemium
 key_features:
   - Deploy from Cursor and Claude Code
   - Deploy to your own cloud
-  - "Push, preview, and ship in one step"
+  - Push, preview, and ship in one step
   - No DevOps setup
 works_with:
   - cursor
   - claude code
 badge_url: https://cloudploy.com
-sample_use_case: "A developer uses CloudPloy to deploy a web application. They write code in an AI coding environment like Cursor, then instruct CloudPloy to deploy the application to their chosen cloud provider. CloudPloy handles the infrastructure setup and deployment process, making the application accessible online without manual configuration."
-submitted_at: "2026-10-12T13:03:54.231Z"
+sample_use_case: A developer uses CloudPloy to deploy a web application. They write code in an AI
+  coding environment like Cursor, then instruct CloudPloy to deploy the application to their chosen
+  cloud provider. CloudPloy handles the infrastructure setup and deployment process, making the
+  application accessible online without manual configuration.
+submitted_at: 2026-10-12T13:03:54.231Z
 verification:
   status: verified
-  first_verified_at: "2026-10-12T13:03:54.231Z"
-  last_checked_at: "2026-10-12T13:03:54.231Z"
-  last_passed_at: "2026-10-12T13:03:54.231Z"
+  first_verified_at: 2026-10-12T13:03:54.231Z
+  last_checked_at: 2026-10-12T14:21:18.000Z
+  last_passed_at: 2026-10-12T14:21:18.000Z
   failure_count: 0
+  failure_reason: null

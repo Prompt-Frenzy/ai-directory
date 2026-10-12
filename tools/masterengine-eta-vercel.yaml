@@ -29,9 +29,10 @@ sample_use_case: A user defines a personal or professional goal within MIDDLE. T
   their stated goal.
 submitted_at: 2026-10-10T08:56:55.441Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-10T08:56:55.441Z
-  last_checked_at: 2026-10-11T13:18:14.741Z
+  last_checked_at: 2026-10-12T14:21:20.182Z
   last_passed_at: 2026-10-11T13:18:14.741Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

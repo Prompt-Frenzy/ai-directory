@@ -1,6 +1,7 @@
 name: WSUP AI
 url: https://wsupai.app/
-description: "WSUP AI is a free AI character chat online: talk to AI characters in your browser, with no sign up."
+description: "WSUP AI is a free AI character chat online: talk to AI characters in your browser,
+  with no sign up."
 category: chatbots
 tags:
   - ai-character-chat
@@ -9,11 +10,15 @@ tags:
 pricing: free
 logo: https://wsupai.app/og.png
 badge_url: https://wsupai.app/blog
-sample_use_case: "A user can visit the WSUP AI website to immediately begin a text-based conversation with a pre-programmed AI character. They select a character from the available options and type their messages into a chat window. The AI character responds in real-time, allowing for ongoing dialogue without requiring an account or personal information."
-submitted_at: "2026-10-11T15:56:56.259Z"
+sample_use_case: A user can visit the WSUP AI website to immediately begin a text-based conversation
+  with a pre-programmed AI character. They select a character from the available options and type
+  their messages into a chat window. The AI character responds in real-time, allowing for ongoing
+  dialogue without requiring an account or personal information.
+submitted_at: 2026-10-11T15:56:56.259Z
 verification:
   status: verified
-  first_verified_at: "2026-10-11T15:56:56.259Z"
-  last_checked_at: "2026-10-11T15:56:56.259Z"
-  last_passed_at: "2026-10-11T15:56:56.259Z"
+  first_verified_at: 2026-10-11T15:56:56.259Z
+  last_checked_at: 2026-10-12T14:21:23.083Z
+  last_passed_at: 2026-10-12T14:21:23.083Z
   failure_count: 0
+  failure_reason: null
