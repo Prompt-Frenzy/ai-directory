@@ -1,0 +1,20 @@
+name: NJC AI Instruction Bundles
+url: https://bulletinboardasia.com/ai-agent-bundles/
+description: "Three downloadable AI instruction bundles for competitor research, brand messaging and short-video scripts. US$9.90 each; a compatible AI host and usage credits are separate."
+category: prompt-tools
+tags:
+  - competitor-research
+  - copywriting
+  - video-scripts
+  - marketing
+  - prompts
+pricing: paid
+badge_url: https://bulletinboardasia.com/ai-agent-bundles/
+sample_use_case: "A marketing professional can purchase the competitor research bundle, load its instructions into their preferred AI host, and input details about their target market and a competitor's product. The AI then generates a structured analysis of the competitor's strengths and weaknesses, providing actionable insights for strategic planning. This streamlines the process of gathering and organizing competitive intelligence."
+submitted_at: "2026-10-12T07:21:46.315Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-12T07:21:46.315Z"
+  last_checked_at: "2026-10-12T07:21:46.315Z"
+  last_passed_at: "2026-10-12T07:21:46.315Z"
+  failure_count: 0
