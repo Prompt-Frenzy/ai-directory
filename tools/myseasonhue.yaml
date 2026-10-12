@@ -1,0 +1,29 @@
+name: My Season Hue
+url: https://myseasonhue.com/
+description: "Personal color analysis with a free eight-question quiz, local virtual draping, public seasonal palettes, and Qwen photo analysis with sign-in and consent."
+category: other
+tags:
+  - personal-color-analysis
+  - seasonal-colors
+  - virtual-draping
+  - qwen
+  - wardrobe
+pricing: freemium
+pricing_detail: "Free quiz, local draping and public starter palettes. Free Qwen photo analysis has account and daily limits. Optional complete report: US$29.99 once; no recurring subscription."
+key_features:
+  - Eight-question free quiz with two candidate seasons and 12 starter colors for each candidate.
+  - Local-browser virtual color draping using the same portrait.
+  - Public palette guides for all 12 seasons.
+  - "Qwen photo analysis: sign-in, consent, and up to three completed analyses per UTC day."
+  - "Optional US$29.99 report: 24 colors in four groups, styling guidance and a downloadable PDF."
+platforms:
+  - web
+badge_url: https://myseasonhue.com/
+sample_use_case: "A user can upload a photo of themselves to My Season Hue for an AI-powered personal color analysis. The tool will identify their seasonal color palette, such as \"True Spring\" or \"Deep Autumn,\" and provide examples of clothing and makeup colors that best complement their natural features. This helps users make informed decisions when shopping for new items or planning their wardrobe."
+submitted_at: "2026-10-12T17:18:57.796Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-12T17:18:57.796Z"
+  last_checked_at: "2026-10-12T17:18:57.796Z"
+  last_passed_at: "2026-10-12T17:18:57.796Z"
+  failure_count: 0
