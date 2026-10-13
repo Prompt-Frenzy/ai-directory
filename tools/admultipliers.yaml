@@ -1,0 +1,29 @@
+name: Ad Multiplier
+url: https://admultipliers.com/
+description: "Create up to four visual variations of an existing short video ad, with creator, outfit, location, product and market changes and optional original audio."
+category: video-generation
+tags:
+  - video-ads
+  - ad-variations
+  - creative-testing
+  - video-editing
+  - marketing
+pricing: paid
+pricing_detail: "Ad-balance packs start at $9.90. A 4–15s Standard output uses 1 ad, HD uses 2; 16–30s Standard uses 2, HD uses 4. No subscription. Failed renders return balance."
+key_features:
+  - "4–30 second MP4, MOV or WebM source video"
+  - Up to four visual variations per source
+  - Up to five source ads queued
+  - Optional original audio preservation
+  - 720p or 1080p output
+  - Individual MP4 and ZIP downloads
+badge_url: https://admultipliers.com/
+sample_use_case: "A marketing team uploads a 15-second video ad for a new product. They specify changes to the on-screen creator, the clothing worn, the background location, and the product color. The Ad Multiplier then generates four distinct video ad variations, each incorporating these specified changes while retaining the original audio. These variations are then used for A/B testing across different advertising platforms."
+submitted_by: Jamailar
+submitted_at: "2026-10-13T11:25:50.804Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-13T11:25:50.804Z"
+  last_checked_at: "2026-10-13T11:25:50.804Z"
+  last_passed_at: "2026-10-13T11:25:50.804Z"
+  failure_count: 0
