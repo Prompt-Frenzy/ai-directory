@@ -1,0 +1,26 @@
+name: Burning Bridges Studio
+url: https://burningbridgesvideos.com
+description: "Creates a 23-second AI party video with sound from one portrait photo, using a prepared reference clip to guide motion and camera movement."
+category: video-generation
+tags:
+  - photo-to-video
+  - portrait-animation
+  - ai-video
+pricing: paid
+pricing_detail: Credit packs start at $9.99; no subscription.
+key_features:
+  - Creates a personalized 23-second video from one portrait photo
+  - Uses a prepared reference clip to guide motion and camera movement
+  - Includes sound and a downloadable finished clip
+  - Offers English and Chinese website interfaces
+platforms:
+  - web
+badge_url: https://burningbridgesvideos.com
+sample_use_case: "A user uploads a single portrait photograph to Burning Bridges Studio. The AI then animates this photo into a 23-second party video, complete with synchronized sound and dynamic camera movements. The resulting video features the uploaded portrait as the main subject, moving and interacting within a party scene based on a pre-selected reference clip."
+submitted_at: "2026-10-14T02:55:35.367Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-14T02:55:35.367Z"
+  last_checked_at: "2026-10-14T02:55:35.367Z"
+  last_passed_at: "2026-10-14T02:55:35.367Z"
+  failure_count: 0
