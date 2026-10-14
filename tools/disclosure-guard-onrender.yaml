@@ -1,6 +1,7 @@
 name: DisclosureGuard
 url: https://disclosure-guard.onrender.com
-description: "Scans AI-generated ad creatives for missing disclosure labels and checks them against EU AI Act and Google ad-label rules, generating compliant disclosures in one click."
+description: Scans AI-generated ad creatives for missing disclosure labels and checks them against
+  EU AI Act and Google ad-label rules, generating compliant disclosures in one click.
 category: other
 tags:
   - ai-compliance
@@ -8,7 +9,7 @@ tags:
   - ad-disclosure
   - marketing
 pricing: freemium
-pricing_detail: "Free basic scan; Pro $49/mo, Team $149/mo."
+pricing_detail: Free basic scan; Pro $49/mo, Team $149/mo.
 key_features:
   - AI ad disclosure scanning
   - EU AI Act compliance check
@@ -18,12 +19,17 @@ key_features:
 platforms:
   - web
 badge_url: https://disclosure-guard.onrender.com
-sample_use_case: "An advertising agency uploads a batch of AI-generated ad creatives to DisclosureGuard. The tool scans each creative for the presence and accuracy of disclosure labels, comparing them against EU AI Act and Google ad-label requirements. It then automatically generates and applies compliant disclosure text to any creatives that are missing or have incorrect labels, ensuring legal adherence before campaign launch."
+sample_use_case: An advertising agency uploads a batch of AI-generated ad creatives to
+  DisclosureGuard. The tool scans each creative for the presence and accuracy of disclosure labels,
+  comparing them against EU AI Act and Google ad-label requirements. It then automatically generates
+  and applies compliant disclosure text to any creatives that are missing or have incorrect labels,
+  ensuring legal adherence before campaign launch.
 submitted_by: Iceman2050
-submitted_at: "2026-10-13T19:17:04.184Z"
+submitted_at: 2026-10-13T19:17:04.184Z
 verification:
   status: verified
-  first_verified_at: "2026-10-13T19:17:04.184Z"
-  last_checked_at: "2026-10-13T19:17:04.184Z"
-  last_passed_at: "2026-10-13T19:17:04.184Z"
+  first_verified_at: 2026-10-13T19:17:04.184Z
+  last_checked_at: 2026-10-14T11:07:41.142Z
+  last_passed_at: 2026-10-14T11:07:41.142Z
   failure_count: 0
+  failure_reason: null

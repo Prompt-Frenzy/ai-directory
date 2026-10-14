@@ -1,6 +1,7 @@
 name: Hive Prospect
 url: https://prospect.hive.baby/
-description: "Clinical-trial decision tools for cost, enrollment, protocol complexity, geography comparison, and fixed-price protocol audits."
+description: Clinical-trial decision tools for cost, enrollment, protocol complexity, geography
+  comparison, and fixed-price protocol audits.
 category: data-analysis
 tags:
   - clinical-trials
@@ -12,19 +13,24 @@ pricing: freemium
 pricing_detail: Free calculators and guides; protocol audit pilot $99; fixed-price specialist reviews $499.
 key_features:
   - Clinical trial cost calculator using explicit sponsor assumptions
-  - "Protocol complexity preflight for cost, enrollment, and amendment risk"
-  - "Enrollment calculator for screens, site rate, recruitment duration, and completers"
+  - Protocol complexity preflight for cost, enrollment, and amendment risk
+  - Enrollment calculator for screens, site rate, recruitment duration, and completers
   - Country comparison tool for apples-to-apples trial geography scenarios
   - Fixed-price protocol cost and complexity audit
 platforms:
   - web
 logo: https://prospect.hive.baby/static/favicon.svg
 badge_url: https://prospect.hive.baby/
-sample_use_case: "A clinical trial manager uses Hive Prospect to compare the cost and enrollment feasibility of different protocol designs across various geographic regions. They input trial parameters like patient inclusion criteria and desired endpoints, and the tool outputs cost estimates, projected enrollment timelines, and identifies regions with optimal patient populations. This helps them make informed decisions about trial design and site selection."
-submitted_at: "2026-10-13T21:39:43.472Z"
+sample_use_case: A clinical trial manager uses Hive Prospect to compare the cost and enrollment
+  feasibility of different protocol designs across various geographic regions. They input trial
+  parameters like patient inclusion criteria and desired endpoints, and the tool outputs cost
+  estimates, projected enrollment timelines, and identifies regions with optimal patient
+  populations. This helps them make informed decisions about trial design and site selection.
+submitted_at: 2026-10-13T21:39:43.472Z
 verification:
-  status: verified
-  first_verified_at: "2026-10-13T21:39:43.472Z"
-  last_checked_at: "2026-10-13T21:39:43.472Z"
-  last_passed_at: "2026-10-13T21:39:43.472Z"
-  failure_count: 0
+  status: pending
+  first_verified_at: 2026-10-13T21:39:43.472Z
+  last_checked_at: 2026-10-14T11:07:44.585Z
+  last_passed_at: 2026-10-13T21:39:43.472Z
+  failure_count: 1
+  failure_reason: "fetch failed: HTTP 530"
