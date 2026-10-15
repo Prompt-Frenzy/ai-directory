@@ -28,9 +28,9 @@ sample_use_case: A clinical trial manager uses Hive Prospect to compare the cost
   populations. This helps them make informed decisions about trial design and site selection.
 submitted_at: 2026-10-13T21:39:43.472Z
 verification:
-  status: pending
+  status: verified
   first_verified_at: 2026-10-13T21:39:43.472Z
-  last_checked_at: 2026-10-14T11:07:44.585Z
-  last_passed_at: 2026-10-13T21:39:43.472Z
-  failure_count: 1
-  failure_reason: "fetch failed: HTTP 530"
+  last_checked_at: 2026-10-15T10:48:56.187Z
+  last_passed_at: 2026-10-15T10:48:56.187Z
+  failure_count: 0
+  failure_reason: null

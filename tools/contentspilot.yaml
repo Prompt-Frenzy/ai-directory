@@ -1,6 +1,7 @@
 name: Contents Pilot
 url: https://www.contentspilot.com/en
-description: "Contents Pilot analyzes your Instagram profile and generates carousels, static posts and Reels scripts in your brand style, then plans your week."
+description: Contents Pilot analyzes your Instagram profile and generates carousels, static posts
+  and Reels scripts in your brand style, then plans your week.
 category: productivity
 tags:
   - social-media
@@ -11,11 +12,15 @@ pricing: paid
 pricing_detail: Paid with a free preview.
 logo: https://www.contentspilot.com/favicon.ico
 badge_url: https://www.contentspilot.com/en
-sample_use_case: "A user connects their Instagram account to Contents Pilot. The tool analyzes past posts and brand elements to understand their style. It then suggests a week's worth of Instagram content, including carousel ideas, static post captions, and Reel scripts, all tailored to the user's established brand voice."
-submitted_at: "2026-10-14T22:56:45.211Z"
+sample_use_case: A user connects their Instagram account to Contents Pilot. The tool analyzes past
+  posts and brand elements to understand their style. It then suggests a week's worth of Instagram
+  content, including carousel ideas, static post captions, and Reel scripts, all tailored to the
+  user's established brand voice.
+submitted_at: 2026-10-14T22:56:45.211Z
 verification:
   status: verified
-  first_verified_at: "2026-10-14T22:56:45.211Z"
-  last_checked_at: "2026-10-14T22:56:45.211Z"
-  last_passed_at: "2026-10-14T22:56:45.211Z"
+  first_verified_at: 2026-10-14T22:56:45.211Z
+  last_checked_at: 2026-10-15T10:48:51.605Z
+  last_passed_at: 2026-10-15T10:48:51.605Z
   failure_count: 0
+  failure_reason: null
