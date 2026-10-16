@@ -1,6 +1,7 @@
 name: ShellWire
 url: https://shellwire.com/
-description: "ShellWire puts useful software on the front page, with explainable rankings and discovery for people and AI assistants."
+description: ShellWire puts useful software on the front page, with explainable rankings and
+  discovery for people and AI assistants.
 category: other
 tags:
   - software-directory
@@ -9,7 +10,8 @@ tags:
   - developer-tools
   - software-comparison
 pricing: free
-pricing_detail: Free to browse. Free reviewed listings require verified email and a ShellWire link on the submitted application homepage.
+pricing_detail: Free to browse. Free reviewed listings require verified email and a ShellWire link
+  on the submitted application homepage.
 key_features:
   - Discover useful software by the problems it solves
   - Compare documented application capabilities
@@ -20,11 +22,15 @@ platforms:
   - web
   - api
 badge_url: https://shellwire.com/
-sample_use_case: "A developer looking for a specific AI tool can use ShellWire to browse available options. They can input keywords related to their project, and ShellWire will display relevant software with clear explanations of its features and how it ranks against similar tools. This allows for informed comparison and selection of the most suitable software."
-submitted_at: "2026-10-15T23:51:01.528Z"
+sample_use_case: A developer looking for a specific AI tool can use ShellWire to browse available
+  options. They can input keywords related to their project, and ShellWire will display relevant
+  software with clear explanations of its features and how it ranks against similar tools. This
+  allows for informed comparison and selection of the most suitable software.
+submitted_at: 2026-10-15T23:51:01.528Z
 verification:
   status: verified
-  first_verified_at: "2026-10-15T23:51:01.528Z"
-  last_checked_at: "2026-10-15T23:51:01.528Z"
-  last_passed_at: "2026-10-15T23:51:01.528Z"
+  first_verified_at: 2026-10-15T23:51:01.528Z
+  last_checked_at: 2026-10-16T10:38:20.353Z
+  last_passed_at: 2026-10-16T10:38:20.353Z
   failure_count: 0
+  failure_reason: null
