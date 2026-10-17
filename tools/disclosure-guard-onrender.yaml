@@ -29,7 +29,7 @@ submitted_at: 2026-10-13T19:17:04.184Z
 verification:
   status: pending
   first_verified_at: 2026-10-13T19:17:04.184Z
-  last_checked_at: 2026-10-16T10:38:16.806Z
+  last_checked_at: 2026-10-17T10:06:45.809Z
   last_passed_at: 2026-10-15T10:48:52.862Z
-  failure_count: 1
+  failure_count: 2
   failure_reason: "fetch failed: HTTP 503"

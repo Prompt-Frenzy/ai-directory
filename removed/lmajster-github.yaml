@@ -32,10 +32,12 @@ sample_use_case: A Solana project creator can deploy Solgrok to automate the ope
 submitted_by: LMajster
 submitted_at: 2026-09-13T22:24:36.584Z
 verification:
-  status: failed
+  status: removed
   first_verified_at: 2026-09-13T22:24:36.584Z
   last_checked_at: 2026-10-11T13:18:10.528Z
   last_passed_at: 2026-09-13T22:24:36.584Z
   failure_count: 11
   failed_at: 2026-09-16T10:48:19.000Z
   failure_reason: "fetch failed: HTTP 404"
+  removed_at: 2026-10-17T10:06:50.148Z
+  removal_reason: badge-failure
