@@ -1,0 +1,38 @@
+name: Maeve Social
+url: https://maevesocial.com
+description: "Maeve Social combines content planning, approvals, scheduling, publishing, analytics and an AI assistant for creators, agencies and marketing teams."
+category: productivity
+tags:
+  - social-media
+  - content-planning
+  - scheduling
+  - analytics
+  - ai-assistant
+pricing: subscription
+pricing_detail: "Basic $25, Standard $99 and Premium $199 USD per month. Three-day free trial; no permanent free plan."
+key_features:
+  - Calendar and board content planning
+  - Internal and client approvals
+  - Scheduling and publishing across nine social platforms
+  - Social inbox
+  - Analytics and branded PDF reports
+  - "AI assistant and API, CLI and MCP access"
+works_with:
+  - instagram
+  - facebook
+  - tiktok
+  - youtube
+  - linkedin
+  - claude-code
+  - codex
+  - cursor
+logo: https://maevesocial.com/android-chrome-512x512.png
+badge_url: https://maevesocial.com
+sample_use_case: "A social media manager uses Maeve Social to plan a week's worth of content. They input post ideas and the AI assistant helps generate captions and relevant hashtags. After team approval, the manager schedules these posts to publish automatically across various platforms and then monitors their performance within the tool."
+submitted_at: "2026-10-17T00:27:11.798Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-17T00:27:11.798Z"
+  last_checked_at: "2026-10-17T00:27:11.798Z"
+  last_passed_at: "2026-10-17T00:27:11.798Z"
+  failure_count: 0
