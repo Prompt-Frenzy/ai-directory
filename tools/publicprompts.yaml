@@ -21,9 +21,10 @@ sample_use_case: A user looking for a specific type of AI tool can navigate Publ
   prompts for their projects.
 submitted_at: 2026-10-03T19:42:41.468Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-03T19:42:41.468Z
-  last_checked_at: 2026-10-11T13:18:21.526Z
+  last_checked_at: 2026-10-18T11:34:59.771Z
   last_passed_at: 2026-10-11T13:18:21.526Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory
