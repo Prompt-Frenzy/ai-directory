@@ -1,6 +1,7 @@
 name: SoundClean
 url: https://soundclean.app/
-description: SoundClean reduces background noise in audio and video recordings with AI and offers a free 10-second cleaned preview.
+description: SoundClean reduces background noise in audio and video recordings with AI and offers a
+  free 10-second cleaned preview.
 category: audio-generation
 tags:
   - audio-cleaning
@@ -16,11 +17,14 @@ key_features:
   - Files up to 500 MB
 logo: https://soundclean.app/apple-touch-icon.png
 badge_url: https://soundclean.app/
-sample_use_case: "A podcast editor uploads a raw interview recording to SoundClean. The tool processes the audio, removing unwanted hums and static. The editor then downloads the cleaner audio file, ready for further editing and mixing into the podcast episode."
-submitted_at: "2026-10-18T10:04:58.786Z"
+sample_use_case: A podcast editor uploads a raw interview recording to SoundClean. The tool
+  processes the audio, removing unwanted hums and static. The editor then downloads the cleaner
+  audio file, ready for further editing and mixing into the podcast episode.
+submitted_at: 2026-10-18T10:04:58.786Z
 verification:
   status: verified
-  first_verified_at: "2026-10-18T10:04:58.786Z"
-  last_checked_at: "2026-10-18T10:04:58.786Z"
-  last_passed_at: "2026-10-18T10:04:58.786Z"
+  first_verified_at: 2026-10-18T10:04:58.786Z
+  last_checked_at: 2026-10-18T10:20:40.386Z
+  last_passed_at: 2026-10-18T10:20:40.386Z
   failure_count: 0
+  failure_reason: null

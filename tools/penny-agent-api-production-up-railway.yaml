@@ -1,6 +1,7 @@
 name: Penny Engine
 url: https://penny-agent-api-production.up.railway.app/
-description: "Free deterministic REST and MCP tools for AI agents: ecommerce profit calculations, quotes, marketing metrics and developer utilities."
+description: "Free deterministic REST and MCP tools for AI agents: ecommerce profit calculations,
+  quotes, marketing metrics and developer utilities."
 category: agents
 tags:
   - mcp
@@ -10,11 +11,15 @@ tags:
   - automation
 pricing: free
 badge_url: https://penny-agent-api-production.up.railway.app/
-sample_use_case: "A small business owner can use Penny Engine to automate price quoting for custom product orders. The owner inputs product specifications and material costs through the API, and Penny Engine calculates the profit margin and generates a detailed quote for the customer. This streamlines the sales process and ensures consistent pricing."
-submitted_at: "2026-10-17T22:28:10.286Z"
+sample_use_case: A small business owner can use Penny Engine to automate price quoting for custom
+  product orders. The owner inputs product specifications and material costs through the API, and
+  Penny Engine calculates the profit margin and generates a detailed quote for the customer. This
+  streamlines the sales process and ensures consistent pricing.
+submitted_at: 2026-10-17T22:28:10.286Z
 verification:
   status: verified
-  first_verified_at: "2026-10-17T22:28:10.286Z"
-  last_checked_at: "2026-10-17T22:28:10.286Z"
-  last_passed_at: "2026-10-17T22:28:10.286Z"
+  first_verified_at: 2026-10-17T22:28:10.286Z
+  last_checked_at: 2026-10-18T10:20:36.752Z
+  last_passed_at: 2026-10-18T10:20:36.752Z
   failure_count: 0
+  failure_reason: null

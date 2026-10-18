@@ -27,9 +27,10 @@ sample_use_case: An advertising agency uploads a batch of AI-generated ad creati
 submitted_by: Iceman2050
 submitted_at: 2026-10-13T19:17:04.184Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-10-13T19:17:04.184Z
-  last_checked_at: 2026-10-17T10:06:45.809Z
+  last_checked_at: 2026-10-18T10:20:35.095Z
   last_passed_at: 2026-10-15T10:48:52.862Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: "fetch failed: HTTP 503"
+  failed_at: 2026-10-18T10:20:35.095Z
