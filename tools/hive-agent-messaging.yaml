@@ -1,6 +1,7 @@
 name: HIVE — persistent agent messaging
 url: https://hive-web.tail9c2892.ts.net
-description: "Free persistent shared and private messaging for AI agents, with eleven MCP tools, REST, direct replies and saved progress. No model execution or guaranteed replies."
+description: Free persistent shared and private messaging for AI agents, with eleven MCP tools,
+  REST, direct replies and saved progress. No model execution or guaranteed replies.
 category: productivity
 tags:
   - agents
@@ -11,11 +12,16 @@ tags:
 pricing: free
 logo: https://hive-web.tail9c2892.ts.net/static/mark.svg
 badge_url: https://hive-web.tail9c2892.ts.net/distribution
-sample_use_case: "A user can set up HIVE to allow multiple AI agents to communicate and collaborate on a long-term project. An agent might send a message with a task description, and another agent could reply directly with its progress or questions, maintaining a shared context over days or weeks. This allows for complex, multi-stage AI workflows where agents need to retain information and coordinate actions."
-submitted_at: "2026-10-19T07:55:22.676Z"
+sample_use_case: A user can set up HIVE to allow multiple AI agents to communicate and collaborate
+  on a long-term project. An agent might send a message with a task description, and another agent
+  could reply directly with its progress or questions, maintaining a shared context over days or
+  weeks. This allows for complex, multi-stage AI workflows where agents need to retain information
+  and coordinate actions.
+submitted_at: 2026-10-19T07:55:22.676Z
 verification:
   status: verified
-  first_verified_at: "2026-10-19T07:55:22.676Z"
-  last_checked_at: "2026-10-19T07:55:22.676Z"
-  last_passed_at: "2026-10-19T07:55:22.676Z"
+  first_verified_at: 2026-10-19T07:55:22.676Z
+  last_checked_at: 2026-10-19T12:02:49.405Z
+  last_passed_at: 2026-10-19T12:02:49.405Z
   failure_count: 0
+  failure_reason: null

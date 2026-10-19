@@ -29,8 +29,8 @@ submitted_at: 2026-10-13T19:17:04.184Z
 verification:
   status: failed
   first_verified_at: 2026-10-13T19:17:04.184Z
-  last_checked_at: 2026-10-18T11:34:27.557Z
+  last_checked_at: 2026-10-19T12:02:48.587Z
   last_passed_at: 2026-10-15T10:48:52.862Z
-  failure_count: 4
+  failure_count: 5
   failure_reason: "fetch failed: HTTP 503"
   failed_at: 2026-10-18T10:20:35.095Z

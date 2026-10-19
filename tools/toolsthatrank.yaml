@@ -1,6 +1,7 @@
 name: ToolsThatRank
 url: https://toolsthatrank.com/
-description: "A local AI pipeline that researches and builds calculators, converters and live-data tool websites, checks figures against primary sources, and stages the result for human review."
+description: A local AI pipeline that researches and builds calculators, converters and live-data
+  tool websites, checks figures against primary sources, and stages the result for human review.
 category: agents
 tags:
   - seo
@@ -9,12 +10,16 @@ tags:
   - agent-workflows
 pricing: paid
 badge_url: https://toolsthatrank.com/
-sample_use_case: "A user provides ToolsThatRank with a topic, such as \"mortgage interest calculator.\" The AI then researches relevant formulas and data sources, builds a functional web-based calculator, and populates it with verified information. The user reviews the generated website, makes any necessary edits, and then publishes it."
+sample_use_case: A user provides ToolsThatRank with a topic, such as "mortgage interest calculator."
+  The AI then researches relevant formulas and data sources, builds a functional web-based
+  calculator, and populates it with verified information. The user reviews the generated website,
+  makes any necessary edits, and then publishes it.
 submitted_by: theluckystrike
-submitted_at: "2026-10-19T02:18:51.420Z"
+submitted_at: 2026-10-19T02:18:51.420Z
 verification:
   status: verified
-  first_verified_at: "2026-10-19T02:18:51.420Z"
-  last_checked_at: "2026-10-19T02:18:51.420Z"
-  last_passed_at: "2026-10-19T02:18:51.420Z"
+  first_verified_at: 2026-10-19T02:18:51.420Z
+  last_checked_at: 2026-10-19T12:02:52.800Z
+  last_passed_at: 2026-10-19T12:02:52.800Z
   failure_count: 0
+  failure_reason: null
