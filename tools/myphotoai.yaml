@@ -1,0 +1,12 @@
+name: "MyPhotoAI"
+url: "https://myphotoai.io/"
+description: "Turn your selfies into AI headshots and portraits."
+category: "image-generation"
+pricing: "paid"
+badge_url: "https://myphotoai.io/"
+tags: ["ai-headshots", "portraits", "photo-generation", "profile-pictures"]
+pricing_detail: "One-time payment per shoot. US$5 for 3 photos; US$10 for all photos from one shoot. Local-currency pricing may differ."
+key_features: ["Turn selfies into professional headshots and portraits", "142 looks across 7 categories. Choose up to 5 looks per shoot.", "Choose professional, dating and creative photo styles", "Create photos online", "Download selected HD photos from your shoot"]
+platforms: ["web"]
+logo: "https://myphotoai.io/og-image.png"
+submitted_by: "Kiragu-Maina"
