@@ -38,7 +38,7 @@ sample_use_case: A user with a general idea for an AI task, such as "summarize t
 submitted_by: ghulamdastgeer1113-art
 submitted_at: 2026-09-13T22:51:16.965Z
 verification:
-  status: failed
+  status: removed
   first_verified_at: 2026-09-13T22:51:16.965Z
   last_checked_at: 2026-10-18T11:34:27.374Z
   last_passed_at: 2026-09-18T10:30:52.093Z
@@ -46,3 +46,5 @@ verification:
   failed_at: 2026-09-20T11:44:02.000Z
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
+  removed_at: 2026-10-21T11:06:36.228Z
+  removal_reason: badge-failure

@@ -35,7 +35,7 @@ sample_use_case: A user can observe the Robot Football League to understand how 
 submitted_by: robot-football-league
 submitted_at: 2026-08-22T19:23:17.443Z
 verification:
-  status: failed
+  status: removed
   first_verified_at: 2026-08-22T19:23:17.443Z
   last_checked_at: 2026-10-18T11:35:01.006Z
   last_passed_at: 2026-08-30T12:08:32.664Z
@@ -43,3 +43,5 @@ verification:
   failed_at: 2026-09-20T11:44:02.000Z
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
+  removed_at: 2026-10-21T11:06:36.228Z
+  removal_reason: badge-failure
