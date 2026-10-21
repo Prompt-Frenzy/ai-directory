@@ -1,0 +1,28 @@
+name: ihateimg.cv
+url: https://ihateimg.cv
+description: 58 free image tools that run in your browser and never upload your files.
+category: productivity
+tags:
+  - image-editing
+  - image-compression
+  - privacy
+  - image-conversion
+  - browser-tools
+pricing: free
+pricing_detail: "Free, no account, no watermark."
+key_features:
+  - "Convert, compress, resize and crop images"
+  - "Remove EXIF and GPS data, blur faces"
+  - Add watermarks and make GIFs
+  - Make favicons and OG images
+  - Photo and signature sizes for exam forms
+  - "Runs in the browser, files never uploaded"
+badge_url: https://ihateimg.cv
+sample_use_case: "A user needs to resize a batch of vacation photos for a website without compromising privacy. They drag and drop the images into ihateimg.cv's bulk resizer tool, specify the desired dimensions, and download the resized images directly to their computer. This process occurs entirely within their browser, ensuring no personal photos are ever uploaded to a server."
+submitted_at: "2026-10-21T04:56:55.415Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-21T04:56:55.415Z"
+  last_checked_at: "2026-10-21T04:56:55.415Z"
+  last_passed_at: "2026-10-21T04:56:55.415Z"
+  failure_count: 0
