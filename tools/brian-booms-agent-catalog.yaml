@@ -29,9 +29,10 @@ sample_use_case: A user browsing the Brian Booms Agent Catalog can select from 3
   create an account or manage API keys.
 submitted_at: 2026-09-30T21:35:02.355Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-09-30T21:35:02.355Z
-  last_checked_at: 2026-10-18T11:34:24.182Z
+  last_checked_at: 2026-10-25T11:54:54.612Z
   last_passed_at: 2026-10-18T11:34:24.182Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

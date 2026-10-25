@@ -21,9 +21,9 @@ sample_use_case: A job seeker copies the text of a job advertisement and pastes 
   reviews and edits this letter before submitting it with their application.
 submitted_at: 2026-10-12T07:20:02.239Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-12T07:20:02.239Z
-  last_checked_at: 2026-10-18T11:34:26.631Z
+  last_checked_at: 2026-10-25T11:54:56.715Z
   last_passed_at: 2026-10-18T11:34:26.631Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: "fetch failed: fetch failed"
