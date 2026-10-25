@@ -1,0 +1,33 @@
+name: Seedance API
+url: https://seedanceapi.org
+description: REST API for cinematic AI video generation from text or images.
+category: video-generation
+tags:
+  - ai-video
+  - video-generation
+  - text-to-video
+  - image-to-video
+  - api
+pricing: freemium
+pricing_detail: Free daily credits; paid plans from $19.90/month
+key_features:
+  - Text-to-video generation
+  - Image-to-video animation
+  - 480p to 1080p output
+  - Multi-shot storytelling
+  - Async REST API integration
+works_with:
+  - rest api
+  - curl
+  - python
+  - node.js
+logo: https://seedanceapi.org/logo.png
+badge_url: https://seedanceapi.org/
+sample_use_case: "A user integrates the Seedance API into their content creation pipeline. They send a text prompt describing a scene, or an image as a visual reference, to the API. The API then returns a cinematic video file, which the user can incorporate into their project."
+submitted_at: "2026-10-25T02:30:17.669Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-25T02:30:17.669Z"
+  last_checked_at: "2026-10-25T02:30:17.669Z"
+  last_passed_at: "2026-10-25T02:30:17.669Z"
+  failure_count: 0
