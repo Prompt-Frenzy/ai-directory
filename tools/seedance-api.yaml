@@ -23,11 +23,14 @@ works_with:
   - node.js
 logo: https://seedanceapi.org/logo.png
 badge_url: https://seedanceapi.org/
-sample_use_case: "A user integrates the Seedance API into their content creation pipeline. They send a text prompt describing a scene, or an image as a visual reference, to the API. The API then returns a cinematic video file, which the user can incorporate into their project."
-submitted_at: "2026-10-25T02:30:17.669Z"
+sample_use_case: A user integrates the Seedance API into their content creation pipeline. They send
+  a text prompt describing a scene, or an image as a visual reference, to the API. The API then
+  returns a cinematic video file, which the user can incorporate into their project.
+submitted_at: 2026-10-25T02:30:17.669Z
 verification:
   status: verified
-  first_verified_at: "2026-10-25T02:30:17.669Z"
-  last_checked_at: "2026-10-25T02:30:17.669Z"
-  last_passed_at: "2026-10-25T02:30:17.669Z"
+  first_verified_at: 2026-10-25T02:30:17.669Z
+  last_checked_at: 2026-10-25T10:39:30.368Z
+  last_passed_at: 2026-10-25T10:39:30.368Z
   failure_count: 0
+  failure_reason: null
