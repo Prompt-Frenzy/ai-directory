@@ -22,11 +22,15 @@ works_with:
   - kling
 logo: https://toty.ai/assets/toty/icon.svg
 badge_url: https://toty.ai/
-sample_use_case: "A user selects an image generation model from Toty's interface, enters a text prompt describing their desired image, and reviews the cost before initiating the generation. The tool then produces the image based on the prompt and chosen model. This allows for direct comparison of model outputs and costs for various creative projects."
-submitted_at: "2026-10-26T08:29:16.324Z"
+sample_use_case: A user selects an image generation model from Toty's interface, enters a text
+  prompt describing their desired image, and reviews the cost before initiating the generation. The
+  tool then produces the image based on the prompt and chosen model. This allows for direct
+  comparison of model outputs and costs for various creative projects.
+submitted_at: 2026-10-26T08:29:16.324Z
 verification:
   status: verified
-  first_verified_at: "2026-10-26T08:29:16.324Z"
-  last_checked_at: "2026-10-26T08:29:16.324Z"
-  last_passed_at: "2026-10-26T08:29:16.324Z"
+  first_verified_at: 2026-10-26T08:29:16.324Z
+  last_checked_at: 2026-10-26T12:12:34.067Z
+  last_passed_at: 2026-10-26T12:12:34.067Z
   failure_count: 0
+  failure_reason: null
