@@ -1,6 +1,7 @@
 name: SceneTools
 url: https://scenetools.vercel.app
-description: "Pick a job scenario, get a short AI-tool shortlist. 12 scenarios, 108 tools. Scenario-first finder — English, free to browse, no hype rankings."
+description: Pick a job scenario, get a short AI-tool shortlist. 12 scenarios, 108 tools.
+  Scenario-first finder — English, free to browse, no hype rankings.
 category: productivity
 tags:
   - ai
@@ -11,17 +12,21 @@ pricing_detail: Free to browse; Featured placement $99/mo or Tool badge $49/mo
 key_features:
   - 12 job scenarios with curated AI-tool shortlists
   - 108 tools mapped to practical work situations
-  - "Scenario-first browsing in English, free to use"
+  - Scenario-first browsing in English, free to use
   - Clear Featured vs organic listing labels
 platforms:
   - web
 badge_url: https://scenetools.vercel.app
-sample_use_case: "A user needing to find AI tools for a specific work task would navigate to SceneTools. They would select one of the twelve pre-defined job scenarios, such as \"writing a report\" or \"managing projects.\" The tool then presents a curated list of AI applications relevant to that chosen scenario, allowing the user to quickly identify suitable options."
+sample_use_case: A user needing to find AI tools for a specific work task would navigate to
+  SceneTools. They would select one of the twelve pre-defined job scenarios, such as "writing a
+  report" or "managing projects." The tool then presents a curated list of AI applications relevant
+  to that chosen scenario, allowing the user to quickly identify suitable options.
 submitted_by: aipz
-submitted_at: "2026-10-26T16:50:06.093Z"
+submitted_at: 2026-10-26T16:50:06.093Z
 verification:
   status: verified
-  first_verified_at: "2026-10-26T16:50:06.093Z"
-  last_checked_at: "2026-10-26T16:50:06.093Z"
-  last_passed_at: "2026-10-26T16:50:06.093Z"
+  first_verified_at: 2026-10-26T16:50:06.093Z
+  last_checked_at: 2026-10-27T11:33:30.882Z
+  last_passed_at: 2026-10-27T11:33:30.882Z
   failure_count: 0
+  failure_reason: null
