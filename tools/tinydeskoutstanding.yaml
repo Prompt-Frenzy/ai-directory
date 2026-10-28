@@ -1,0 +1,32 @@
+name: Tiny Desk Outstanding
+url: https://tinydeskoutstanding.com
+description: "Turn 1–5 photos into a vertical Tiny Desk–style parody video with sound; one-time pay per render, no subscription."
+category: video-generation
+tags:
+  - ai-video
+  - image-to-video
+  - tiny-desk
+  - parody
+  - meme
+pricing: paid
+pricing_detail: $9.90 per rendered video; upload and customize free; no subscription.
+key_features:
+  - Image-to-video from 1–5 adult portraits
+  - "Vertical 9:16 Standard 720p MP4 output"
+  - Sound on by default with silent option
+  - Five cast or Solo mode
+  - "One-time pay per video, no credit packs"
+works_with:
+  - seedance
+platforms:
+  - web
+badge_url: https://tinydeskoutstanding.com
+sample_use_case: "A user uploads 1-5 photos to Tiny Desk Outstanding. The tool processes these images and generates a short, vertical video. This video parodies the Tiny Desk concert series, complete with a generated soundtrack, and is then available for download."
+submitted_by: Aaron
+submitted_at: "2026-10-28T00:50:39.578Z"
+verification:
+  status: verified
+  first_verified_at: "2026-10-28T00:50:39.578Z"
+  last_checked_at: "2026-10-28T00:50:39.578Z"
+  last_passed_at: "2026-10-28T00:50:39.578Z"
+  failure_count: 0
