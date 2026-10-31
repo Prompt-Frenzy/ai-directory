@@ -22,10 +22,11 @@ platforms:
 logo: https://myphotoai.io/og-image.png
 submitted_by: Kiragu-Maina
 verification:
-  last_checked_at: 2026-10-30T12:04:51.527Z
-  status: pending
+  last_checked_at: 2026-10-31T11:38:51.742Z
+  status: failed
   last_passed_at: 2026-10-28T12:03:23.711Z
   first_verified_at: 2026-10-25T11:55:18.641Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
+  failed_at: 2026-10-31T11:38:51.742Z
