@@ -30,9 +30,10 @@ sample_use_case: A user can open Honer AI on their Android device and ask it to 
 submitted_by: XONER4
 submitted_at: 2026-10-05T04:52:53.625Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-05T04:52:53.625Z
-  last_checked_at: 2026-10-25T11:55:07.420Z
+  last_checked_at: 2026-11-01T13:42:06.795Z
   last_passed_at: 2026-10-25T11:55:07.420Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

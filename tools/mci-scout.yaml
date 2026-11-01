@@ -30,8 +30,8 @@ submitted_at: 2026-10-02T02:36:51.337Z
 verification:
   status: failed
   first_verified_at: 2026-10-02T02:36:51.337Z
-  last_checked_at: 2026-10-25T11:55:16.216Z
+  last_checked_at: 2026-11-01T13:42:16.796Z
   last_passed_at: 2026-10-02T11:50:10.728Z
-  failure_count: 10
+  failure_count: 11
   failure_reason: "fetch failed: HTTP 401"
   failed_at: 2026-10-04T12:45:38.711Z
