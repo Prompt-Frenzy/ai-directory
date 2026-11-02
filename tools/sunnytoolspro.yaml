@@ -1,6 +1,7 @@
 name: SunnyToolsPro
 url: https://sunnytoolspro.com
-description: "Free in-browser tools: PDF merge, compress, convert, image tools, currency and VAT calculators, Qibla finder."
+description: "Free in-browser tools: PDF merge, compress, convert, image tools, currency and VAT
+  calculators, Qibla finder."
 category: other
 tags:
   - pdf
@@ -8,7 +9,7 @@ tags:
   - currency
   - utilities
 pricing: free
-pricing_detail: "Free, no signup, no uploads"
+pricing_detail: Free, no signup, no uploads
 key_features:
   - PDF merge and compress
   - Image compressor and resizer
@@ -18,12 +19,16 @@ key_features:
 platforms:
   - web
 badge_url: https://sunnytoolspro.com
-sample_use_case: "A user needing to combine several PDF documents into one file would upload their individual PDFs to SunnyToolsPro's PDF merge tool. The tool then processes the files and provides a single, merged PDF for download. This eliminates the need for specialized software to perform common document tasks."
+sample_use_case: A user needing to combine several PDF documents into one file would upload their
+  individual PDFs to SunnyToolsPro's PDF merge tool. The tool then processes the files and provides
+  a single, merged PDF for download. This eliminates the need for specialized software to perform
+  common document tasks.
 submitted_by: Mercury-AI
-submitted_at: "2026-11-02T05:43:46.151Z"
+submitted_at: 2026-11-02T05:43:46.151Z
 verification:
   status: verified
-  first_verified_at: "2026-11-02T05:43:46.151Z"
-  last_checked_at: "2026-11-02T05:43:46.151Z"
-  last_passed_at: "2026-11-02T05:43:46.151Z"
+  first_verified_at: 2026-11-02T05:43:46.151Z
+  last_checked_at: 2026-11-02T14:41:41.671Z
+  last_passed_at: 2026-11-02T14:41:41.671Z
   failure_count: 0
+  failure_reason: null
