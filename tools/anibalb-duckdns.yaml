@@ -1,0 +1,30 @@
+name: Proyecto Ayuda Data API
+url: https://anibalb.duckdns.org/about-x402.html
+description: "Pay-per-call public-data API over x402 in USDC on Base. 190+ endpoints: market data, on-chain intel, registries, science and web utilities, plus a free public MCP relay."
+category: data-analysis
+tags:
+  - x402
+  - data-api
+  - onchain-analytics
+  - market-data
+  - mcp
+pricing: paid
+pricing_detail: "0.002 to 0.005 USDC per call on Base (eip155:8453); free public MCP relay."
+key_features:
+  - "190+ x402 endpoints paid per call in USDC on Base, no API key"
+  - "Stock screener, S&P 500 thesis, analyst ratings, options chain, funding rates"
+  - "Token risk verdict, wallet risk, approval advisor, OFAC screening"
+  - "SEC EDGAR, Form 13F, US state registry, UK Companies House, GLEIF LEI"
+  - Free public MCP relay with 9 local developer utilities
+platforms:
+  - api
+  - web
+badge_url: https://anibalb.duckdns.org/about-x402.html
+sample_use_case: "A user would integrate the Proyecto Ayuda Data API into their application to retrieve specific public datasets. For example, they could make an API call to get real-time market data for a cryptocurrency, receiving the data directly in their application for display or further analysis. This allows developers to access a wide range of public information programmatically, paying per call in USDC."
+submitted_at: "2026-11-02T06:07:55.519Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-02T06:07:55.519Z"
+  last_checked_at: "2026-11-02T06:07:55.519Z"
+  last_passed_at: "2026-11-02T06:07:55.519Z"
+  failure_count: 0
