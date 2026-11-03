@@ -28,10 +28,12 @@ sample_use_case: A user would input a list of desired service features and a bud
   based on their specific needs and budget constraints.
 submitted_at: 2026-10-02T02:36:51.337Z
 verification:
-  status: failed
+  status: removed
   first_verified_at: 2026-10-02T02:36:51.337Z
   last_checked_at: 2026-11-01T13:42:16.796Z
   last_passed_at: 2026-10-02T11:50:10.728Z
   failure_count: 11
   failure_reason: "fetch failed: HTTP 401"
   failed_at: 2026-10-04T12:45:38.711Z
+  removed_at: 2026-11-03T13:34:33.532Z
+  removal_reason: badge-failure
