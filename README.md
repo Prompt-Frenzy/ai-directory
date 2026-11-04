@@ -12,7 +12,7 @@ Real tools on their own domain get a full listing. We reject junk (raw-IP hosts,
 
 **134 tools listed** &middot; 72 badge-verified &middot; 50 seed entries &middot; 7 pending &middot; 13 removed lifetime
 
-*73 newly badge-verified in the last 7 days.*
+*72 newly badge-verified in the last 7 days.*
 <!-- /AUTOGEN:STATS -->
 
 ---
