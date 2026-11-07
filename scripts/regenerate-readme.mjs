@@ -61,8 +61,12 @@ function loadDir(dir, source) {
   })
 }
 
+// "Newly" verified = first passed in the last 7 days. last_passed_at is wrong here:
+// the weekly all-active re-check bumps it on every live listing, so the README
+// claimed 71 new verifications in a week that added 2 (07/11/2026).
 function isVerifiedThisWeek(tool) {
-  const t = tool.verification?.last_passed_at
+  if (tool.seeded || tool.verification?.status !== "verified") return false
+  const t = tool.verification?.first_verified_at
   if (!t) return false
   const ms = Date.parse(t)
   if (isNaN(ms)) return false
