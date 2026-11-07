@@ -1,0 +1,17 @@
+name: AgentCraft
+url: https://agentcraft.dev
+description: Free library of AI image and video prompts, each shown next to the image, GIF or video it made, with the creator credited.
+category: prompt-tools
+tags: [image-prompts, video-prompts, gpt-image, prompt-library, gif]
+pricing: free
+pricing_detail: Free, no sign-up.
+key_features:
+  - Each prompt shown next to the image, GIF or video it produced
+  - Creator credit and a link to the original post for every entry
+  - 1,392 image prompts and 1,081 video prompts, filterable by model
+  - 93 GPT Image 2.6 prompts, 43 of them animated GIFs
+  - English and Chinese
+works_with: [gpt-image-2.6, nano-banana, seedance, kling, veo, minimax]
+platforms: [web]
+logo: https://agentcraft.dev/icon-512.png
+badge_url: https://agentcraft.dev
