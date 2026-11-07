@@ -1,0 +1,79 @@
+name: review-submissions
+
+# Handles what outside contributors send, so nothing waits on a human:
+#   - fork PRs adding a listing   -> checked, badge-verified, written to main, PR closed
+#   - fork PRs correcting one     -> same checks plus "stays on the same site"; applied
+#                                    and labelled auto-merged-correction for a weekly look
+#   - anything else in a PR       -> one comment saying what to fix; closed after 14 days
+#   - new issues                  -> answered (already listed / removed / how to submit);
+#                                    removals and bug reports labelled needs-maintainer
+# Rules and reasons: scripts/review-rules.mjs. Same-repo PRs (the submit API's bot
+# branches, maintainers) stay with verify-badges.yml, which auto-merges them.
+#
+# SECURITY: pull_request_target runs WITH secrets. This workflow checks out main
+# only. Contributor YAML is fetched through the API and parsed as data by main's
+# code; it is never checked out, installed or executed. Never add a checkout of
+# github.event.pull_request.head.* to this file.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+  issues:
+    types: [opened]
+  schedule:
+    # After verify-badges' 06:00 UTC run: stale PRs + anything the triggers missed.
+    - cron: "40 6 * * *"
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "What to review"
+        required: true
+        default: sweep
+        type: choice
+        options: [sweep, pr, issue]
+      number:
+        description: "PR or issue number (for pr / issue)"
+        required: false
+        type: number
+      dry_run:
+        description: "Log decisions only, write nothing"
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: review-submissions-${{ github.event.pull_request.number || github.event.issue.number || inputs.number || 'sweep' }}
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install deps (main's lockfile)
+        run: npm ci --no-audit --no-fund
+
+      - name: Review
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Commits to main go through the bot PAT so the push triggers update-readme.
+          WRITE_TOKEN: ${{ secrets.DIRECTORY_BOT_PAT }}
+          INPUT_TARGET: ${{ inputs.target }}
+          INPUT_NUMBER: ${{ inputs.number }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+        run: node scripts/review-submissions.mjs event
