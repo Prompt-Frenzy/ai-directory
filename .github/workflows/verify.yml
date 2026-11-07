@@ -74,7 +74,9 @@ jobs:
           echo "ran=true" >> "$GITHUB_OUTPUT"
 
       - name: PR comment on success
-        if: github.event_name == 'pull_request' && steps.pr_verify.outcome == 'success' && steps.pr_verify.outputs.ran == 'true'
+        # Fork PRs get a read-only token here, so commenting/merging always failed
+        # for them; review-submissions.yml handles forks instead.
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && steps.pr_verify.outcome == 'success' && steps.pr_verify.outputs.ran == 'true'
         uses: actions/github-script@v7
         with:
           script: |
@@ -86,13 +88,15 @@ jobs:
             })
 
       - name: Auto-merge passing PR
-        if: github.event_name == 'pull_request' && steps.pr_verify.outcome == 'success' && steps.pr_verify.outputs.ran == 'true'
+        # Fork PRs get a read-only token here, so commenting/merging always failed
+        # for them; review-submissions.yml handles forks instead.
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && steps.pr_verify.outcome == 'success' && steps.pr_verify.outputs.ran == 'true'
         env:
           GH_TOKEN: ${{ secrets.DIRECTORY_BOT_PAT }}
         run: gh pr merge ${{ github.event.pull_request.number }} --squash --auto --delete-branch
 
       - name: PR comment on failure
-        if: github.event_name == 'pull_request' && steps.pr_verify.outcome != 'success'
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && steps.pr_verify.outcome != 'success'
         uses: actions/github-script@v7
         with:
           script: |

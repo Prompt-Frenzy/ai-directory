@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Badge-required AI tools directory — see README.md",
+  "description": "Badge-required AI tools directory \u2014 see README.md",
   "scripts": {
     "verify:pr": "node scripts/verify-badges.mjs --pr",
     "verify:all": "node scripts/verify-badges.mjs --all-active",
@@ -11,11 +11,15 @@
     "test:host-class": "node scripts/host-class.test.mjs",
     "test:removal-policy": "node scripts/removal-policy.test.mjs",
     "sweep:removed": "node scripts/verify-badges.mjs --sweep-removed",
-    "sweep:dry-run": "node scripts/verify-badges.mjs --sweep-removed --dry-run"
+    "sweep:dry-run": "node scripts/verify-badges.mjs --sweep-removed --dry-run",
+    "test:review": "node scripts/review-rules.test.mjs",
+    "review:dry-run": "node scripts/review-submissions.mjs --dry-run"
   },
   "dependencies": {
-    "yaml": "^2.5.0",
-    "linkedom": "^0.18.0"
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "linkedom": "^0.18.0",
+    "yaml": "^2.5.0"
   },
   "engines": {
     "node": ">=20"
