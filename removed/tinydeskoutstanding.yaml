@@ -28,9 +28,11 @@ sample_use_case: A user uploads 1-5 photos to Tiny Desk Outstanding. The tool pr
 submitted_by: Aaron
 submitted_at: 2026-10-28T00:50:39.578Z
 verification:
-  status: verified
+  status: removed
   first_verified_at: 2026-10-28T00:50:39.578Z
   last_checked_at: 2026-11-03T13:34:33.358Z
   last_passed_at: 2026-11-03T13:34:33.358Z
   failure_count: 0
   failure_reason: null
+  removed_at: 2026-11-07T19:00:00.000Z
+  removal_reason: editorial
