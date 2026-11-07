@@ -1,19 +1,25 @@
-name: Muse Me
+name: Muse Studio
 url: https://muse-me-avatar-beta.zhangwei798879.chatgpt.site/
-description: Turn one authorized adult selfie into an original anime-style profile picture. One free
-  result, no account, downloadable, and private by default.
+description: Generates static ad concepts from text; edit the headline, offer and CTA, then export
+  a PNG. Sign in once with ChatGPT, no payment card.
 category: image-generation
 tags:
-  - avatar-generator
-  - profile-picture
-  - anime-avatar
-  - selfie
-  - portrait
+  - ai-advertising
+  - ad-creative
+  - text-to-image
+  - marketing
+  - png-export
 pricing: free
+pricing_detail: Free beta, one AI generation per ChatGPT sign-in, no card. Editing the examples is
+  free without signing in.
+platforms:
+  - web
+works_with:
+  - chatgpt
 badge_url: https://muse-me-avatar-beta.zhangwei798879.chatgpt.site/brand
-sample_use_case: A user uploads a single adult selfie to Muse Me. The tool then processes this image
-  and generates a unique, anime-style profile picture based on the input. This new profile picture
-  can be downloaded directly and used across various online platforms.
+sample_use_case: A small shop describes an opening event or weekend offer, signs in once with
+  ChatGPT and generates an ad concept. The owner can edit the headline, offer and call to action
+  and export a PNG. Product uploads and exact packaging or logo reproduction are not supported.
 submitted_at: 2026-09-27T12:40:07.583Z
 verification:
   status: verified
