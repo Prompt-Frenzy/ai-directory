@@ -1,0 +1,18 @@
+name: Seedance Now
+url: https://seedancenow.com
+description: Independent AI video and image studio for text-to-video and image-to-video with Seedance 2.5, Kling 4.0 and Wan 3.0. Not affiliated with ByteDance.
+category: video-generation
+tags: [text-to-video, image-to-video, ai-video, video-upscaler, lip-sync]
+pricing: freemium
+pricing_detail: 5 free credits on sign-up; plans from $14.90/mo; one-time credit packs available.
+key_features:
+  - Text-to-video and image-to-video clips up to 30 seconds
+  - Up to 1080p output with native audio on supported models
+  - Image generation with GPT Image 2.5 and Nano Banana 2.1
+  - AI image upscaler, video upscaler and video extender
+  - Exports without watermark
+  - English and Chinese interface
+works_with: [seedance, kling, wan, gpt-image, nano-banana]
+platforms: [web]
+logo: https://seedancenow.com/favicon.svg
+badge_url: https://seedancenow.com
