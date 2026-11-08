@@ -31,7 +31,7 @@ submitted_at: 2026-10-03T06:00:49.282Z
 verification:
   status: verified
   first_verified_at: 2026-10-03T06:00:49.282Z
-  last_checked_at: 2026-11-01T13:42:33.812Z
-  last_passed_at: 2026-11-01T13:42:33.812Z
+  last_checked_at: 2026-11-08T13:46:17.344Z
+  last_passed_at: 2026-11-08T13:46:17.344Z
   failure_count: 0
   failure_reason: null

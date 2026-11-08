@@ -29,9 +29,10 @@ sample_use_case: A user connects Sonist to their Kalshi or Polymarket account an
   rules.
 submitted_at: 2026-09-02T03:11:22.159Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-09-02T03:11:22.159Z
-  last_checked_at: 2026-11-01T13:42:32.874Z
+  last_checked_at: 2026-11-08T13:46:16.028Z
   last_passed_at: 2026-11-01T13:42:32.874Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

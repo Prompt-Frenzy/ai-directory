@@ -1,8 +1,14 @@
 name: Seedance Now
 url: https://seedancenow.com
-description: Independent AI video and image studio for text-to-video and image-to-video with Seedance 2.5, Kling 4.0 and Wan 3.0. Not affiliated with ByteDance.
+description: Independent AI video and image studio for text-to-video and image-to-video with
+  Seedance 2.5, Kling 4.0 and Wan 3.0. Not affiliated with ByteDance.
 category: video-generation
-tags: [text-to-video, image-to-video, ai-video, video-upscaler, lip-sync]
+tags:
+  - text-to-video
+  - image-to-video
+  - ai-video
+  - video-upscaler
+  - lip-sync
 pricing: freemium
 pricing_detail: 5 free credits on sign-up; plans from $14.90/mo; one-time credit packs available.
 key_features:
@@ -12,7 +18,20 @@ key_features:
   - AI image upscaler, video upscaler and video extender
   - Exports without watermark
   - English and Chinese interface
-works_with: [seedance, kling, wan, gpt-image, nano-banana]
-platforms: [web]
+works_with:
+  - seedance
+  - kling
+  - wan
+  - gpt-image
+  - nano-banana
+platforms:
+  - web
 logo: https://seedancenow.com/favicon.svg
 badge_url: https://seedancenow.com
+verification:
+  last_checked_at: 2026-11-08T13:46:14.487Z
+  status: verified
+  last_passed_at: 2026-11-08T13:46:14.487Z
+  first_verified_at: 2026-11-08T13:46:14.487Z
+  failure_count: 0
+  failure_reason: null

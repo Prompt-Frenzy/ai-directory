@@ -30,7 +30,7 @@ submitted_at: 2026-10-15T23:51:01.528Z
 verification:
   status: pending
   first_verified_at: 2026-10-15T23:51:01.528Z
-  last_checked_at: 2026-11-01T13:42:31.978Z
+  last_checked_at: 2026-11-08T13:46:14.995Z
   last_passed_at: 2026-10-25T11:55:31.954Z
-  failure_count: 1
+  failure_count: 2
   failure_reason: "fetch failed: HTTP 530"
