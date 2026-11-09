@@ -1,6 +1,7 @@
 name: MakeImg
 url: https://makeimg.ai
-description: "Browser-based AI image workspace for generating, editing and downloading images from text prompts or reference photos."
+description: Browser-based AI image workspace for generating, editing and downloading images from
+  text prompts or reference photos.
 category: image-generation
 tags:
   - ai-image
@@ -12,13 +13,17 @@ pricing: freemium
 key_features:
   - Text-to-image and image-to-image generation
   - 11 image model families
-  - "AI image editor, background remover and upscaler"
+  - AI image editor, background remover and upscaler
 badge_url: https://makeimg.ai
-sample_use_case: "A user uploads a reference photo of a product and enters a text prompt describing a new background. MakeImg generates several image variations with the product seamlessly integrated into the new scene. The user then selects the best image, makes minor adjustments, and downloads it for use in marketing materials."
-submitted_at: "2026-11-09T12:07:20.568Z"
+sample_use_case: A user uploads a reference photo of a product and enters a text prompt describing a
+  new background. MakeImg generates several image variations with the product seamlessly integrated
+  into the new scene. The user then selects the best image, makes minor adjustments, and downloads
+  it for use in marketing materials.
+submitted_at: 2026-11-09T12:07:20.568Z
 verification:
   status: verified
-  first_verified_at: "2026-11-09T12:07:20.568Z"
-  last_checked_at: "2026-11-09T12:07:20.568Z"
-  last_passed_at: "2026-11-09T12:07:20.568Z"
+  first_verified_at: 2026-11-09T12:07:20.568Z
+  last_checked_at: 2026-11-09T15:05:22.977Z
+  last_passed_at: 2026-11-09T15:05:22.977Z
   failure_count: 0
+  failure_reason: null
