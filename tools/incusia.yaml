@@ -1,0 +1,32 @@
+name: Incusia
+url: https://incusia.com
+description: "Invoicing for freelancers and contractors with unlimited invoices and clients from $9 a month, automatic reminders, a pay button on each invoice and a locked price."
+category: productivity
+tags:
+  - invoicing
+  - freelancers
+  - payment-reminders
+  - online-payments
+  - small-business
+pricing: subscription
+pricing_detail: "Starter $9/mo, Pro $29/mo, Lifetime $99 once. 7-day trial, no card needed"
+key_features:
+  - Unlimited invoices and clients on every plan
+  - The monthly price you sign up at is locked in the Terms of Service
+  - See when an invoice is delivered and opened
+  - Automatic payment reminder on day 3 if unpaid
+  - "Clients pay by card, Apple Pay or bank transfer from a button on the invoice"
+  - Estimates the client signs in the browser
+works_with:
+  - stripe
+  - apple pay
+logo: https://incusia.com/logo-512.png
+badge_url: https://incusia.com
+sample_use_case: "A freelance graphic designer uses Incusia to create and send invoices to clients. They input client details, service descriptions, and rates, then send the invoice directly from the platform. Incusia automatically sends payment reminders and allows clients to pay directly through a button on the invoice."
+submitted_at: "2026-11-10T20:23:44.363Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-10T20:23:44.363Z"
+  last_checked_at: "2026-11-10T20:23:44.363Z"
+  last_passed_at: "2026-11-10T20:23:44.363Z"
+  failure_count: 0
