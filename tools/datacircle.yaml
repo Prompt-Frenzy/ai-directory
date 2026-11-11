@@ -1,0 +1,19 @@
+name: Datacircle
+url: https://datacircle.dev
+description: Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.
+category: data-analysis
+tags:
+  - gtm
+  - api
+  - api-directory
+pricing: free
+badge_url: https://datacircle.dev/listed
+sample_use_case: A user looking for the most effective Go-To-Market (GTM) APIs would visit Datacircle. They would browse the benchmarked results to compare different API options. The output is a clear understanding of which GTM APIs perform best for their specific needs.
+submitted_by: datacircle
+submitted_at: "2026-11-11T12:19:51.971Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-11T12:19:51.971Z"
+  last_checked_at: "2026-11-11T12:19:51.971Z"
+  last_passed_at: "2026-11-11T12:19:51.971Z"
+  failure_count: 0
