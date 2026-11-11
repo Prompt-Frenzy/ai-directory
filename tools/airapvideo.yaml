@@ -1,0 +1,14 @@
+name: AI Rap Video
+url: https://airapvideo.cc
+description: "AI Rap Video.cc turns a selfie or a two-person photo into a lip-synced rap performance video in minutes. Choose a scene, pick Original Rap or Video Remix, and get a 5-15 second clip at 480p or 720p."
+category: video-generation
+pricing: freemium
+badge_url: https://airapvideo.cc/
+sample_use_case: "A user uploads a selfie to AI Rap Video.cc and selects a rap song from the provided options. The tool then generates a short video where the user's face in the photo appears to lip-sync the chosen rap, set against a selected background scene. The output is a downloadable video clip ready for sharing."
+submitted_at: "2026-11-11T08:25:24.499Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-11T08:25:24.499Z"
+  last_checked_at: "2026-11-11T08:25:24.499Z"
+  last_passed_at: "2026-11-11T08:25:24.499Z"
+  failure_count: 0
