@@ -12,18 +12,22 @@ pricing_detail: Cloud free tier with 3 deliveries; no credit card required.
 key_features:
   - AI writes code from GitHub issues
   - Independent AI review checks and fixes changes
-  - "Only approved changes merge, then a release is tagged"
+  - Only approved changes merge, then a release is tagged
   - Open source AGPL-3.0 and self-hostable
   - Bring your own model
   - Supports GitHub private repositories
 works_with:
   - github
 badge_url: https://orbi.build/
-sample_use_case: "A developer uses Orbi by creating a GitHub Issue detailing a desired software change or feature. Orbi's AI agents then automatically generate, test, and integrate the code, pushing updates directly to the repository. The output is a new software release, ready for deployment, without manual coding intervention."
-submitted_at: "2026-11-12T01:44:21.740Z"
+sample_use_case: A developer uses Orbi by creating a GitHub Issue detailing a desired software
+  change or feature. Orbi's AI agents then automatically generate, test, and integrate the code,
+  pushing updates directly to the repository. The output is a new software release, ready for
+  deployment, without manual coding intervention.
+submitted_at: 2026-11-12T01:44:21.740Z
 verification:
   status: verified
-  first_verified_at: "2026-11-12T01:44:21.740Z"
-  last_checked_at: "2026-11-12T01:44:21.740Z"
-  last_passed_at: "2026-11-12T01:44:21.740Z"
+  first_verified_at: 2026-11-12T01:44:21.740Z
+  last_checked_at: 2026-11-12T14:34:29.323Z
+  last_passed_at: 2026-11-12T14:34:29.323Z
   failure_count: 0
+  failure_reason: null

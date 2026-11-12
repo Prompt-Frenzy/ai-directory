@@ -1,14 +1,18 @@
 name: MyLookStory
 url: https://www.mylookstory.com/
-description: "Try hairstyles and hair colors on a portrait, edit photos, and generate images or short videos in a browser-based AI workspace."
+description: Try hairstyles and hair colors on a portrait, edit photos, and generate images or short
+  videos in a browser-based AI workspace.
 category: image-generation
 pricing: paid
 badge_url: https://www.mylookstory.com/
-sample_use_case: "A user uploads a selfie to MyLookStory to experiment with new hairstyles and hair colors. They select different options from a menu, and the AI generates an image of their face with the chosen style or color. The user can then save or further edit the generated image."
-submitted_at: "2026-11-12T02:08:09.636Z"
+sample_use_case: A user uploads a selfie to MyLookStory to experiment with new hairstyles and hair
+  colors. They select different options from a menu, and the AI generates an image of their face
+  with the chosen style or color. The user can then save or further edit the generated image.
+submitted_at: 2026-11-12T02:08:09.636Z
 verification:
   status: verified
-  first_verified_at: "2026-11-12T02:08:09.636Z"
-  last_checked_at: "2026-11-12T02:08:09.636Z"
-  last_passed_at: "2026-11-12T02:08:09.636Z"
+  first_verified_at: 2026-11-12T02:08:09.636Z
+  last_checked_at: 2026-11-12T14:34:29.085Z
+  last_passed_at: 2026-11-12T14:34:29.085Z
   failure_count: 0
+  failure_reason: null
