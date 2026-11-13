@@ -29,7 +29,7 @@ sample_use_case: A user defines a personal or professional goal within MIDDLE. T
   their stated goal.
 submitted_at: 2026-10-10T08:56:55.441Z
 verification:
-  status: failed
+  status: removed
   first_verified_at: 2026-10-10T08:56:55.441Z
   last_checked_at: 2026-11-08T13:45:57.403Z
   last_passed_at: 2026-10-11T13:18:14.741Z
@@ -37,3 +37,5 @@ verification:
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
   failed_at: 2026-10-14T11:07:42.223Z
+  removed_at: 2026-11-13T13:52:46.223Z
+  removal_reason: badge-failure

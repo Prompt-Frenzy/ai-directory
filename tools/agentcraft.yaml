@@ -29,9 +29,9 @@ platforms:
 logo: https://agentcraft.dev/icon-512.png
 badge_url: https://agentcraft.dev
 verification:
-  last_checked_at: 2026-11-12T14:34:25.140Z
+  last_checked_at: 2026-11-13T13:52:40.723Z
   status: verified
-  last_passed_at: 2026-11-12T14:34:25.140Z
+  last_passed_at: 2026-11-13T13:52:40.723Z
   first_verified_at: 2026-11-08T13:45:35.622Z
   failure_count: 0
   failure_reason: null
