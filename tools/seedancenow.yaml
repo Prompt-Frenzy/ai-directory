@@ -29,9 +29,9 @@ platforms:
 logo: https://seedancenow.com/favicon.svg
 badge_url: https://seedancenow.com
 verification:
-  last_checked_at: 2026-11-13T13:52:46.108Z
+  last_checked_at: 2026-11-14T12:55:54.369Z
   status: verified
-  last_passed_at: 2026-11-13T13:52:46.108Z
+  last_passed_at: 2026-11-14T12:55:54.369Z
   first_verified_at: 2026-11-08T13:46:14.487Z
   failure_count: 0
   failure_reason: null

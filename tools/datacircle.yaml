@@ -14,9 +14,10 @@ sample_use_case: A user looking for the most effective Go-To-Market (GTM) APIs w
 submitted_by: datacircle
 submitted_at: 2026-11-11T12:19:51.971Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-11-11T12:19:51.971Z
-  last_checked_at: 2026-11-13T13:52:41.949Z
+  last_checked_at: 2026-11-14T12:55:50.067Z
   last_passed_at: 2026-11-11T13:30:00.800Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: anchor has rel=nofollow
+  failed_at: 2026-11-14T12:55:50.067Z
