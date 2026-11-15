@@ -28,9 +28,10 @@ sample_use_case: A developer looking for a specific AI tool can use ShellWire to
   allows for informed comparison and selection of the most suitable software.
 submitted_at: 2026-10-15T23:51:01.528Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-10-15T23:51:01.528Z
-  last_checked_at: 2026-11-08T13:46:14.995Z
+  last_checked_at: 2026-11-15T14:14:09.458Z
   last_passed_at: 2026-10-25T11:55:31.954Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: "fetch failed: HTTP 530"
+  failed_at: 2026-11-15T14:14:09.458Z

@@ -28,10 +28,11 @@ sample_use_case: A marketing team uploads a 15-second video ad for a new product
 submitted_by: Jamailar
 submitted_at: 2026-10-13T11:25:50.804Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-10-13T11:25:50.804Z
-  last_checked_at: 2026-11-08T13:45:34.973Z
+  last_checked_at: 2026-11-15T14:13:31.023Z
   last_passed_at: 2026-10-25T11:54:50.512Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
+  failed_at: 2026-11-15T14:13:31.023Z

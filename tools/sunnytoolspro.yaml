@@ -26,9 +26,9 @@ sample_use_case: A user needing to combine several PDF documents into one file w
 submitted_by: Mercury-AI
 submitted_at: 2026-11-02T05:43:46.151Z
 verification:
-  status: pending
+  status: verified
   first_verified_at: 2026-11-02T05:43:46.151Z
-  last_checked_at: 2026-11-08T13:46:17.067Z
-  last_passed_at: 2026-11-07T12:24:01.018Z
-  failure_count: 2
-  failure_reason: "fetch failed: HTTP 503"
+  last_checked_at: 2026-11-15T14:14:11.077Z
+  last_passed_at: 2026-11-15T14:14:11.077Z
+  failure_count: 0
+  failure_reason: null

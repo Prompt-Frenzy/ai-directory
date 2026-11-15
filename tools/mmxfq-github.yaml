@@ -28,10 +28,11 @@ sample_use_case: A user submits their SaaS homepage URL to FirstPass. The AI ana
 submitted_by: Mmxfq
 submitted_at: 2026-10-07T18:00:24.619Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-10-07T18:00:24.619Z
-  last_checked_at: 2026-11-08T13:45:57.897Z
+  last_checked_at: 2026-11-15T14:13:58.122Z
   last_passed_at: 2026-10-25T11:55:16.765Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
     https://promptfrenzy.com/directory
+  failed_at: 2026-11-15T14:13:58.122Z

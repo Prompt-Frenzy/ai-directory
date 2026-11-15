@@ -21,7 +21,7 @@ submitted_at: 2026-10-19T07:55:22.676Z
 verification:
   status: pending
   first_verified_at: 2026-10-19T07:55:22.676Z
-  last_checked_at: 2026-11-08T13:45:48.289Z
+  last_checked_at: 2026-11-15T14:13:49.603Z
   last_passed_at: 2026-11-01T13:42:06.650Z
-  failure_count: 1
+  failure_count: 2
   failure_reason: "fetch failed: fetch failed"
