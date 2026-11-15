@@ -29,9 +29,9 @@ sample_use_case: A freelance graphic designer uses Incusia to create and send in
   through a button on the invoice.
 submitted_at: 2026-11-10T20:23:44.363Z
 verification:
-  status: pending
+  status: verified
   first_verified_at: 2026-11-10T20:23:44.363Z
-  last_checked_at: 2026-11-14T12:55:51.308Z
-  last_passed_at: 2026-11-12T14:34:28.016Z
-  failure_count: 2
-  failure_reason: anchor has rel=nofollow
+  last_checked_at: 2026-11-15T13:24:07.596Z
+  last_passed_at: 2026-11-15T13:24:07.596Z
+  failure_count: 0
+  failure_reason: null
