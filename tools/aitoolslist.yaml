@@ -1,6 +1,6 @@
 name: AiToolsList.Tools
 url: https://aitoolslist.tools/
-description: "A curated directory of AI tools, SaaS products, and productivity software."
+description: A curated directory of AI tools, SaaS products, and productivity software.
 category: productivity
 tags:
   - ai-tools
@@ -10,11 +10,15 @@ tags:
   - directory
 pricing: free
 badge_url: https://aitoolslist.tools/
-sample_use_case: "A user looking for a new AI writing assistant would visit AiToolsList.Tools. They would search or browse the directory to find tools categorized under \"writing\" or \"content creation.\" The user would then review the listed options, comparing features and pricing to select the best fit for their needs."
-submitted_at: "2026-11-16T14:20:03.225Z"
+sample_use_case: A user looking for a new AI writing assistant would visit AiToolsList.Tools. They
+  would search or browse the directory to find tools categorized under "writing" or "content
+  creation." The user would then review the listed options, comparing features and pricing to select
+  the best fit for their needs.
+submitted_at: 2026-11-16T14:20:03.225Z
 verification:
   status: verified
-  first_verified_at: "2026-11-16T14:20:03.225Z"
-  last_checked_at: "2026-11-16T14:20:03.225Z"
-  last_passed_at: "2026-11-16T14:20:03.225Z"
+  first_verified_at: 2026-11-16T14:20:03.225Z
+  last_checked_at: 2026-11-16T14:42:39.910Z
+  last_passed_at: 2026-11-16T14:42:39.910Z
   failure_count: 0
+  failure_reason: null
