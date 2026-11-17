@@ -1,6 +1,7 @@
 name: No Scrubs AI
 url: https://noscrubsai.net/
-description: "Turn 1–3 consenting adult portraits into a short retro R&B dance video with sound. Paid generation uses one-time credit packs."
+description: Turn 1–3 consenting adult portraits into a short retro R&B dance video with sound. Paid
+  generation uses one-time credit packs.
 category: video-generation
 tags:
   - photo-to-video
@@ -8,12 +9,15 @@ tags:
   - portraits
 pricing: paid
 badge_url: https://noscrubsai.net/
-sample_use_case: "A user uploads 1-3 adult portrait photos to No Scrubs AI. The AI processes these images and generates a short video featuring the depicted individuals dancing to retro R&B music. The user then receives this video, which can be downloaded and shared."
+sample_use_case: A user uploads 1-3 adult portrait photos to No Scrubs AI. The AI processes these
+  images and generates a short video featuring the depicted individuals dancing to retro R&B music.
+  The user then receives this video, which can be downloaded and shared.
 submitted_by: authorized-ai-assistant
-submitted_at: "2026-11-17T00:30:02.872Z"
+submitted_at: 2026-11-17T00:30:02.872Z
 verification:
   status: verified
-  first_verified_at: "2026-11-17T00:30:02.872Z"
-  last_checked_at: "2026-11-17T00:30:02.872Z"
-  last_passed_at: "2026-11-17T00:30:02.872Z"
+  first_verified_at: 2026-11-17T00:30:02.872Z
+  last_checked_at: 2026-11-17T15:27:34.892Z
+  last_passed_at: 2026-11-17T15:27:34.892Z
   failure_count: 0
+  failure_reason: null
