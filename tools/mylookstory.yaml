@@ -10,9 +10,10 @@ sample_use_case: A user uploads a selfie to MyLookStory to experiment with new h
   with the chosen style or color. The user can then save or further edit the generated image.
 submitted_at: 2026-11-12T02:08:09.636Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-11-12T02:08:09.636Z
-  last_checked_at: 2026-11-17T15:27:34.092Z
+  last_checked_at: 2026-11-18T15:02:28.974Z
   last_passed_at: 2026-11-17T15:27:34.092Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory
