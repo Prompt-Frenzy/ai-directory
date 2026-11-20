@@ -1,0 +1,15 @@
+name: SunoDownloader.pro
+url: https://sunodownloader.pro/
+description: "Download your Suno songs as MP3 or WAV, with tools for videos, lyrics and playlists."
+category: audio-generation
+pricing: free
+logo: https://sunodownloader.pro/android-chrome-512x512.png
+badge_url: https://sunodownloader.pro/
+sample_use_case: "A user can input the URL of a song generated on Suno. The tool then provides options to download the audio in MP3 or WAV format. It also offers features to generate a video for the song, extract lyrics, or add the song to a playlist."
+submitted_at: "2026-11-20T14:06:03.342Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-20T14:06:03.342Z"
+  last_checked_at: "2026-11-20T14:06:03.342Z"
+  last_passed_at: "2026-11-20T14:06:03.342Z"
+  failure_count: 0
