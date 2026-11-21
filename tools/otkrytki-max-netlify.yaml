@@ -1,0 +1,29 @@
+name: Открытки на каждый день
+url: https://otkrytki-max.netlify.app/
+description: "Бот в мессенджере MAX: присылает открытку на сегодняшний праздник и подсказку, кому и с чем поздравить. Открыть: https://otkrytki-analytics.spru.run/bot/catalog-promptfrenzy"
+category: other
+tags:
+  - greetings
+  - holidays
+  - cards
+  - messenger
+pricing: free
+pricing_detail: "Полностью бесплатно, без регистрации и оплаты"
+key_features:
+  - Открытка дня по дате — 22 готовых повода
+  - Кнопка «Получить открытку» ведёт прямо в бот MAX
+  - RSS-лента материалов и виджет для встраивания на любой сайт
+works_with:
+  - max messenger
+platforms:
+  - web
+  - browser-extension
+badge_url: https://otkrytki-max.netlify.app/
+sample_use_case: "A user opens the Открытки на каждый день bot in MAX Messenger. The bot automatically sends a digital greeting card relevant to the current day's holiday or event. It also provides suggestions on who might appreciate this specific card and what message to include."
+submitted_at: "2026-11-21T08:46:21.250Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-21T08:46:21.250Z"
+  last_checked_at: "2026-11-21T08:46:21.250Z"
+  last_passed_at: "2026-11-21T08:46:21.250Z"
+  failure_count: 0
