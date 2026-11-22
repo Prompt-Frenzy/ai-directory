@@ -30,7 +30,7 @@ submitted_at: 2026-11-02T06:07:55.519Z
 verification:
   status: pending
   first_verified_at: 2026-11-02T06:07:55.519Z
-  last_checked_at: 2026-11-15T14:13:42.644Z
+  last_checked_at: 2026-11-22T14:47:48.024Z
   last_passed_at: 2026-11-08T13:45:36.667Z
-  failure_count: 1
+  failure_count: 2
   failure_reason: "fetch failed: This operation was aborted"

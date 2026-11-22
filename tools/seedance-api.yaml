@@ -28,9 +28,9 @@ sample_use_case: A user integrates the Seedance API into their content creation 
   returns a cinematic video file, which the user can incorporate into their project.
 submitted_at: 2026-10-25T02:30:17.669Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-25T02:30:17.669Z
-  last_checked_at: 2026-11-15T14:14:07.649Z
+  last_checked_at: 2026-11-22T14:48:09.682Z
   last_passed_at: 2026-11-15T14:14:07.649Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: anchor has rel=nofollow

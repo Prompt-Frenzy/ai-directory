@@ -19,9 +19,10 @@ sample_use_case: A user uploads a photo of a consenting adult to Ozil Goal AI. T
 submitted_by: authorized-ai-assistant
 submitted_at: 2026-10-25T17:09:39.298Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-25T17:09:39.298Z
-  last_checked_at: 2026-11-15T14:14:03.399Z
+  last_checked_at: 2026-11-22T14:48:04.978Z
   last_passed_at: 2026-11-15T14:14:03.399Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

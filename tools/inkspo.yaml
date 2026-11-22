@@ -24,7 +24,7 @@ submitted_at: 2026-09-29T20:22:28.209Z
 verification:
   status: verified
   first_verified_at: 2026-09-29T20:22:28.209Z
-  last_checked_at: 2026-11-15T14:13:50.627Z
-  last_passed_at: 2026-11-15T14:13:50.627Z
+  last_checked_at: 2026-11-22T14:47:56.497Z
+  last_passed_at: 2026-11-22T14:47:56.497Z
   failure_count: 0
   failure_reason: null

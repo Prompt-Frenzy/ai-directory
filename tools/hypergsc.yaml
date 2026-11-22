@@ -27,9 +27,10 @@ sample_use_case: A website owner uses HyperGSC to connect their Google Search Co
   data-driven decisions to improve their site's visibility.
 submitted_at: 2026-10-10T08:58:12.584Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-10-10T08:58:12.584Z
-  last_checked_at: 2026-11-15T14:13:49.755Z
+  last_checked_at: 2026-11-22T14:47:55.497Z
   last_passed_at: 2026-11-15T14:13:49.755Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory

@@ -19,9 +19,10 @@ sample_use_case: A user can set up HIVE to allow multiple AI agents to communica
   and coordinate actions.
 submitted_at: 2026-10-19T07:55:22.676Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-10-19T07:55:22.676Z
-  last_checked_at: 2026-11-15T14:13:49.603Z
+  last_checked_at: 2026-11-22T14:47:55.226Z
   last_passed_at: 2026-11-01T13:42:06.650Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: "fetch failed: fetch failed"
+  failed_at: 2026-11-22T14:47:55.226Z

@@ -23,8 +23,8 @@ submitted_at: 2026-10-12T07:20:02.239Z
 verification:
   status: failed
   first_verified_at: 2026-10-12T07:20:02.239Z
-  last_checked_at: 2026-11-15T14:13:45.945Z
+  last_checked_at: 2026-11-22T14:47:51.788Z
   last_passed_at: 2026-10-18T11:34:26.631Z
-  failure_count: 4
+  failure_count: 5
   failure_reason: "fetch failed: fetch failed"
   failed_at: 2026-11-08T13:45:41.323Z

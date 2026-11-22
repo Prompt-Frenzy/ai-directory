@@ -20,7 +20,7 @@ submitted_at: 2026-10-14T22:56:45.211Z
 verification:
   status: verified
   first_verified_at: 2026-10-14T22:56:45.211Z
-  last_checked_at: 2026-11-15T14:13:45.382Z
-  last_passed_at: 2026-11-15T14:13:45.382Z
+  last_checked_at: 2026-11-22T14:47:51.300Z
+  last_passed_at: 2026-11-22T14:47:51.300Z
   failure_count: 0
   failure_reason: null

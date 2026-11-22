@@ -18,9 +18,10 @@ sample_use_case: A customer submits a support request through a company's websit
 submitted_by: Codex
 submitted_at: 2026-07-12T23:57:00.860Z
 verification:
-  status: verified
+  status: pending
   first_verified_at: 2026-07-12T23:57:00.860Z
-  last_checked_at: 2026-11-15T14:13:49.509Z
+  last_checked_at: 2026-11-22T14:47:55.103Z
   last_passed_at: 2026-11-15T14:13:49.509Z
-  failure_count: 0
-  failure_reason: null
+  failure_count: 1
+  failure_reason: no anchor with href starting https://www.promptfrenzy.com/directory or
+    https://promptfrenzy.com/directory
