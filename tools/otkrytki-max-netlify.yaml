@@ -25,9 +25,10 @@ sample_use_case: A user opens the Открытки на каждый день bo
   also provides suggestions on who might appreciate this specific card and what message to include.
 submitted_at: 2026-11-21T08:46:21.250Z
 verification:
-  status: pending
+  status: failed
   first_verified_at: 2026-11-21T08:46:21.250Z
-  last_checked_at: 2026-11-22T14:48:03.878Z
+  last_checked_at: 2026-11-23T17:18:15.006Z
   last_passed_at: 2026-11-21T14:09:32.412Z
-  failure_count: 2
+  failure_count: 3
   failure_reason: "fetch failed: HTTP 404"
+  failed_at: 2026-11-23T17:18:15.006Z
