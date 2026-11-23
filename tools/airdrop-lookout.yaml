@@ -1,0 +1,27 @@
+name: Airdrop Lookout
+url: https://airdroplookout.com
+description: "A weekly crypto airdrop digest with deadlines, eligibility and step-by-step claim instructions, free until January 1, 2027."
+category: other
+tags:
+  - crypto
+  - airdrop
+  - newsletter
+  - web3
+  - digest
+pricing: freemium
+pricing_detail: "Free until January 1, 2027, then $10/month in USDT."
+key_features:
+  - Weekly airdrop deadlines
+  - Eligibility checks
+  - Step-by-step claim instructions
+  - No wallet required
+  - Never asks for a seed phrase
+badge_url: https://airdroplookout.com
+sample_use_case: Users subscribe to Airdrop Lookout to receive a weekly email detailing upcoming crypto airdrops. Each digest provides clear instructions on how to check eligibility and claim tokens before deadlines. This allows users to stay informed about potential crypto rewards without extensive personal research.
+submitted_at: "2026-11-23T23:47:46.362Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-23T23:47:46.362Z"
+  last_checked_at: "2026-11-23T23:47:46.362Z"
+  last_passed_at: "2026-11-23T23:47:46.362Z"
+  failure_count: 0
