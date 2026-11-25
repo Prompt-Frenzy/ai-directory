@@ -1,6 +1,7 @@
 name: Master Wang
 url: https://masterwang.app/?ref=promptfrenzy
-description: "A Chinese course and exam coach for HSK 1–9 and YCT 1–4 on the HSK 3.0 syllabus, with daily lessons, tone feedback by voice and mock tests."
+description: A Chinese course and exam coach for HSK 1–9 and YCT 1–4 on the HSK 3.0 syllabus, with
+  daily lessons, tone feedback by voice and mock tests.
 category: other
 tags:
   - chinese
@@ -9,21 +10,25 @@ tags:
   - mandarin
   - education
 pricing: freemium
-pricing_detail: "Basics, YCT 1–2, HSK 1 free; Pro $11.99/mo, $29.99/3 mo, $99.99/yr"
+pricing_detail: Basics, YCT 1–2, HSK 1 free; Pro $11.99/mo, $29.99/3 mo, $99.99/yr
 key_features:
   - Daily lesson planned to your exam date with spaced-repetition reviews (FSRS)
   - Tones checked by the pitch of your voice
   - Handwriting checked stroke by stroke
   - HSK 1–9 and YCT 1–4 mock tests in the format of the official samples
   - AI checks of writing and speaking for HSK 3–9 (Pro)
-  - "Web, iPhone, iPad, Android and Telegram with one account"
+  - Web, iPhone, iPad, Android and Telegram with one account
 logo: https://masterwang.app/static/_/assets/icon-512.png
 badge_url: https://masterwang.app/
-sample_use_case: "A user preparing for the HSK 4 exam can use Master Wang to practice their Mandarin. They would complete daily lessons, receive immediate voice feedback on their pronunciation, and take mock tests to assess their progress. This helps them prepare for the official exam by simulating test conditions and improving their speaking accuracy."
-submitted_at: "2026-11-25T11:56:21.065Z"
+sample_use_case: A user preparing for the HSK 4 exam can use Master Wang to practice their Mandarin.
+  They would complete daily lessons, receive immediate voice feedback on their pronunciation, and
+  take mock tests to assess their progress. This helps them prepare for the official exam by
+  simulating test conditions and improving their speaking accuracy.
+submitted_at: 2026-11-25T11:56:21.065Z
 verification:
   status: verified
-  first_verified_at: "2026-11-25T11:56:21.065Z"
-  last_checked_at: "2026-11-25T11:56:21.065Z"
-  last_passed_at: "2026-11-25T11:56:21.065Z"
+  first_verified_at: 2026-11-25T11:56:21.065Z
+  last_checked_at: 2026-11-25T16:44:51.971Z
+  last_passed_at: 2026-11-25T16:44:51.971Z
   failure_count: 0
+  failure_reason: null
