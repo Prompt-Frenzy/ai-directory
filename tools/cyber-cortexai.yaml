@@ -1,0 +1,14 @@
+name: Cortex Cyber
+url: https://cyber.cortexai.io/
+description: "AI hacking platform by Cortex. Bully runs recon, OSINT and agent swarms; Letum is a frontier reasoning model for code and research. Authorized testing only."
+category: agents
+pricing: freemium
+badge_url: https://cyber.cortexai.io/
+sample_use_case: "A cybersecurity professional uses Cortex Cyber to assess network vulnerabilities. They deploy Bully to perform reconnaissance and OSINT on a target system, gathering information about its infrastructure and potential weak points. Letum then analyzes this data to identify specific code vulnerabilities or research potential exploits, providing actionable insights for strengthening the system's defenses."
+submitted_at: "2026-11-25T04:19:44.958Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-25T04:19:44.958Z"
+  last_checked_at: "2026-11-25T04:19:44.958Z"
+  last_passed_at: "2026-11-25T04:19:44.958Z"
+  failure_count: 0
