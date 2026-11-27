@@ -1,0 +1,21 @@
+name: Vynaris
+url: https://vynaris.com
+description: "Hosted uncensored Qwen3.8-27B, DeepSeek-V4-Flash-0731 and Qwen3.6-35B-A3B via an OpenAI-compatible API for authorized security research."
+category: text-generation
+tags:
+  - llm-api
+  - uncensored
+  - security-research
+  - openai-compatible
+  - red-teaming
+pricing: paid
+logo: https://vynaris.com/icon.png
+badge_url: https://vynaris.com/
+sample_use_case: "A security researcher uses Vynaris to test the robustness of a new content moderation system. They send a series of deliberately provocative prompts to the Vynaris API, which returns uncensored text responses from models like Qwen3.8-27B. The researcher then feeds these responses into their moderation system to identify any failures or vulnerabilities in its filtering capabilities."
+submitted_at: "2026-11-27T09:49:36.247Z"
+verification:
+  status: verified
+  first_verified_at: "2026-11-27T09:49:36.247Z"
+  last_checked_at: "2026-11-27T09:49:36.247Z"
+  last_passed_at: "2026-11-27T09:49:36.247Z"
+  failure_count: 0
