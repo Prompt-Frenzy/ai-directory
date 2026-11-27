@@ -1,6 +1,7 @@
 name: DevsUnite
 url: https://devsunite.com
-description: "AI career platform for early-career developers: tech job feed plus ATS resume checks, tailored resumes, cover letters and mock interviews."
+description: "AI career platform for early-career developers: tech job feed plus ATS resume checks,
+  tailored resumes, cover letters and mock interviews."
 category: productivity
 tags:
   - career
@@ -11,7 +12,7 @@ tags:
 pricing: freemium
 pricing_detail: Free starter plan; PRO+ plan for unlimited AI tools
 key_features:
-  - "Job feed of internships, new grad and entry-level tech roles from 27,000+ companies"
+  - Job feed of internships, new grad and entry-level tech roles from 27,000+ companies
   - ATS resume checker with match score and missing keywords
   - Job-tailored resume builder
   - AI cover letters
@@ -19,11 +20,15 @@ key_features:
   - Chrome extension that autofills job applications
 logo: https://devsunite.com/devsunite-logo-icon-light-theme.png
 badge_url: https://devsunite.com
-sample_use_case: "A user uploads their resume and a job description to DevsUnite. The platform then analyzes the resume against the job requirements, suggesting improvements for ATS compatibility. It can also generate a tailored cover letter and provide mock interview questions specific to the role."
-submitted_at: "2026-11-27T09:16:50.985Z"
+sample_use_case: A user uploads their resume and a job description to DevsUnite. The platform then
+  analyzes the resume against the job requirements, suggesting improvements for ATS compatibility.
+  It can also generate a tailored cover letter and provide mock interview questions specific to the
+  role.
+submitted_at: 2026-11-27T09:16:50.985Z
 verification:
   status: verified
-  first_verified_at: "2026-11-27T09:16:50.985Z"
-  last_checked_at: "2026-11-27T09:16:50.985Z"
-  last_passed_at: "2026-11-27T09:16:50.985Z"
+  first_verified_at: 2026-11-27T09:16:50.985Z
+  last_checked_at: 2026-11-27T16:04:50.494Z
+  last_passed_at: 2026-11-27T16:04:50.494Z
   failure_count: 0
+  failure_reason: null
