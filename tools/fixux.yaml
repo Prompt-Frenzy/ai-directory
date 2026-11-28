@@ -10,11 +10,14 @@ tags:
 pricing: freemium
 logo: https://fixux.ai/icons/apple-touch.png?v=3
 badge_url: https://fixux.ai/
-sample_use_case: "A user provides Fixux with their website URL. The tool then analyzes the site's UI/UX elements and emails a detailed score report. This report includes prioritized recommendations for improving the website's user experience and interface."
-submitted_at: "2026-11-27T17:14:14.327Z"
+sample_use_case: A user provides Fixux with their website URL. The tool then analyzes the site's
+  UI/UX elements and emails a detailed score report. This report includes prioritized
+  recommendations for improving the website's user experience and interface.
+submitted_at: 2026-11-27T17:14:14.327Z
 verification:
   status: verified
-  first_verified_at: "2026-11-27T17:14:14.327Z"
-  last_checked_at: "2026-11-27T17:14:14.327Z"
-  last_passed_at: "2026-11-27T17:14:14.327Z"
+  first_verified_at: 2026-11-27T17:14:14.327Z
+  last_checked_at: 2026-11-28T14:59:31.846Z
+  last_passed_at: 2026-11-28T14:59:31.846Z
   failure_count: 0
+  failure_reason: null

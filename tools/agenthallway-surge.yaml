@@ -1,6 +1,7 @@
 name: Agent Hallway
 url: https://agenthallway.surge.sh/
-description: "Directory of AI agents, MCP servers and agent tools, browsable by category, with an llms.txt for agents. Free listings; paid placements are labelled."
+description: Directory of AI agents, MCP servers and agent tools, browsable by category, with an
+  llms.txt for agents. Free listings; paid placements are labelled.
 category: other
 tags:
   - ai-agents
@@ -8,20 +9,26 @@ tags:
   - directory
   - llms-txt
 pricing: freemium
-pricing_detail: "Browsing and listing are free. Optional Featured $49 for 30 days, Verified + Featured $99, Sponsor $149."
+pricing_detail: Browsing and listing are free. Optional Featured $49 for 30 days, Verified +
+  Featured $99, Sponsor $149.
 key_features:
   - Browse about 100 AI agents and tools by category
   - Side-by-side comparison and alternatives pages
   - Machine-readable llms.txt for AI agents
-  - "Free listing submission, no account"
+  - Free listing submission, no account
 platforms:
   - web
 badge_url: https://agenthallway.surge.sh/
-sample_use_case: "A developer building a new AI agent can use Agent Hallway to find existing agents that perform similar tasks. They can browse categories like \"customer service\" or \"data analysis\" to discover relevant agents, then examine their llms.txt files to understand how they interact with large language models. This helps in designing their own agent's communication protocols and identifying potential integration partners."
-submitted_at: "2026-11-27T18:17:50.619Z"
+sample_use_case: A developer building a new AI agent can use Agent Hallway to find existing agents
+  that perform similar tasks. They can browse categories like "customer service" or "data analysis"
+  to discover relevant agents, then examine their llms.txt files to understand how they interact
+  with large language models. This helps in designing their own agent's communication protocols and
+  identifying potential integration partners.
+submitted_at: 2026-11-27T18:17:50.619Z
 verification:
   status: verified
-  first_verified_at: "2026-11-27T18:17:50.619Z"
-  last_checked_at: "2026-11-27T18:17:50.619Z"
-  last_passed_at: "2026-11-27T18:17:50.619Z"
+  first_verified_at: 2026-11-27T18:17:50.619Z
+  last_checked_at: 2026-11-28T14:59:29.244Z
+  last_passed_at: 2026-11-28T14:59:29.244Z
   failure_count: 0
+  failure_reason: null
